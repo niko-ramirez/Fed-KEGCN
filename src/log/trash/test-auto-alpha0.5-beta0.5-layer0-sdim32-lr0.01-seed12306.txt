@@ -1,0 +1,42 @@
+2023-02-13 21:15:01,532 From main.py:205: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2023-02-13 21:15:01,536 From main.py:206: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2023-02-13 21:15:01,545 From ../KE-GCN\models.py:121: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2023-02-13 21:15:01,548 From ../KE-GCN\models.py:146: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2023-02-13 21:15:01,552 From ../KE-GCN\inits.py:34: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+2023-02-13 21:15:01,587 From ../KE-GCN\inits.py:14: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+2023-02-13 21:15:01,604 From ../KE-GCN\layers.py:112: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+2023-02-13 21:15:01,670 From C:\Users\nikor\Anaconda3\envs\dp-kegcn-p37\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2023-02-13 21:15:01,827 From ../KE-GCN\models.py:170: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2023-02-13 21:15:01,831 From ../KE-GCN\models.py:170: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2023-02-13 21:15:09,750 ---------------------Round 0---------------------
+2023-02-13 21:15:09,752 From C:\Users\nikor\conda_test\Fed-KEGCN-DP\src\client.py:35: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2023-02-13 21:15:09,872 From C:\Users\nikor\conda_test\Fed-KEGCN-DP\src\client.py:36: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2023-02-13 21:15:12,260 Epoch: 1 train_loss= 3.30062
+2023-02-13 21:15:12,750 Train Accuracy: 87.351
+2023-02-13 21:15:12,755 Valid Accuracy: 35.285
+2023-02-13 21:15:12,778 Test Accuracy: 35.363
+2023-02-13 21:15:16,209 Epoch: 11 train_loss= 2.60488
+2023-02-13 21:15:16,380 Train Accuracy: 82.624
+2023-02-13 21:15:16,384 Valid Accuracy: 36.193
+2023-02-13 21:15:16,405 Test Accuracy: 37.214
+2023-02-13 21:15:19,852 Epoch: 21 train_loss= 2.25605
+2023-02-13 21:15:20,033 Train Accuracy: 84.252
+2023-02-13 21:15:20,036 Valid Accuracy: 38.729
+2023-02-13 21:15:20,056 Test Accuracy: 39.378
+2023-02-13 21:15:23,533 Epoch: 31 train_loss= 1.95984
+2023-02-13 21:15:23,703 Train Accuracy: 86.756
+2023-02-13 21:15:23,707 Valid Accuracy: 40.795
+2023-02-13 21:15:23,728 Test Accuracy: 41.170

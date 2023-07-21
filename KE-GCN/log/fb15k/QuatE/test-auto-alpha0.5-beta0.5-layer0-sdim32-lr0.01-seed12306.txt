@@ -1,0 +1,2118 @@
+2022-11-21 00:33:44,331 From train_class.py:90: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-11-21 00:33:44,333 From train_class.py:91: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2022-11-21 00:33:44,340 From C:\Users\nikor\conda_test\KE-GCN\models.py:121: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2022-11-21 00:33:44,340 From C:\Users\nikor\conda_test\KE-GCN\models.py:146: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-11-21 00:33:44,341 From C:\Users\nikor\conda_test\KE-GCN\inits.py:34: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+2022-11-21 00:33:44,383 From C:\Users\nikor\conda_test\KE-GCN\inits.py:14: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+2022-11-21 00:33:44,398 From C:\Users\nikor\conda_test\KE-GCN\layers.py:112: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+2022-11-21 00:33:44,561 From C:\Users\nikor\Anaconda3\envs\kegcn\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2022-11-21 00:33:45,494 From C:\Users\nikor\conda_test\KE-GCN\models.py:170: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2022-11-21 00:33:45,494 From C:\Users\nikor\conda_test\KE-GCN\models.py:170: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2022-11-21 00:33:49,709 From train_class.py:112: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-11-21 00:33:51,232 From train_class.py:113: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-11-21 00:33:58,383 Epoch: 1 train_loss= 0.69321
+2022-11-21 00:34:00,756 Classification Precision 1: 30.357
+2022-11-21 00:34:00,756 Classification NDCG 1: 30.357
+2022-11-21 00:34:00,846 Classification Precision 3: 26.240
+2022-11-21 00:34:00,847 Classification NDCG 3: 27.573
+2022-11-21 00:34:00,939 Classification Precision 5: 25.298
+2022-11-21 00:34:00,940 Classification NDCG 5: 28.360
+2022-11-21 00:34:00,940 Train Accuracy: 25.300
+2022-11-21 00:34:01,032 Classification Precision 1: 26.617
+2022-11-21 00:34:01,032 Classification NDCG 1: 26.617
+2022-11-21 00:34:01,122 Classification Precision 3: 23.470
+2022-11-21 00:34:01,122 Classification NDCG 3: 24.352
+2022-11-21 00:34:01,221 Classification Precision 5: 22.944
+2022-11-21 00:34:01,221 Classification NDCG 5: 25.161
+2022-11-21 00:34:01,222 Valid Accuracy: 22.940
+2022-11-21 00:34:02,017 Classification Precision 1: 27.873
+2022-11-21 00:34:02,018 Classification NDCG 1: 27.873
+2022-11-21 00:34:02,742 Classification Precision 3: 23.711
+2022-11-21 00:34:02,742 Classification NDCG 3: 24.829
+2022-11-21 00:34:03,511 Classification Precision 5: 23.107
+2022-11-21 00:34:03,511 Classification NDCG 5: 25.429
+2022-11-21 00:34:03,512 Test Accuracy: 23.110
+2022-11-21 00:34:44,149 Epoch: 11 train_loss= 0.57863
+2022-11-21 00:34:46,032 Classification Precision 1: 47.917
+2022-11-21 00:34:46,032 Classification NDCG 1: 47.917
+2022-11-21 00:34:46,134 Classification Precision 3: 27.604
+2022-11-21 00:34:46,134 Classification NDCG 3: 31.925
+2022-11-21 00:34:46,224 Classification Precision 5: 28.185
+2022-11-21 00:34:46,224 Classification NDCG 5: 32.221
+2022-11-21 00:34:46,225 Train Accuracy: 28.180
+2022-11-21 00:34:46,313 Classification Precision 1: 47.435
+2022-11-21 00:34:46,313 Classification NDCG 1: 47.435
+2022-11-21 00:34:46,401 Classification Precision 3: 26.914
+2022-11-21 00:34:46,401 Classification NDCG 3: 31.024
+2022-11-21 00:34:46,493 Classification Precision 5: 27.271
+2022-11-21 00:34:46,493 Classification NDCG 5: 30.987
+2022-11-21 00:34:46,493 Valid Accuracy: 27.270
+2022-11-21 00:34:47,265 Classification Precision 1: 47.415
+2022-11-21 00:34:47,266 Classification NDCG 1: 47.415
+2022-11-21 00:34:48,025 Classification Precision 3: 27.126
+2022-11-21 00:34:48,025 Classification NDCG 3: 31.289
+2022-11-21 00:34:48,811 Classification Precision 5: 27.163
+2022-11-21 00:34:48,812 Classification NDCG 5: 30.943
+2022-11-21 00:34:48,813 Test Accuracy: 27.160
+2022-11-21 00:35:30,450 Epoch: 21 train_loss= 0.45800
+2022-11-21 00:35:32,470 Classification Precision 1: 52.232
+2022-11-21 00:35:32,470 Classification NDCG 1: 52.232
+2022-11-21 00:35:32,573 Classification Precision 3: 38.740
+2022-11-21 00:35:32,574 Classification NDCG 3: 41.914
+2022-11-21 00:35:32,690 Classification Precision 5: 31.890
+2022-11-21 00:35:32,690 Classification NDCG 5: 37.383
+2022-11-21 00:35:32,690 Train Accuracy: 31.890
+2022-11-21 00:35:32,802 Classification Precision 1: 51.673
+2022-11-21 00:35:32,803 Classification NDCG 1: 51.673
+2022-11-21 00:35:32,936 Classification Precision 3: 37.646
+2022-11-21 00:35:32,936 Classification NDCG 3: 40.898
+2022-11-21 00:35:33,040 Classification Precision 5: 31.063
+2022-11-21 00:35:33,040 Classification NDCG 5: 36.191
+2022-11-21 00:35:33,041 Valid Accuracy: 31.060
+2022-11-21 00:35:33,849 Classification Precision 1: 51.422
+2022-11-21 00:35:33,849 Classification NDCG 1: 51.422
+2022-11-21 00:35:34,622 Classification Precision 3: 37.523
+2022-11-21 00:35:34,622 Classification NDCG 3: 40.735
+2022-11-21 00:35:35,375 Classification Precision 5: 30.872
+2022-11-21 00:35:35,375 Classification NDCG 5: 36.000
+2022-11-21 00:35:35,376 Test Accuracy: 30.870
+2022-11-21 00:36:15,865 Epoch: 31 train_loss= 0.38697
+2022-11-21 00:36:17,992 Classification Precision 1: 50.893
+2022-11-21 00:36:17,992 Classification NDCG 1: 50.893
+2022-11-21 00:36:18,110 Classification Precision 3: 45.089
+2022-11-21 00:36:18,110 Classification NDCG 3: 46.989
+2022-11-21 00:36:18,204 Classification Precision 5: 39.241
+2022-11-21 00:36:18,204 Classification NDCG 5: 43.488
+2022-11-21 00:36:18,204 Train Accuracy: 39.240
+2022-11-21 00:36:18,295 Classification Precision 1: 50.112
+2022-11-21 00:36:18,295 Classification NDCG 1: 50.112
+2022-11-21 00:36:18,387 Classification Precision 3: 44.139
+2022-11-21 00:36:18,388 Classification NDCG 3: 45.985
+2022-11-21 00:36:18,520 Classification Precision 5: 38.929
+2022-11-21 00:36:18,520 Classification NDCG 5: 42.696
+2022-11-21 00:36:18,521 Valid Accuracy: 38.930
+2022-11-21 00:36:19,451 Classification Precision 1: 49.870
+2022-11-21 00:36:19,451 Classification NDCG 1: 49.870
+2022-11-21 00:36:20,378 Classification Precision 3: 44.183
+2022-11-21 00:36:20,379 Classification NDCG 3: 46.010
+2022-11-21 00:36:21,250 Classification Precision 5: 38.674
+2022-11-21 00:36:21,251 Classification NDCG 5: 42.562
+2022-11-21 00:36:21,252 Test Accuracy: 38.670
+2022-11-21 00:37:01,534 Epoch: 41 train_loss= 0.34693
+2022-11-21 00:37:03,431 Classification Precision 1: 56.548
+2022-11-21 00:37:03,431 Classification NDCG 1: 56.548
+2022-11-21 00:37:03,528 Classification Precision 3: 49.132
+2022-11-21 00:37:03,528 Classification NDCG 3: 51.274
+2022-11-21 00:37:03,627 Classification Precision 5: 41.414
+2022-11-21 00:37:03,627 Classification NDCG 5: 46.688
+2022-11-21 00:37:03,627 Train Accuracy: 41.410
+2022-11-21 00:37:03,718 Classification Precision 1: 55.390
+2022-11-21 00:37:03,719 Classification NDCG 1: 55.390
+2022-11-21 00:37:03,809 Classification Precision 3: 48.823
+2022-11-21 00:37:03,809 Classification NDCG 3: 50.745
+2022-11-21 00:37:03,900 Classification Precision 5: 41.576
+2022-11-21 00:37:03,900 Classification NDCG 5: 46.308
+2022-11-21 00:37:03,900 Valid Accuracy: 41.580
+2022-11-21 00:37:04,632 Classification Precision 1: 56.424
+2022-11-21 00:37:04,633 Classification NDCG 1: 56.424
+2022-11-21 00:37:05,380 Classification Precision 3: 48.903
+2022-11-21 00:37:05,380 Classification NDCG 3: 51.102
+2022-11-21 00:37:06,167 Classification Precision 5: 41.250
+2022-11-21 00:37:06,167 Classification NDCG 5: 46.429
+2022-11-21 00:37:06,168 Test Accuracy: 41.250
+2022-11-21 00:37:42,024 Epoch: 51 train_loss= 0.32029
+2022-11-21 00:37:43,886 Classification Precision 1: 57.068
+2022-11-21 00:37:43,886 Classification NDCG 1: 57.068
+2022-11-21 00:37:43,976 Classification Precision 3: 49.380
+2022-11-21 00:37:43,976 Classification NDCG 3: 51.548
+2022-11-21 00:37:44,068 Classification Precision 5: 45.982
+2022-11-21 00:37:44,069 Classification NDCG 5: 50.508
+2022-11-21 00:37:44,069 Train Accuracy: 45.980
+2022-11-21 00:37:44,159 Classification Precision 1: 56.059
+2022-11-21 00:37:44,159 Classification NDCG 1: 56.059
+2022-11-21 00:37:44,251 Classification Precision 3: 49.368
+2022-11-21 00:37:44,251 Classification NDCG 3: 51.287
+2022-11-21 00:37:44,391 Classification Precision 5: 45.755
+2022-11-21 00:37:44,391 Classification NDCG 5: 49.978
+2022-11-21 00:37:44,391 Valid Accuracy: 45.750
+2022-11-21 00:37:45,149 Classification Precision 1: 57.252
+2022-11-21 00:37:45,150 Classification NDCG 1: 57.252
+2022-11-21 00:37:45,881 Classification Precision 3: 49.324
+2022-11-21 00:37:45,881 Classification NDCG 3: 51.574
+2022-11-21 00:37:46,633 Classification Precision 5: 45.400
+2022-11-21 00:37:46,633 Classification NDCG 5: 49.904
+2022-11-21 00:37:46,634 Test Accuracy: 45.400
+2022-11-21 00:38:26,247 Epoch: 61 train_loss= 0.30023
+2022-11-21 00:38:28,201 Classification Precision 1: 58.333
+2022-11-21 00:38:28,201 Classification NDCG 1: 58.333
+2022-11-21 00:38:28,302 Classification Precision 3: 56.225
+2022-11-21 00:38:28,303 Classification NDCG 3: 57.426
+2022-11-21 00:38:28,406 Classification Precision 5: 52.113
+2022-11-21 00:38:28,406 Classification NDCG 5: 57.251
+2022-11-21 00:38:28,406 Train Accuracy: 52.110
+2022-11-21 00:38:28,497 Classification Precision 1: 57.026
+2022-11-21 00:38:28,498 Classification NDCG 1: 57.026
+2022-11-21 00:38:28,592 Classification Precision 3: 56.382
+2022-11-21 00:38:28,592 Classification NDCG 3: 57.156
+2022-11-21 00:38:28,693 Classification Precision 5: 52.208
+2022-11-21 00:38:28,694 Classification NDCG 5: 57.009
+2022-11-21 00:38:28,694 Valid Accuracy: 52.210
+2022-11-21 00:38:29,559 Classification Precision 1: 58.367
+2022-11-21 00:38:29,559 Classification NDCG 1: 58.367
+2022-11-21 00:38:30,332 Classification Precision 3: 55.826
+2022-11-21 00:38:30,332 Classification NDCG 3: 57.002
+2022-11-21 00:38:31,112 Classification Precision 5: 51.612
+2022-11-21 00:38:31,112 Classification NDCG 5: 56.388
+2022-11-21 00:38:31,113 Test Accuracy: 51.610
+2022-11-21 00:39:16,467 Epoch: 71 train_loss= 0.28422
+2022-11-21 00:39:18,335 Classification Precision 1: 68.899
+2022-11-21 00:39:18,336 Classification NDCG 1: 68.899
+2022-11-21 00:39:18,425 Classification Precision 3: 63.566
+2022-11-21 00:39:18,425 Classification NDCG 3: 65.924
+2022-11-21 00:39:18,519 Classification Precision 5: 55.595
+2022-11-21 00:39:18,519 Classification NDCG 5: 63.474
+2022-11-21 00:39:18,519 Train Accuracy: 55.600
+2022-11-21 00:39:18,609 Classification Precision 1: 68.848
+2022-11-21 00:39:18,609 Classification NDCG 1: 68.848
+2022-11-21 00:39:18,699 Classification Precision 3: 63.891
+2022-11-21 00:39:18,699 Classification NDCG 3: 65.977
+2022-11-21 00:39:18,795 Classification Precision 5: 55.465
+2022-11-21 00:39:18,796 Classification NDCG 5: 63.119
+2022-11-21 00:39:18,796 Valid Accuracy: 55.460
+2022-11-21 00:39:19,508 Classification Precision 1: 69.636
+2022-11-21 00:39:19,508 Classification NDCG 1: 69.636
+2022-11-21 00:39:20,264 Classification Precision 3: 63.202
+2022-11-21 00:39:20,264 Classification NDCG 3: 65.503
+2022-11-21 00:39:21,007 Classification Precision 5: 55.056
+2022-11-21 00:39:21,008 Classification NDCG 5: 62.484
+2022-11-21 00:39:21,009 Test Accuracy: 55.060
+2022-11-21 00:39:57,006 Epoch: 81 train_loss= 0.27089
+2022-11-21 00:39:58,831 Classification Precision 1: 71.652
+2022-11-21 00:39:58,831 Classification NDCG 1: 71.652
+2022-11-21 00:39:58,923 Classification Precision 3: 66.195
+2022-11-21 00:39:58,923 Classification NDCG 3: 68.958
+2022-11-21 00:39:59,025 Classification Precision 5: 58.006
+2022-11-21 00:39:59,025 Classification NDCG 5: 66.791
+2022-11-21 00:39:59,025 Train Accuracy: 58.010
+2022-11-21 00:39:59,118 Classification Precision 1: 71.004
+2022-11-21 00:39:59,118 Classification NDCG 1: 71.004
+2022-11-21 00:39:59,207 Classification Precision 3: 66.444
+2022-11-21 00:39:59,207 Classification NDCG 3: 68.727
+2022-11-21 00:39:59,300 Classification Precision 5: 57.859
+2022-11-21 00:39:59,301 Classification NDCG 5: 66.241
+2022-11-21 00:39:59,301 Valid Accuracy: 57.860
+2022-11-21 00:40:00,016 Classification Precision 1: 71.969
+2022-11-21 00:40:00,016 Classification NDCG 1: 71.969
+2022-11-21 00:40:00,757 Classification Precision 3: 65.718
+2022-11-21 00:40:00,758 Classification NDCG 3: 68.287
+2022-11-21 00:40:01,494 Classification Precision 5: 57.659
+2022-11-21 00:40:01,495 Classification NDCG 5: 65.753
+2022-11-21 00:40:01,496 Test Accuracy: 57.660
+2022-11-21 00:40:37,597 Epoch: 91 train_loss= 0.25953
+2022-11-21 00:40:39,439 Classification Precision 1: 72.917
+2022-11-21 00:40:39,439 Classification NDCG 1: 72.917
+2022-11-21 00:40:39,528 Classification Precision 3: 69.568
+2022-11-21 00:40:39,529 Classification NDCG 3: 72.652
+2022-11-21 00:40:39,630 Classification Precision 5: 61.027
+2022-11-21 00:40:39,630 Classification NDCG 5: 71.127
+2022-11-21 00:40:39,631 Train Accuracy: 61.030
+2022-11-21 00:40:39,723 Classification Precision 1: 71.375
+2022-11-21 00:40:39,723 Classification NDCG 1: 71.375
+2022-11-21 00:40:39,814 Classification Precision 3: 69.368
+2022-11-21 00:40:39,814 Classification NDCG 3: 71.738
+2022-11-21 00:40:39,909 Classification Precision 5: 60.714
+2022-11-21 00:40:39,910 Classification NDCG 5: 70.012
+2022-11-21 00:40:39,910 Valid Accuracy: 60.710
+2022-11-21 00:40:40,667 Classification Precision 1: 72.555
+2022-11-21 00:40:40,667 Classification NDCG 1: 72.555
+2022-11-21 00:40:41,397 Classification Precision 3: 68.879
+2022-11-21 00:40:41,397 Classification NDCG 3: 71.402
+2022-11-21 00:40:42,160 Classification Precision 5: 60.718
+2022-11-21 00:40:42,160 Classification NDCG 5: 69.640
+2022-11-21 00:40:42,162 Test Accuracy: 60.720
+2022-11-21 00:41:18,875 Epoch: 101 train_loss= 0.24941
+2022-11-21 00:41:20,772 Classification Precision 1: 80.432
+2022-11-21 00:41:20,772 Classification NDCG 1: 80.432
+2022-11-21 00:41:20,862 Classification Precision 3: 71.156
+2022-11-21 00:41:20,862 Classification NDCG 3: 75.957
+2022-11-21 00:41:20,954 Classification Precision 5: 63.929
+2022-11-21 00:41:20,954 Classification NDCG 5: 76.006
+2022-11-21 00:41:20,955 Train Accuracy: 63.930
+2022-11-21 00:41:21,044 Classification Precision 1: 77.175
+2022-11-21 00:41:21,045 Classification NDCG 1: 77.175
+2022-11-21 00:41:21,135 Classification Precision 3: 70.657
+2022-11-21 00:41:21,135 Classification NDCG 3: 74.549
+2022-11-21 00:41:21,226 Classification Precision 5: 63.539
+2022-11-21 00:41:21,226 Classification NDCG 5: 74.399
+2022-11-21 00:41:21,226 Valid Accuracy: 63.540
+2022-11-21 00:41:21,944 Classification Precision 1: 78.961
+2022-11-21 00:41:21,944 Classification NDCG 1: 78.961
+2022-11-21 00:41:22,660 Classification Precision 3: 70.308
+2022-11-21 00:41:22,660 Classification NDCG 3: 74.301
+2022-11-21 00:41:23,420 Classification Precision 5: 64.102
+2022-11-21 00:41:23,420 Classification NDCG 5: 74.648
+2022-11-21 00:41:23,421 Test Accuracy: 64.100
+2022-11-21 00:42:00,140 Epoch: 111 train_loss= 0.24032
+2022-11-21 00:42:02,041 Classification Precision 1: 83.408
+2022-11-21 00:42:02,042 Classification NDCG 1: 83.408
+2022-11-21 00:42:02,137 Classification Precision 3: 72.842
+2022-11-21 00:42:02,137 Classification NDCG 3: 78.165
+2022-11-21 00:42:02,230 Classification Precision 5: 65.089
+2022-11-21 00:42:02,230 Classification NDCG 5: 78.186
+2022-11-21 00:42:02,230 Train Accuracy: 65.090
+2022-11-21 00:42:02,320 Classification Precision 1: 80.149
+2022-11-21 00:42:02,320 Classification NDCG 1: 80.149
+2022-11-21 00:42:02,410 Classification Precision 3: 72.515
+2022-11-21 00:42:02,410 Classification NDCG 3: 76.954
+2022-11-21 00:42:02,510 Classification Precision 5: 64.967
+2022-11-21 00:42:02,511 Classification NDCG 5: 76.802
+2022-11-21 00:42:02,511 Valid Accuracy: 64.970
+2022-11-21 00:42:03,272 Classification Precision 1: 82.261
+2022-11-21 00:42:03,272 Classification NDCG 1: 82.261
+2022-11-21 00:42:04,033 Classification Precision 3: 72.186
+2022-11-21 00:42:04,034 Classification NDCG 3: 76.776
+2022-11-21 00:42:04,860 Classification Precision 5: 65.502
+2022-11-21 00:42:04,861 Classification NDCG 5: 77.073
+2022-11-21 00:42:04,862 Test Accuracy: 65.500
+2022-11-21 00:42:40,837 Epoch: 121 train_loss= 0.23206
+2022-11-21 00:42:42,660 Classification Precision 1: 85.417
+2022-11-21 00:42:42,660 Classification NDCG 1: 85.417
+2022-11-21 00:42:42,750 Classification Precision 3: 76.042
+2022-11-21 00:42:42,751 Classification NDCG 3: 81.365
+2022-11-21 00:42:42,845 Classification Precision 5: 65.759
+2022-11-21 00:42:42,846 Classification NDCG 5: 80.018
+2022-11-21 00:42:42,846 Train Accuracy: 65.760
+2022-11-21 00:42:42,938 Classification Precision 1: 81.933
+2022-11-21 00:42:42,938 Classification NDCG 1: 81.933
+2022-11-21 00:42:43,030 Classification Precision 3: 75.266
+2022-11-21 00:42:43,030 Classification NDCG 3: 79.725
+2022-11-21 00:42:43,121 Classification Precision 5: 65.457
+2022-11-21 00:42:43,121 Classification NDCG 5: 78.275
+2022-11-21 00:42:43,122 Valid Accuracy: 65.460
+2022-11-21 00:42:43,864 Classification Precision 1: 84.232
+2022-11-21 00:42:43,865 Classification NDCG 1: 84.232
+2022-11-21 00:42:44,585 Classification Precision 3: 75.403
+2022-11-21 00:42:44,586 Classification NDCG 3: 79.818
+2022-11-21 00:42:45,358 Classification Precision 5: 66.251
+2022-11-21 00:42:45,359 Classification NDCG 5: 78.837
+2022-11-21 00:42:45,360 Test Accuracy: 66.250
+2022-11-21 00:43:21,312 Epoch: 131 train_loss= 0.22464
+2022-11-21 00:43:23,139 Classification Precision 1: 86.607
+2022-11-21 00:43:23,139 Classification NDCG 1: 86.607
+2022-11-21 00:43:23,231 Classification Precision 3: 78.497
+2022-11-21 00:43:23,231 Classification NDCG 3: 83.962
+2022-11-21 00:43:23,323 Classification Precision 5: 66.071
+2022-11-21 00:43:23,324 Classification NDCG 5: 81.375
+2022-11-21 00:43:23,324 Train Accuracy: 66.070
+2022-11-21 00:43:23,414 Classification Precision 1: 82.974
+2022-11-21 00:43:23,414 Classification NDCG 1: 82.974
+2022-11-21 00:43:23,504 Classification Precision 3: 77.373
+2022-11-21 00:43:23,504 Classification NDCG 3: 81.928
+2022-11-21 00:43:23,596 Classification Precision 5: 65.814
+2022-11-21 00:43:23,596 Classification NDCG 5: 79.524
+2022-11-21 00:43:23,596 Valid Accuracy: 65.810
+2022-11-21 00:43:24,314 Classification Precision 1: 85.115
+2022-11-21 00:43:24,315 Classification NDCG 1: 85.115
+2022-11-21 00:43:25,044 Classification Precision 3: 78.180
+2022-11-21 00:43:25,044 Classification NDCG 3: 82.597
+2022-11-21 00:43:25,842 Classification Precision 5: 66.651
+2022-11-21 00:43:25,842 Classification NDCG 5: 80.252
+2022-11-21 00:43:25,843 Test Accuracy: 66.650
+2022-11-21 00:44:01,878 Epoch: 141 train_loss= 0.21792
+2022-11-21 00:44:03,724 Classification Precision 1: 88.244
+2022-11-21 00:44:03,724 Classification NDCG 1: 88.244
+2022-11-21 00:44:03,815 Classification Precision 3: 79.365
+2022-11-21 00:44:03,815 Classification NDCG 3: 85.244
+2022-11-21 00:44:03,907 Classification Precision 5: 66.562
+2022-11-21 00:44:03,908 Classification NDCG 5: 82.461
+2022-11-21 00:44:03,908 Train Accuracy: 66.560
+2022-11-21 00:44:03,998 Classification Precision 1: 83.941
+2022-11-21 00:44:03,998 Classification NDCG 1: 83.941
+2022-11-21 00:44:04,086 Classification Precision 3: 77.869
+2022-11-21 00:44:04,087 Classification NDCG 3: 82.662
+2022-11-21 00:44:04,180 Classification Precision 5: 65.978
+2022-11-21 00:44:04,180 Classification NDCG 5: 80.115
+2022-11-21 00:44:04,180 Valid Accuracy: 65.980
+2022-11-21 00:44:04,938 Classification Precision 1: 86.426
+2022-11-21 00:44:04,939 Classification NDCG 1: 86.426
+2022-11-21 00:44:05,665 Classification Precision 3: 79.159
+2022-11-21 00:44:05,666 Classification NDCG 3: 83.872
+2022-11-21 00:44:06,429 Classification Precision 5: 66.887
+2022-11-21 00:44:06,430 Classification NDCG 5: 81.094
+2022-11-21 00:44:06,431 Test Accuracy: 66.890
+2022-11-21 00:44:43,486 Epoch: 151 train_loss= 0.21173
+2022-11-21 00:44:45,435 Classification Precision 1: 89.732
+2022-11-21 00:44:45,435 Classification NDCG 1: 89.732
+2022-11-21 00:44:45,539 Classification Precision 3: 79.787
+2022-11-21 00:44:45,540 Classification NDCG 3: 86.038
+2022-11-21 00:44:45,648 Classification Precision 5: 66.756
+2022-11-21 00:44:45,648 Classification NDCG 5: 83.137
+2022-11-21 00:44:45,648 Train Accuracy: 66.760
+2022-11-21 00:44:45,765 Classification Precision 1: 84.684
+2022-11-21 00:44:45,766 Classification NDCG 1: 84.684
+2022-11-21 00:44:45,856 Classification Precision 3: 78.340
+2022-11-21 00:44:45,856 Classification NDCG 3: 83.396
+2022-11-21 00:44:45,949 Classification Precision 5: 66.097
+2022-11-21 00:44:45,949 Classification NDCG 5: 80.597
+2022-11-21 00:44:45,949 Valid Accuracy: 66.100
+2022-11-21 00:44:46,796 Classification Precision 1: 87.421
+2022-11-21 00:44:46,796 Classification NDCG 1: 87.421
+2022-11-21 00:44:47,551 Classification Precision 3: 79.680
+2022-11-21 00:44:47,552 Classification NDCG 3: 84.654
+2022-11-21 00:44:48,307 Classification Precision 5: 67.109
+2022-11-21 00:44:48,307 Classification NDCG 5: 81.711
+2022-11-21 00:44:48,308 Test Accuracy: 67.110
+2022-11-21 00:45:24,268 Epoch: 161 train_loss= 0.20604
+2022-11-21 00:45:26,192 Classification Precision 1: 90.179
+2022-11-21 00:45:26,192 Classification NDCG 1: 90.179
+2022-11-21 00:45:26,296 Classification Precision 3: 80.109
+2022-11-21 00:45:26,297 Classification NDCG 3: 86.496
+2022-11-21 00:45:26,395 Classification Precision 5: 67.009
+2022-11-21 00:45:26,395 Classification NDCG 5: 83.577
+2022-11-21 00:45:26,395 Train Accuracy: 67.010
+2022-11-21 00:45:26,487 Classification Precision 1: 85.353
+2022-11-21 00:45:26,488 Classification NDCG 1: 85.353
+2022-11-21 00:45:26,582 Classification Precision 3: 78.563
+2022-11-21 00:45:26,583 Classification NDCG 3: 83.920
+2022-11-21 00:45:26,705 Classification Precision 5: 66.186
+2022-11-21 00:45:26,705 Classification NDCG 5: 81.073
+2022-11-21 00:45:26,705 Valid Accuracy: 66.190
+2022-11-21 00:45:27,441 Classification Precision 1: 88.100
+2022-11-21 00:45:27,441 Classification NDCG 1: 88.100
+2022-11-21 00:45:28,183 Classification Precision 3: 79.986
+2022-11-21 00:45:28,183 Classification NDCG 3: 85.207
+2022-11-21 00:45:28,930 Classification Precision 5: 67.386
+2022-11-21 00:45:28,930 Classification NDCG 5: 82.286
+2022-11-21 00:45:28,931 Test Accuracy: 67.390
+2022-11-21 00:46:05,020 Epoch: 171 train_loss= 0.20080
+2022-11-21 00:46:06,824 Classification Precision 1: 90.402
+2022-11-21 00:46:06,824 Classification NDCG 1: 90.402
+2022-11-21 00:46:06,915 Classification Precision 3: 80.332
+2022-11-21 00:46:06,916 Classification NDCG 3: 86.770
+2022-11-21 00:46:07,012 Classification Precision 5: 67.247
+2022-11-21 00:46:07,013 Classification NDCG 5: 83.917
+2022-11-21 00:46:07,013 Train Accuracy: 67.250
+2022-11-21 00:46:07,104 Classification Precision 1: 85.576
+2022-11-21 00:46:07,104 Classification NDCG 1: 85.576
+2022-11-21 00:46:07,197 Classification Precision 3: 78.835
+2022-11-21 00:46:07,197 Classification NDCG 3: 84.295
+2022-11-21 00:46:07,298 Classification Precision 5: 66.587
+2022-11-21 00:46:07,299 Classification NDCG 5: 81.562
+2022-11-21 00:46:07,299 Valid Accuracy: 66.590
+2022-11-21 00:46:08,009 Classification Precision 1: 88.630
+2022-11-21 00:46:08,010 Classification NDCG 1: 88.630
+2022-11-21 00:46:08,745 Classification Precision 3: 80.321
+2022-11-21 00:46:08,745 Classification NDCG 3: 85.701
+2022-11-21 00:46:09,509 Classification Precision 5: 67.676
+2022-11-21 00:46:09,509 Classification NDCG 5: 82.790
+2022-11-21 00:46:09,510 Test Accuracy: 67.680
+2022-11-21 00:46:46,113 Epoch: 181 train_loss= 0.19590
+2022-11-21 00:46:47,957 Classification Precision 1: 90.923
+2022-11-21 00:46:47,957 Classification NDCG 1: 90.923
+2022-11-21 00:46:48,046 Classification Precision 3: 80.506
+2022-11-21 00:46:48,046 Classification NDCG 3: 87.059
+2022-11-21 00:46:48,139 Classification Precision 5: 67.574
+2022-11-21 00:46:48,139 Classification NDCG 5: 84.352
+2022-11-21 00:46:48,140 Train Accuracy: 67.570
+2022-11-21 00:46:48,232 Classification Precision 1: 85.874
+2022-11-21 00:46:48,232 Classification NDCG 1: 85.874
+2022-11-21 00:46:48,321 Classification Precision 3: 79.133
+2022-11-21 00:46:48,322 Classification NDCG 3: 84.715
+2022-11-21 00:46:48,413 Classification Precision 5: 66.929
+2022-11-21 00:46:48,413 Classification NDCG 5: 82.019
+2022-11-21 00:46:48,414 Valid Accuracy: 66.930
+2022-11-21 00:46:49,188 Classification Precision 1: 89.011
+2022-11-21 00:46:49,188 Classification NDCG 1: 89.011
+2022-11-21 00:46:49,981 Classification Precision 3: 80.603
+2022-11-21 00:46:49,981 Classification NDCG 3: 86.098
+2022-11-21 00:46:50,732 Classification Precision 5: 67.882
+2022-11-21 00:46:50,732 Classification NDCG 5: 83.180
+2022-11-21 00:46:50,733 Test Accuracy: 67.880
+2022-11-21 00:47:26,661 Epoch: 191 train_loss= 0.19134
+2022-11-21 00:47:28,502 Classification Precision 1: 91.146
+2022-11-21 00:47:28,502 Classification NDCG 1: 91.146
+2022-11-21 00:47:28,591 Classification Precision 3: 80.952
+2022-11-21 00:47:28,592 Classification NDCG 3: 87.471
+2022-11-21 00:47:28,699 Classification Precision 5: 68.021
+2022-11-21 00:47:28,700 Classification NDCG 5: 84.897
+2022-11-21 00:47:28,700 Train Accuracy: 68.020
+2022-11-21 00:47:28,790 Classification Precision 1: 86.320
+2022-11-21 00:47:28,790 Classification NDCG 1: 86.320
+2022-11-21 00:47:28,880 Classification Precision 3: 79.281
+2022-11-21 00:47:28,880 Classification NDCG 3: 85.008
+2022-11-21 00:47:28,971 Classification Precision 5: 67.197
+2022-11-21 00:47:28,972 Classification NDCG 5: 82.456
+2022-11-21 00:47:28,972 Valid Accuracy: 67.200
+2022-11-21 00:47:29,755 Classification Precision 1: 89.355
+2022-11-21 00:47:29,755 Classification NDCG 1: 89.355
+2022-11-21 00:47:30,466 Classification Precision 3: 80.873
+2022-11-21 00:47:30,467 Classification NDCG 3: 86.478
+2022-11-21 00:47:31,240 Classification Precision 5: 68.211
+2022-11-21 00:47:31,240 Classification NDCG 5: 83.714
+2022-11-21 00:47:31,241 Test Accuracy: 68.210
+2022-11-21 00:48:07,256 Epoch: 201 train_loss= 0.18706
+2022-11-21 00:48:09,086 Classification Precision 1: 91.295
+2022-11-21 00:48:09,086 Classification NDCG 1: 91.295
+2022-11-21 00:48:09,178 Classification Precision 3: 81.300
+2022-11-21 00:48:09,178 Classification NDCG 3: 87.776
+2022-11-21 00:48:09,285 Classification Precision 5: 68.557
+2022-11-21 00:48:09,286 Classification NDCG 5: 85.531
+2022-11-21 00:48:09,286 Train Accuracy: 68.560
+2022-11-21 00:48:09,376 Classification Precision 1: 86.840
+2022-11-21 00:48:09,377 Classification NDCG 1: 86.840
+2022-11-21 00:48:09,465 Classification Precision 3: 79.603
+2022-11-21 00:48:09,466 Classification NDCG 3: 85.491
+2022-11-21 00:48:09,562 Classification Precision 5: 67.539
+2022-11-21 00:48:09,562 Classification NDCG 5: 83.039
+2022-11-21 00:48:09,563 Valid Accuracy: 67.540
+2022-11-21 00:48:10,288 Classification Precision 1: 89.745
+2022-11-21 00:48:10,288 Classification NDCG 1: 89.745
+2022-11-21 00:48:11,003 Classification Precision 3: 81.241
+2022-11-21 00:48:11,003 Classification NDCG 3: 86.932
+2022-11-21 00:48:11,751 Classification Precision 5: 68.553
+2022-11-21 00:48:11,751 Classification NDCG 5: 84.274
+2022-11-21 00:48:11,752 Test Accuracy: 68.550
+2022-11-21 00:48:47,480 Epoch: 211 train_loss= 0.18312
+2022-11-21 00:48:49,298 Classification Precision 1: 91.443
+2022-11-21 00:48:49,298 Classification NDCG 1: 91.443
+2022-11-21 00:48:49,388 Classification Precision 3: 81.746
+2022-11-21 00:48:49,388 Classification NDCG 3: 88.210
+2022-11-21 00:48:49,482 Classification Precision 5: 69.077
+2022-11-21 00:48:49,482 Classification NDCG 5: 86.142
+2022-11-21 00:48:49,482 Train Accuracy: 69.080
+2022-11-21 00:48:49,587 Classification Precision 1: 87.584
+2022-11-21 00:48:49,587 Classification NDCG 1: 87.584
+2022-11-21 00:48:49,676 Classification Precision 3: 79.926
+2022-11-21 00:48:49,676 Classification NDCG 3: 85.974
+2022-11-21 00:48:49,769 Classification Precision 5: 67.970
+2022-11-21 00:48:49,769 Classification NDCG 5: 83.749
+2022-11-21 00:48:49,770 Valid Accuracy: 67.970
+2022-11-21 00:48:50,486 Classification Precision 1: 90.089
+2022-11-21 00:48:50,486 Classification NDCG 1: 90.089
+2022-11-21 00:48:51,220 Classification Precision 3: 81.607
+2022-11-21 00:48:51,220 Classification NDCG 3: 87.366
+2022-11-21 00:48:51,981 Classification Precision 5: 69.020
+2022-11-21 00:48:51,981 Classification NDCG 5: 84.869
+2022-11-21 00:48:51,982 Test Accuracy: 69.020
+2022-11-21 00:49:27,894 Epoch: 221 train_loss= 0.17942
+2022-11-21 00:49:29,739 Classification Precision 1: 91.667
+2022-11-21 00:49:29,740 Classification NDCG 1: 91.667
+2022-11-21 00:49:29,830 Classification Precision 3: 82.168
+2022-11-21 00:49:29,830 Classification NDCG 3: 88.639
+2022-11-21 00:49:29,922 Classification Precision 5: 69.479
+2022-11-21 00:49:29,922 Classification NDCG 5: 86.740
+2022-11-21 00:49:29,923 Train Accuracy: 69.480
+2022-11-21 00:49:30,014 Classification Precision 1: 87.658
+2022-11-21 00:49:30,014 Classification NDCG 1: 87.658
+2022-11-21 00:49:30,102 Classification Precision 3: 80.223
+2022-11-21 00:49:30,102 Classification NDCG 3: 86.306
+2022-11-21 00:49:30,202 Classification Precision 5: 68.297
+2022-11-21 00:49:30,203 Classification NDCG 5: 84.199
+2022-11-21 00:49:30,203 Valid Accuracy: 68.300
+2022-11-21 00:49:30,933 Classification Precision 1: 90.359
+2022-11-21 00:49:30,933 Classification NDCG 1: 90.359
+2022-11-21 00:49:31,677 Classification Precision 3: 82.047
+2022-11-21 00:49:31,677 Classification NDCG 3: 87.844
+2022-11-21 00:49:32,442 Classification Precision 5: 69.386
+2022-11-21 00:49:32,442 Classification NDCG 5: 85.377
+2022-11-21 00:49:32,443 Test Accuracy: 69.390
+2022-11-21 00:50:13,059 Epoch: 231 train_loss= 0.17601
+2022-11-21 00:50:15,172 Classification Precision 1: 91.964
+2022-11-21 00:50:15,172 Classification NDCG 1: 91.964
+2022-11-21 00:50:15,305 Classification Precision 3: 82.688
+2022-11-21 00:50:15,306 Classification NDCG 3: 89.159
+2022-11-21 00:50:15,466 Classification Precision 5: 69.628
+2022-11-21 00:50:15,466 Classification NDCG 5: 87.059
+2022-11-21 00:50:15,467 Train Accuracy: 69.630
+2022-11-21 00:50:15,593 Classification Precision 1: 87.881
+2022-11-21 00:50:15,593 Classification NDCG 1: 87.881
+2022-11-21 00:50:15,723 Classification Precision 3: 80.570
+2022-11-21 00:50:15,723 Classification NDCG 3: 86.682
+2022-11-21 00:50:15,859 Classification Precision 5: 68.550
+2022-11-21 00:50:15,859 Classification NDCG 5: 84.559
+2022-11-21 00:50:15,860 Valid Accuracy: 68.550
+2022-11-21 00:50:17,269 Classification Precision 1: 90.703
+2022-11-21 00:50:17,270 Classification NDCG 1: 90.703
+2022-11-21 00:50:18,536 Classification Precision 3: 82.376
+2022-11-21 00:50:18,536 Classification NDCG 3: 88.245
+2022-11-21 00:50:19,808 Classification Precision 5: 69.539
+2022-11-21 00:50:19,808 Classification NDCG 5: 85.692
+2022-11-21 00:50:19,810 Test Accuracy: 69.540
+2022-11-21 00:50:56,527 Epoch: 241 train_loss= 0.17281
+2022-11-21 00:50:58,365 Classification Precision 1: 92.411
+2022-11-21 00:50:58,365 Classification NDCG 1: 92.411
+2022-11-21 00:50:58,492 Classification Precision 3: 83.135
+2022-11-21 00:50:58,492 Classification NDCG 3: 89.661
+2022-11-21 00:50:58,600 Classification Precision 5: 69.836
+2022-11-21 00:50:58,600 Classification NDCG 5: 87.396
+2022-11-21 00:50:58,601 Train Accuracy: 69.840
+2022-11-21 00:50:58,691 Classification Precision 1: 88.104
+2022-11-21 00:50:58,691 Classification NDCG 1: 88.104
+2022-11-21 00:50:58,791 Classification Precision 3: 80.892
+2022-11-21 00:50:58,792 Classification NDCG 3: 86.987
+2022-11-21 00:50:58,884 Classification Precision 5: 68.565
+2022-11-21 00:50:58,884 Classification NDCG 5: 84.692
+2022-11-21 00:50:58,884 Valid Accuracy: 68.570
+2022-11-21 00:50:59,638 Classification Precision 1: 91.065
+2022-11-21 00:50:59,638 Classification NDCG 1: 91.065
+2022-11-21 00:51:00,391 Classification Precision 3: 82.661
+2022-11-21 00:51:00,391 Classification NDCG 3: 88.559
+2022-11-21 00:51:01,153 Classification Precision 5: 69.643
+2022-11-21 00:51:01,153 Classification NDCG 5: 85.926
+2022-11-21 00:51:01,154 Test Accuracy: 69.640
+2022-11-21 00:51:37,495 Epoch: 251 train_loss= 0.16981
+2022-11-21 00:51:39,423 Classification Precision 1: 92.708
+2022-11-21 00:51:39,423 Classification NDCG 1: 92.708
+2022-11-21 00:51:39,513 Classification Precision 3: 83.631
+2022-11-21 00:51:39,513 Classification NDCG 3: 90.139
+2022-11-21 00:51:39,605 Classification Precision 5: 70.015
+2022-11-21 00:51:39,606 Classification NDCG 5: 87.667
+2022-11-21 00:51:39,606 Train Accuracy: 70.010
+2022-11-21 00:51:39,695 Classification Precision 1: 88.476
+2022-11-21 00:51:39,696 Classification NDCG 1: 88.476
+2022-11-21 00:51:39,790 Classification Precision 3: 81.140
+2022-11-21 00:51:39,790 Classification NDCG 3: 87.228
+2022-11-21 00:51:39,886 Classification Precision 5: 68.714
+2022-11-21 00:51:39,886 Classification NDCG 5: 84.908
+2022-11-21 00:51:39,887 Valid Accuracy: 68.710
+2022-11-21 00:51:40,629 Classification Precision 1: 91.419
+2022-11-21 00:51:40,629 Classification NDCG 1: 91.419
+2022-11-21 00:51:41,360 Classification Precision 3: 83.014
+2022-11-21 00:51:41,360 Classification NDCG 3: 88.906
+2022-11-21 00:51:42,101 Classification Precision 5: 69.751
+2022-11-21 00:51:42,102 Classification NDCG 5: 86.133
+2022-11-21 00:51:42,103 Test Accuracy: 69.750
+2022-11-21 00:52:18,165 Epoch: 261 train_loss= 0.16704
+2022-11-21 00:52:20,006 Classification Precision 1: 93.006
+2022-11-21 00:52:20,006 Classification NDCG 1: 93.006
+2022-11-21 00:52:20,094 Classification Precision 3: 83.953
+2022-11-21 00:52:20,095 Classification NDCG 3: 90.476
+2022-11-21 00:52:20,187 Classification Precision 5: 70.193
+2022-11-21 00:52:20,188 Classification NDCG 5: 87.901
+2022-11-21 00:52:20,188 Train Accuracy: 70.190
+2022-11-21 00:52:20,278 Classification Precision 1: 89.665
+2022-11-21 00:52:20,278 Classification NDCG 1: 89.665
+2022-11-21 00:52:20,371 Classification Precision 3: 81.512
+2022-11-21 00:52:20,371 Classification NDCG 3: 87.757
+2022-11-21 00:52:20,472 Classification Precision 5: 68.818
+2022-11-21 00:52:20,472 Classification NDCG 5: 85.259
+2022-11-21 00:52:20,472 Valid Accuracy: 68.820
+2022-11-21 00:52:21,203 Classification Precision 1: 91.893
+2022-11-21 00:52:21,203 Classification NDCG 1: 91.893
+2022-11-21 00:52:21,924 Classification Precision 3: 83.290
+2022-11-21 00:52:21,925 Classification NDCG 3: 89.234
+2022-11-21 00:52:22,676 Classification Precision 5: 69.870
+2022-11-21 00:52:22,676 Classification NDCG 5: 86.376
+2022-11-21 00:52:22,677 Test Accuracy: 69.870
+2022-11-21 00:52:58,143 Epoch: 271 train_loss= 0.16447
+2022-11-21 00:52:59,987 Classification Precision 1: 93.155
+2022-11-21 00:52:59,987 Classification NDCG 1: 93.155
+2022-11-21 00:53:00,087 Classification Precision 3: 84.449
+2022-11-21 00:53:00,087 Classification NDCG 3: 90.920
+2022-11-21 00:53:00,184 Classification Precision 5: 70.387
+2022-11-21 00:53:00,185 Classification NDCG 5: 88.172
+2022-11-21 00:53:00,185 Train Accuracy: 70.390
+2022-11-21 00:53:00,275 Classification Precision 1: 89.740
+2022-11-21 00:53:00,276 Classification NDCG 1: 89.740
+2022-11-21 00:53:00,364 Classification Precision 3: 81.809
+2022-11-21 00:53:00,364 Classification NDCG 3: 88.014
+2022-11-21 00:53:00,455 Classification Precision 5: 68.892
+2022-11-21 00:53:00,455 Classification NDCG 5: 85.455
+2022-11-21 00:53:00,456 Valid Accuracy: 68.890
+2022-11-21 00:53:01,173 Classification Precision 1: 92.088
+2022-11-21 00:53:01,173 Classification NDCG 1: 92.088
+2022-11-21 00:53:01,896 Classification Precision 3: 83.516
+2022-11-21 00:53:01,896 Classification NDCG 3: 89.457
+2022-11-21 00:53:02,678 Classification Precision 5: 69.963
+2022-11-21 00:53:02,678 Classification NDCG 5: 86.547
+2022-11-21 00:53:02,679 Test Accuracy: 69.960
+2022-11-21 00:53:38,584 Epoch: 281 train_loss= 0.16203
+2022-11-21 00:53:40,416 Classification Precision 1: 93.155
+2022-11-21 00:53:40,416 Classification NDCG 1: 93.155
+2022-11-21 00:53:40,506 Classification Precision 3: 84.747
+2022-11-21 00:53:40,506 Classification NDCG 3: 91.198
+2022-11-21 00:53:40,619 Classification Precision 5: 70.670
+2022-11-21 00:53:40,620 Classification NDCG 5: 88.461
+2022-11-21 00:53:40,620 Train Accuracy: 70.670
+2022-11-21 00:53:40,712 Classification Precision 1: 89.814
+2022-11-21 00:53:40,712 Classification NDCG 1: 89.814
+2022-11-21 00:53:40,801 Classification Precision 3: 81.958
+2022-11-21 00:53:40,801 Classification NDCG 3: 88.182
+2022-11-21 00:53:40,892 Classification Precision 5: 68.907
+2022-11-21 00:53:40,892 Classification NDCG 5: 85.526
+2022-11-21 00:53:40,892 Valid Accuracy: 68.910
+2022-11-21 00:53:41,609 Classification Precision 1: 92.218
+2022-11-21 00:53:41,609 Classification NDCG 1: 92.218
+2022-11-21 00:53:42,318 Classification Precision 3: 83.783
+2022-11-21 00:53:42,318 Classification NDCG 3: 89.707
+2022-11-21 00:53:43,082 Classification Precision 5: 70.115
+2022-11-21 00:53:43,082 Classification NDCG 5: 86.756
+2022-11-21 00:53:43,083 Test Accuracy: 70.120
+2022-11-21 00:54:18,918 Epoch: 291 train_loss= 0.15975
+2022-11-21 00:54:20,747 Classification Precision 1: 93.527
+2022-11-21 00:54:20,748 Classification NDCG 1: 93.527
+2022-11-21 00:54:20,837 Classification Precision 3: 84.970
+2022-11-21 00:54:20,838 Classification NDCG 3: 91.472
+2022-11-21 00:54:20,933 Classification Precision 5: 70.833
+2022-11-21 00:54:20,933 Classification NDCG 5: 88.724
+2022-11-21 00:54:20,933 Train Accuracy: 70.830
+2022-11-21 00:54:21,030 Classification Precision 1: 89.814
+2022-11-21 00:54:21,031 Classification NDCG 1: 89.814
+2022-11-21 00:54:21,123 Classification Precision 3: 82.057
+2022-11-21 00:54:21,124 Classification NDCG 3: 88.268
+2022-11-21 00:54:21,215 Classification Precision 5: 69.011
+2022-11-21 00:54:21,216 Classification NDCG 5: 85.612
+2022-11-21 00:54:21,216 Valid Accuracy: 69.010
+2022-11-21 00:54:21,946 Classification Precision 1: 92.302
+2022-11-21 00:54:21,946 Classification NDCG 1: 92.302
+2022-11-21 00:54:22,657 Classification Precision 3: 83.993
+2022-11-21 00:54:22,657 Classification NDCG 3: 89.909
+2022-11-21 00:54:23,423 Classification Precision 5: 70.240
+2022-11-21 00:54:23,423 Classification NDCG 5: 86.912
+2022-11-21 00:54:23,424 Test Accuracy: 70.240
+2022-11-21 00:54:59,113 Epoch: 301 train_loss= 0.15759
+2022-11-21 00:55:00,943 Classification Precision 1: 93.676
+2022-11-21 00:55:00,943 Classification NDCG 1: 93.676
+2022-11-21 00:55:01,032 Classification Precision 3: 85.119
+2022-11-21 00:55:01,032 Classification NDCG 3: 91.670
+2022-11-21 00:55:01,125 Classification Precision 5: 70.997
+2022-11-21 00:55:01,126 Classification NDCG 5: 88.972
+2022-11-21 00:55:01,126 Train Accuracy: 71.000
+2022-11-21 00:55:01,221 Classification Precision 1: 90.037
+2022-11-21 00:55:01,222 Classification NDCG 1: 90.037
+2022-11-21 00:55:01,310 Classification Precision 3: 82.181
+2022-11-21 00:55:01,310 Classification NDCG 3: 88.433
+2022-11-21 00:55:01,400 Classification Precision 5: 69.115
+2022-11-21 00:55:01,401 Classification NDCG 5: 85.762
+2022-11-21 00:55:01,401 Valid Accuracy: 69.120
+2022-11-21 00:55:02,121 Classification Precision 1: 92.497
+2022-11-21 00:55:02,122 Classification NDCG 1: 92.497
+2022-11-21 00:55:02,834 Classification Precision 3: 84.186
+2022-11-21 00:55:02,834 Classification NDCG 3: 90.117
+2022-11-21 00:55:03,570 Classification Precision 5: 70.301
+2022-11-21 00:55:03,571 Classification NDCG 5: 87.062
+2022-11-21 00:55:03,572 Test Accuracy: 70.300
+2022-11-21 00:55:39,427 Epoch: 311 train_loss= 0.15557
+2022-11-21 00:55:41,261 Classification Precision 1: 93.750
+2022-11-21 00:55:41,261 Classification NDCG 1: 93.750
+2022-11-21 00:55:41,349 Classification Precision 3: 85.317
+2022-11-21 00:55:41,349 Classification NDCG 3: 91.840
+2022-11-21 00:55:41,441 Classification Precision 5: 71.161
+2022-11-21 00:55:41,441 Classification NDCG 5: 89.128
+2022-11-21 00:55:41,441 Train Accuracy: 71.160
+2022-11-21 00:55:41,531 Classification Precision 1: 90.112
+2022-11-21 00:55:41,531 Classification NDCG 1: 90.112
+2022-11-21 00:55:41,620 Classification Precision 3: 82.255
+2022-11-21 00:55:41,621 Classification NDCG 3: 88.531
+2022-11-21 00:55:41,712 Classification Precision 5: 69.130
+2022-11-21 00:55:41,712 Classification NDCG 5: 85.809
+2022-11-21 00:55:41,712 Valid Accuracy: 69.130
+2022-11-21 00:55:42,432 Classification Precision 1: 92.572
+2022-11-21 00:55:42,432 Classification NDCG 1: 92.572
+2022-11-21 00:55:43,164 Classification Precision 3: 84.344
+2022-11-21 00:55:43,164 Classification NDCG 3: 90.247
+2022-11-21 00:55:43,911 Classification Precision 5: 70.381
+2022-11-21 00:55:43,911 Classification NDCG 5: 87.157
+2022-11-21 00:55:43,912 Test Accuracy: 70.380
+2022-11-21 00:56:19,630 Epoch: 321 train_loss= 0.15364
+2022-11-21 00:56:21,503 Classification Precision 1: 93.750
+2022-11-21 00:56:21,503 Classification NDCG 1: 93.750
+2022-11-21 00:56:21,596 Classification Precision 3: 85.466
+2022-11-21 00:56:21,596 Classification NDCG 3: 91.974
+2022-11-21 00:56:21,697 Classification Precision 5: 71.295
+2022-11-21 00:56:21,697 Classification NDCG 5: 89.265
+2022-11-21 00:56:21,698 Train Accuracy: 71.290
+2022-11-21 00:56:21,822 Classification Precision 1: 90.335
+2022-11-21 00:56:21,822 Classification NDCG 1: 90.335
+2022-11-21 00:56:21,912 Classification Precision 3: 82.379
+2022-11-21 00:56:21,912 Classification NDCG 3: 88.695
+2022-11-21 00:56:22,004 Classification Precision 5: 69.204
+2022-11-21 00:56:22,005 Classification NDCG 5: 85.954
+2022-11-21 00:56:22,005 Valid Accuracy: 69.200
+2022-11-21 00:56:22,776 Classification Precision 1: 92.618
+2022-11-21 00:56:22,776 Classification NDCG 1: 92.618
+2022-11-21 00:56:23,559 Classification Precision 3: 84.533
+2022-11-21 00:56:23,560 Classification NDCG 3: 90.413
+2022-11-21 00:56:24,317 Classification Precision 5: 70.441
+2022-11-21 00:56:24,317 Classification NDCG 5: 87.245
+2022-11-21 00:56:24,318 Test Accuracy: 70.440
+2022-11-21 00:57:01,110 Epoch: 331 train_loss= 0.15182
+2022-11-21 00:57:02,956 Classification Precision 1: 93.899
+2022-11-21 00:57:02,956 Classification NDCG 1: 93.899
+2022-11-21 00:57:03,045 Classification Precision 3: 85.665
+2022-11-21 00:57:03,046 Classification NDCG 3: 92.153
+2022-11-21 00:57:03,136 Classification Precision 5: 71.399
+2022-11-21 00:57:03,137 Classification NDCG 5: 89.408
+2022-11-21 00:57:03,137 Train Accuracy: 71.400
+2022-11-21 00:57:03,228 Classification Precision 1: 90.558
+2022-11-21 00:57:03,228 Classification NDCG 1: 90.558
+2022-11-21 00:57:03,318 Classification Precision 3: 82.652
+2022-11-21 00:57:03,319 Classification NDCG 3: 89.065
+2022-11-21 00:57:03,411 Classification Precision 5: 69.190
+2022-11-21 00:57:03,412 Classification NDCG 5: 86.093
+2022-11-21 00:57:03,412 Valid Accuracy: 69.190
+2022-11-21 00:57:03,412 Test Accuracy: 70.440
+2022-11-21 00:57:39,347 Epoch: 341 train_loss= 0.15009
+2022-11-21 00:57:41,232 Classification Precision 1: 93.973
+2022-11-21 00:57:41,232 Classification NDCG 1: 93.973
+2022-11-21 00:57:41,322 Classification Precision 3: 85.813
+2022-11-21 00:57:41,322 Classification NDCG 3: 92.309
+2022-11-21 00:57:41,429 Classification Precision 5: 71.488
+2022-11-21 00:57:41,429 Classification NDCG 5: 89.519
+2022-11-21 00:57:41,430 Train Accuracy: 71.490
+2022-11-21 00:57:41,519 Classification Precision 1: 90.558
+2022-11-21 00:57:41,520 Classification NDCG 1: 90.558
+2022-11-21 00:57:41,608 Classification Precision 3: 82.776
+2022-11-21 00:57:41,608 Classification NDCG 3: 89.162
+2022-11-21 00:57:41,700 Classification Precision 5: 69.279
+2022-11-21 00:57:41,700 Classification NDCG 5: 86.174
+2022-11-21 00:57:41,700 Valid Accuracy: 69.280
+2022-11-21 00:57:42,438 Classification Precision 1: 92.702
+2022-11-21 00:57:42,438 Classification NDCG 1: 92.702
+2022-11-21 00:57:43,180 Classification Precision 3: 84.861
+2022-11-21 00:57:43,180 Classification NDCG 3: 90.732
+2022-11-21 00:57:43,912 Classification Precision 5: 70.578
+2022-11-21 00:57:43,912 Classification NDCG 5: 87.449
+2022-11-21 00:57:43,913 Test Accuracy: 70.580
+2022-11-21 00:58:19,629 Epoch: 351 train_loss= 0.14843
+2022-11-21 00:58:21,438 Classification Precision 1: 94.048
+2022-11-21 00:58:21,438 Classification NDCG 1: 94.048
+2022-11-21 00:58:21,526 Classification Precision 3: 85.838
+2022-11-21 00:58:21,526 Classification NDCG 3: 92.349
+2022-11-21 00:58:21,618 Classification Precision 5: 71.592
+2022-11-21 00:58:21,618 Classification NDCG 5: 89.622
+2022-11-21 00:58:21,618 Train Accuracy: 71.590
+2022-11-21 00:58:21,708 Classification Precision 1: 90.558
+2022-11-21 00:58:21,708 Classification NDCG 1: 90.558
+2022-11-21 00:58:21,796 Classification Precision 3: 82.875
+2022-11-21 00:58:21,796 Classification NDCG 3: 89.251
+2022-11-21 00:58:21,888 Classification Precision 5: 69.368
+2022-11-21 00:58:21,888 Classification NDCG 5: 86.256
+2022-11-21 00:58:21,888 Valid Accuracy: 69.370
+2022-11-21 00:58:22,636 Classification Precision 1: 92.739
+2022-11-21 00:58:22,636 Classification NDCG 1: 92.739
+2022-11-21 00:58:23,364 Classification Precision 3: 84.920
+2022-11-21 00:58:23,364 Classification NDCG 3: 90.794
+2022-11-21 00:58:24,105 Classification Precision 5: 70.651
+2022-11-21 00:58:24,106 Classification NDCG 5: 87.528
+2022-11-21 00:58:24,107 Test Accuracy: 70.650
+2022-11-21 00:59:00,006 Epoch: 361 train_loss= 0.14683
+2022-11-21 00:59:01,833 Classification Precision 1: 94.122
+2022-11-21 00:59:01,834 Classification NDCG 1: 94.122
+2022-11-21 00:59:01,923 Classification Precision 3: 85.962
+2022-11-21 00:59:01,924 Classification NDCG 3: 92.458
+2022-11-21 00:59:02,016 Classification Precision 5: 71.652
+2022-11-21 00:59:02,017 Classification NDCG 5: 89.705
+2022-11-21 00:59:02,017 Train Accuracy: 71.650
+2022-11-21 00:59:02,117 Classification Precision 1: 90.558
+2022-11-21 00:59:02,117 Classification NDCG 1: 90.558
+2022-11-21 00:59:02,206 Classification Precision 3: 82.999
+2022-11-21 00:59:02,207 Classification NDCG 3: 89.373
+2022-11-21 00:59:02,298 Classification Precision 5: 69.561
+2022-11-21 00:59:02,298 Classification NDCG 5: 86.429
+2022-11-21 00:59:02,298 Valid Accuracy: 69.560
+2022-11-21 00:59:03,021 Classification Precision 1: 92.758
+2022-11-21 00:59:03,021 Classification NDCG 1: 92.758
+2022-11-21 00:59:03,739 Classification Precision 3: 85.050
+2022-11-21 00:59:03,739 Classification NDCG 3: 90.916
+2022-11-21 00:59:04,482 Classification Precision 5: 70.753
+2022-11-21 00:59:04,482 Classification NDCG 5: 87.638
+2022-11-21 00:59:04,483 Test Accuracy: 70.750
+2022-11-21 00:59:40,399 Epoch: 371 train_loss= 0.14531
+2022-11-21 00:59:42,244 Classification Precision 1: 94.196
+2022-11-21 00:59:42,244 Classification NDCG 1: 94.196
+2022-11-21 00:59:42,343 Classification Precision 3: 86.062
+2022-11-21 00:59:42,343 Classification NDCG 3: 92.590
+2022-11-21 00:59:42,446 Classification Precision 5: 71.801
+2022-11-21 00:59:42,446 Classification NDCG 5: 89.883
+2022-11-21 00:59:42,447 Train Accuracy: 71.800
+2022-11-21 00:59:42,537 Classification Precision 1: 90.632
+2022-11-21 00:59:42,537 Classification NDCG 1: 90.632
+2022-11-21 00:59:42,626 Classification Precision 3: 83.222
+2022-11-21 00:59:42,626 Classification NDCG 3: 89.583
+2022-11-21 00:59:42,719 Classification Precision 5: 69.710
+2022-11-21 00:59:42,719 Classification NDCG 5: 86.590
+2022-11-21 00:59:42,719 Valid Accuracy: 69.710
+2022-11-21 00:59:43,439 Classification Precision 1: 92.767
+2022-11-21 00:59:43,439 Classification NDCG 1: 92.767
+2022-11-21 00:59:44,237 Classification Precision 3: 85.168
+2022-11-21 00:59:44,237 Classification NDCG 3: 91.008
+2022-11-21 00:59:45,003 Classification Precision 5: 70.837
+2022-11-21 00:59:45,003 Classification NDCG 5: 87.726
+2022-11-21 00:59:45,004 Test Accuracy: 70.840
+2022-11-21 01:00:20,779 Epoch: 381 train_loss= 0.14382
+2022-11-21 01:00:22,587 Classification Precision 1: 94.196
+2022-11-21 01:00:22,587 Classification NDCG 1: 94.196
+2022-11-21 01:00:22,676 Classification Precision 3: 86.136
+2022-11-21 01:00:22,677 Classification NDCG 3: 92.652
+2022-11-21 01:00:22,768 Classification Precision 5: 71.875
+2022-11-21 01:00:22,769 Classification NDCG 5: 89.956
+2022-11-21 01:00:22,769 Train Accuracy: 71.870
+2022-11-21 01:00:22,858 Classification Precision 1: 90.632
+2022-11-21 01:00:22,858 Classification NDCG 1: 90.632
+2022-11-21 01:00:22,947 Classification Precision 3: 83.346
+2022-11-21 01:00:22,947 Classification NDCG 3: 89.685
+2022-11-21 01:00:23,038 Classification Precision 5: 69.874
+2022-11-21 01:00:23,038 Classification NDCG 5: 86.766
+2022-11-21 01:00:23,039 Valid Accuracy: 69.870
+2022-11-21 01:00:23,783 Classification Precision 1: 92.776
+2022-11-21 01:00:23,783 Classification NDCG 1: 92.776
+2022-11-21 01:00:24,497 Classification Precision 3: 85.242
+2022-11-21 01:00:24,497 Classification NDCG 3: 91.069
+2022-11-21 01:00:25,237 Classification Precision 5: 70.926
+2022-11-21 01:00:25,238 Classification NDCG 5: 87.810
+2022-11-21 01:00:25,239 Test Accuracy: 70.930
+2022-11-21 01:01:01,267 Epoch: 391 train_loss= 0.14239
+2022-11-21 01:01:03,143 Classification Precision 1: 94.420
+2022-11-21 01:01:03,144 Classification NDCG 1: 94.420
+2022-11-21 01:01:03,235 Classification Precision 3: 86.235
+2022-11-21 01:01:03,235 Classification NDCG 3: 92.788
+2022-11-21 01:01:03,326 Classification Precision 5: 72.128
+2022-11-21 01:01:03,326 Classification NDCG 5: 90.199
+2022-11-21 01:01:03,326 Train Accuracy: 72.130
+2022-11-21 01:01:03,416 Classification Precision 1: 90.632
+2022-11-21 01:01:03,416 Classification NDCG 1: 90.632
+2022-11-21 01:01:03,504 Classification Precision 3: 83.395
+2022-11-21 01:01:03,505 Classification NDCG 3: 89.725
+2022-11-21 01:01:03,595 Classification Precision 5: 70.052
+2022-11-21 01:01:03,595 Classification NDCG 5: 86.917
+2022-11-21 01:01:03,595 Valid Accuracy: 70.050
+2022-11-21 01:01:04,315 Classification Precision 1: 92.739
+2022-11-21 01:01:04,315 Classification NDCG 1: 92.739
+2022-11-21 01:01:05,025 Classification Precision 3: 85.323
+2022-11-21 01:01:05,025 Classification NDCG 3: 91.128
+2022-11-21 01:01:05,780 Classification Precision 5: 71.030
+2022-11-21 01:01:05,781 Classification NDCG 5: 87.904
+2022-11-21 01:01:05,781 Test Accuracy: 71.030
+2022-11-21 01:01:41,421 Epoch: 401 train_loss= 0.14101
+2022-11-21 01:01:43,237 Classification Precision 1: 94.420
+2022-11-21 01:01:43,238 Classification NDCG 1: 94.420
+2022-11-21 01:01:43,328 Classification Precision 3: 86.285
+2022-11-21 01:01:43,329 Classification NDCG 3: 92.856
+2022-11-21 01:01:43,421 Classification Precision 5: 72.321
+2022-11-21 01:01:43,421 Classification NDCG 5: 90.371
+2022-11-21 01:01:43,421 Train Accuracy: 72.320
+2022-11-21 01:01:43,514 Classification Precision 1: 90.632
+2022-11-21 01:01:43,515 Classification NDCG 1: 90.632
+2022-11-21 01:01:43,602 Classification Precision 3: 83.519
+2022-11-21 01:01:43,603 Classification NDCG 3: 89.864
+2022-11-21 01:01:43,694 Classification Precision 5: 70.216
+2022-11-21 01:01:43,694 Classification NDCG 5: 87.121
+2022-11-21 01:01:43,694 Valid Accuracy: 70.220
+2022-11-21 01:01:44,423 Classification Precision 1: 92.804
+2022-11-21 01:01:44,423 Classification NDCG 1: 92.804
+2022-11-21 01:01:45,143 Classification Precision 3: 85.360
+2022-11-21 01:01:45,143 Classification NDCG 3: 91.185
+2022-11-21 01:01:45,953 Classification Precision 5: 71.119
+2022-11-21 01:01:45,953 Classification NDCG 5: 88.015
+2022-11-21 01:01:45,954 Test Accuracy: 71.120
+2022-11-21 01:02:22,475 Epoch: 411 train_loss= 0.13968
+2022-11-21 01:02:24,324 Classification Precision 1: 94.420
+2022-11-21 01:02:24,324 Classification NDCG 1: 94.420
+2022-11-21 01:02:24,443 Classification Precision 3: 86.384
+2022-11-21 01:02:24,443 Classification NDCG 3: 92.945
+2022-11-21 01:02:24,536 Classification Precision 5: 72.381
+2022-11-21 01:02:24,536 Classification NDCG 5: 90.483
+2022-11-21 01:02:24,537 Train Accuracy: 72.380
+2022-11-21 01:02:24,643 Classification Precision 1: 90.706
+2022-11-21 01:02:24,643 Classification NDCG 1: 90.706
+2022-11-21 01:02:24,757 Classification Precision 3: 83.668
+2022-11-21 01:02:24,757 Classification NDCG 3: 90.025
+2022-11-21 01:02:24,868 Classification Precision 5: 70.290
+2022-11-21 01:02:24,868 Classification NDCG 5: 87.245
+2022-11-21 01:02:24,868 Valid Accuracy: 70.290
+2022-11-21 01:02:25,729 Classification Precision 1: 92.785
+2022-11-21 01:02:25,729 Classification NDCG 1: 92.785
+2022-11-21 01:02:26,516 Classification Precision 3: 85.450
+2022-11-21 01:02:26,516 Classification NDCG 3: 91.251
+2022-11-21 01:02:27,300 Classification Precision 5: 71.263
+2022-11-21 01:02:27,300 Classification NDCG 5: 88.123
+2022-11-21 01:02:27,301 Test Accuracy: 71.260
+2022-11-21 01:03:03,216 Epoch: 421 train_loss= 0.13835
+2022-11-21 01:03:05,068 Classification Precision 1: 94.568
+2022-11-21 01:03:05,069 Classification NDCG 1: 94.568
+2022-11-21 01:03:05,158 Classification Precision 3: 86.533
+2022-11-21 01:03:05,158 Classification NDCG 3: 93.138
+2022-11-21 01:03:05,252 Classification Precision 5: 72.693
+2022-11-21 01:03:05,252 Classification NDCG 5: 90.833
+2022-11-21 01:03:05,252 Train Accuracy: 72.690
+2022-11-21 01:03:05,344 Classification Precision 1: 90.781
+2022-11-21 01:03:05,344 Classification NDCG 1: 90.781
+2022-11-21 01:03:05,442 Classification Precision 3: 83.817
+2022-11-21 01:03:05,443 Classification NDCG 3: 90.206
+2022-11-21 01:03:05,544 Classification Precision 5: 70.483
+2022-11-21 01:03:05,545 Classification NDCG 5: 87.436
+2022-11-21 01:03:05,545 Valid Accuracy: 70.480
+2022-11-21 01:03:06,266 Classification Precision 1: 92.804
+2022-11-21 01:03:06,266 Classification NDCG 1: 92.804
+2022-11-21 01:03:06,988 Classification Precision 3: 85.540
+2022-11-21 01:03:06,989 Classification NDCG 3: 91.352
+2022-11-21 01:03:07,750 Classification Precision 5: 71.448
+2022-11-21 01:03:07,751 Classification NDCG 5: 88.340
+2022-11-21 01:03:07,752 Test Accuracy: 71.450
+2022-11-21 01:03:43,496 Epoch: 431 train_loss= 0.13707
+2022-11-21 01:03:45,351 Classification Precision 1: 94.717
+2022-11-21 01:03:45,351 Classification NDCG 1: 94.717
+2022-11-21 01:03:45,455 Classification Precision 3: 86.632
+2022-11-21 01:03:45,455 Classification NDCG 3: 93.276
+2022-11-21 01:03:45,551 Classification Precision 5: 72.902
+2022-11-21 01:03:45,551 Classification NDCG 5: 91.039
+2022-11-21 01:03:45,552 Train Accuracy: 72.900
+2022-11-21 01:03:45,646 Classification Precision 1: 90.855
+2022-11-21 01:03:45,646 Classification NDCG 1: 90.855
+2022-11-21 01:03:45,736 Classification Precision 3: 83.742
+2022-11-21 01:03:45,736 Classification NDCG 3: 90.146
+2022-11-21 01:03:45,832 Classification Precision 5: 70.602
+2022-11-21 01:03:45,832 Classification NDCG 5: 87.532
+2022-11-21 01:03:45,832 Valid Accuracy: 70.600
+2022-11-21 01:03:46,561 Classification Precision 1: 92.823
+2022-11-21 01:03:46,561 Classification NDCG 1: 92.823
+2022-11-21 01:03:47,274 Classification Precision 3: 85.589
+2022-11-21 01:03:47,275 Classification NDCG 3: 91.387
+2022-11-21 01:03:48,028 Classification Precision 5: 71.575
+2022-11-21 01:03:48,028 Classification NDCG 5: 88.428
+2022-11-21 01:03:48,029 Test Accuracy: 71.570
+2022-11-21 01:04:23,838 Epoch: 441 train_loss= 0.13584
+2022-11-21 01:04:25,689 Classification Precision 1: 94.717
+2022-11-21 01:04:25,689 Classification NDCG 1: 94.717
+2022-11-21 01:04:25,777 Classification Precision 3: 86.781
+2022-11-21 01:04:25,777 Classification NDCG 3: 93.464
+2022-11-21 01:04:25,868 Classification Precision 5: 73.095
+2022-11-21 01:04:25,868 Classification NDCG 5: 91.253
+2022-11-21 01:04:25,869 Train Accuracy: 73.100
+2022-11-21 01:04:25,958 Classification Precision 1: 90.855
+2022-11-21 01:04:25,958 Classification NDCG 1: 90.855
+2022-11-21 01:04:26,047 Classification Precision 3: 83.866
+2022-11-21 01:04:26,047 Classification NDCG 3: 90.306
+2022-11-21 01:04:26,148 Classification Precision 5: 70.796
+2022-11-21 01:04:26,148 Classification NDCG 5: 87.738
+2022-11-21 01:04:26,148 Valid Accuracy: 70.800
+2022-11-21 01:04:26,899 Classification Precision 1: 92.832
+2022-11-21 01:04:26,900 Classification NDCG 1: 92.832
+2022-11-21 01:04:27,633 Classification Precision 3: 85.692
+2022-11-21 01:04:27,633 Classification NDCG 3: 91.498
+2022-11-21 01:04:28,368 Classification Precision 5: 71.792
+2022-11-21 01:04:28,369 Classification NDCG 5: 88.623
+2022-11-21 01:04:28,370 Test Accuracy: 71.790
+2022-11-21 01:05:04,171 Epoch: 451 train_loss= 0.13462
+2022-11-21 01:05:06,015 Classification Precision 1: 94.866
+2022-11-21 01:05:06,015 Classification NDCG 1: 94.866
+2022-11-21 01:05:06,141 Classification Precision 3: 86.781
+2022-11-21 01:05:06,141 Classification NDCG 3: 93.562
+2022-11-21 01:05:06,244 Classification Precision 5: 73.333
+2022-11-21 01:05:06,244 Classification NDCG 5: 91.512
+2022-11-21 01:05:06,245 Train Accuracy: 73.330
+2022-11-21 01:05:06,336 Classification Precision 1: 90.781
+2022-11-21 01:05:06,336 Classification NDCG 1: 90.781
+2022-11-21 01:05:06,429 Classification Precision 3: 83.990
+2022-11-21 01:05:06,429 Classification NDCG 3: 90.393
+2022-11-21 01:05:06,553 Classification Precision 5: 70.974
+2022-11-21 01:05:06,554 Classification NDCG 5: 87.827
+2022-11-21 01:05:06,554 Valid Accuracy: 70.970
+2022-11-21 01:05:07,367 Classification Precision 1: 92.869
+2022-11-21 01:05:07,367 Classification NDCG 1: 92.869
+2022-11-21 01:05:08,186 Classification Precision 3: 85.747
+2022-11-21 01:05:08,187 Classification NDCG 3: 91.569
+2022-11-21 01:05:09,005 Classification Precision 5: 71.947
+2022-11-21 01:05:09,005 Classification NDCG 5: 88.753
+2022-11-21 01:05:09,006 Test Accuracy: 71.950
+2022-11-21 01:05:44,722 Epoch: 461 train_loss= 0.13346
+2022-11-21 01:05:46,576 Classification Precision 1: 94.792
+2022-11-21 01:05:46,577 Classification NDCG 1: 94.792
+2022-11-21 01:05:46,702 Classification Precision 3: 86.756
+2022-11-21 01:05:46,703 Classification NDCG 3: 93.484
+2022-11-21 01:05:46,799 Classification Precision 5: 73.512
+2022-11-21 01:05:46,800 Classification NDCG 5: 91.612
+2022-11-21 01:05:46,800 Train Accuracy: 73.510
+2022-11-21 01:05:46,891 Classification Precision 1: 90.929
+2022-11-21 01:05:46,891 Classification NDCG 1: 90.929
+2022-11-21 01:05:46,982 Classification Precision 3: 83.965
+2022-11-21 01:05:46,983 Classification NDCG 3: 90.415
+2022-11-21 01:05:47,076 Classification Precision 5: 71.004
+2022-11-21 01:05:47,076 Classification NDCG 5: 87.926
+2022-11-21 01:05:47,076 Valid Accuracy: 71.000
+2022-11-21 01:05:47,867 Classification Precision 1: 92.832
+2022-11-21 01:05:47,867 Classification NDCG 1: 92.832
+2022-11-21 01:05:48,698 Classification Precision 3: 85.763
+2022-11-21 01:05:48,698 Classification NDCG 3: 91.579
+2022-11-21 01:05:49,512 Classification Precision 5: 72.101
+2022-11-21 01:05:49,512 Classification NDCG 5: 88.856
+2022-11-21 01:05:49,513 Test Accuracy: 72.100
+2022-11-21 01:06:25,158 Epoch: 471 train_loss= 0.13229
+2022-11-21 01:06:27,034 Classification Precision 1: 94.866
+2022-11-21 01:06:27,034 Classification NDCG 1: 94.866
+2022-11-21 01:06:27,138 Classification Precision 3: 86.954
+2022-11-21 01:06:27,139 Classification NDCG 3: 93.745
+2022-11-21 01:06:27,240 Classification Precision 5: 73.765
+2022-11-21 01:06:27,240 Classification NDCG 5: 91.940
+2022-11-21 01:06:27,240 Train Accuracy: 73.760
+2022-11-21 01:06:27,339 Classification Precision 1: 90.929
+2022-11-21 01:06:27,339 Classification NDCG 1: 90.929
+2022-11-21 01:06:27,434 Classification Precision 3: 84.040
+2022-11-21 01:06:27,435 Classification NDCG 3: 90.492
+2022-11-21 01:06:27,527 Classification Precision 5: 71.242
+2022-11-21 01:06:27,528 Classification NDCG 5: 88.090
+2022-11-21 01:06:27,528 Valid Accuracy: 71.240
+2022-11-21 01:06:28,383 Classification Precision 1: 92.851
+2022-11-21 01:06:28,384 Classification NDCG 1: 92.851
+2022-11-21 01:06:29,234 Classification Precision 3: 85.859
+2022-11-21 01:06:29,234 Classification NDCG 3: 91.692
+2022-11-21 01:06:30,085 Classification Precision 5: 72.254
+2022-11-21 01:06:30,085 Classification NDCG 5: 89.004
+2022-11-21 01:06:30,086 Test Accuracy: 72.250
+2022-11-21 01:07:06,176 Epoch: 481 train_loss= 0.13115
+2022-11-21 01:07:08,197 Classification Precision 1: 94.866
+2022-11-21 01:07:08,197 Classification NDCG 1: 94.866
+2022-11-21 01:07:08,315 Classification Precision 3: 87.029
+2022-11-21 01:07:08,315 Classification NDCG 3: 93.842
+2022-11-21 01:07:08,416 Classification Precision 5: 74.048
+2022-11-21 01:07:08,417 Classification NDCG 5: 92.148
+2022-11-21 01:07:08,417 Train Accuracy: 74.050
+2022-11-21 01:07:08,521 Classification Precision 1: 90.929
+2022-11-21 01:07:08,521 Classification NDCG 1: 90.929
+2022-11-21 01:07:08,620 Classification Precision 3: 84.114
+2022-11-21 01:07:08,621 Classification NDCG 3: 90.611
+2022-11-21 01:07:08,722 Classification Precision 5: 71.524
+2022-11-21 01:07:08,722 Classification NDCG 5: 88.344
+2022-11-21 01:07:08,722 Valid Accuracy: 71.520
+2022-11-21 01:07:09,490 Classification Precision 1: 92.841
+2022-11-21 01:07:09,491 Classification NDCG 1: 92.841
+2022-11-21 01:07:10,236 Classification Precision 3: 85.921
+2022-11-21 01:07:10,237 Classification NDCG 3: 91.756
+2022-11-21 01:07:11,116 Classification Precision 5: 72.406
+2022-11-21 01:07:11,116 Classification NDCG 5: 89.138
+2022-11-21 01:07:11,117 Test Accuracy: 72.410
+2022-11-21 01:07:46,926 Epoch: 491 train_loss= 0.13005
+2022-11-21 01:07:48,761 Classification Precision 1: 94.940
+2022-11-21 01:07:48,761 Classification NDCG 1: 94.940
+2022-11-21 01:07:48,850 Classification Precision 3: 87.029
+2022-11-21 01:07:48,850 Classification NDCG 3: 93.861
+2022-11-21 01:07:48,943 Classification Precision 5: 74.271
+2022-11-21 01:07:48,943 Classification NDCG 5: 92.356
+2022-11-21 01:07:48,943 Train Accuracy: 74.270
+2022-11-21 01:07:49,035 Classification Precision 1: 90.929
+2022-11-21 01:07:49,035 Classification NDCG 1: 90.929
+2022-11-21 01:07:49,128 Classification Precision 3: 84.238
+2022-11-21 01:07:49,129 Classification NDCG 3: 90.711
+2022-11-21 01:07:49,223 Classification Precision 5: 71.628
+2022-11-21 01:07:49,223 Classification NDCG 5: 88.458
+2022-11-21 01:07:49,224 Valid Accuracy: 71.630
+2022-11-21 01:07:49,992 Classification Precision 1: 92.851
+2022-11-21 01:07:49,993 Classification NDCG 1: 92.851
+2022-11-21 01:07:50,833 Classification Precision 3: 85.937
+2022-11-21 01:07:50,833 Classification NDCG 3: 91.764
+2022-11-21 01:07:51,655 Classification Precision 5: 72.536
+2022-11-21 01:07:51,655 Classification NDCG 5: 89.239
+2022-11-21 01:07:51,656 Test Accuracy: 72.540
+2022-11-21 01:08:27,457 Epoch: 501 train_loss= 0.12898
+2022-11-21 01:08:29,319 Classification Precision 1: 95.238
+2022-11-21 01:08:29,320 Classification NDCG 1: 95.238
+2022-11-21 01:08:29,420 Classification Precision 3: 87.103
+2022-11-21 01:08:29,420 Classification NDCG 3: 94.051
+2022-11-21 01:08:29,541 Classification Precision 5: 74.330
+2022-11-21 01:08:29,542 Classification NDCG 5: 92.517
+2022-11-21 01:08:29,542 Train Accuracy: 74.330
+2022-11-21 01:08:29,654 Classification Precision 1: 91.004
+2022-11-21 01:08:29,654 Classification NDCG 1: 91.004
+2022-11-21 01:08:29,756 Classification Precision 3: 84.312
+2022-11-21 01:08:29,756 Classification NDCG 3: 90.831
+2022-11-21 01:08:29,847 Classification Precision 5: 71.703
+2022-11-21 01:08:29,848 Classification NDCG 5: 88.597
+2022-11-21 01:08:29,848 Valid Accuracy: 71.700
+2022-11-21 01:08:30,653 Classification Precision 1: 92.962
+2022-11-21 01:08:30,653 Classification NDCG 1: 92.962
+2022-11-21 01:08:31,428 Classification Precision 3: 86.045
+2022-11-21 01:08:31,429 Classification NDCG 3: 91.914
+2022-11-21 01:08:32,286 Classification Precision 5: 72.633
+2022-11-21 01:08:32,287 Classification NDCG 5: 89.364
+2022-11-21 01:08:32,288 Test Accuracy: 72.630
+2022-11-21 01:09:08,117 Epoch: 511 train_loss= 0.12792
+2022-11-21 01:09:10,014 Classification Precision 1: 95.238
+2022-11-21 01:09:10,015 Classification NDCG 1: 95.238
+2022-11-21 01:09:10,165 Classification Precision 3: 87.202
+2022-11-21 01:09:10,165 Classification NDCG 3: 94.169
+2022-11-21 01:09:10,268 Classification Precision 5: 74.509
+2022-11-21 01:09:10,268 Classification NDCG 5: 92.693
+2022-11-21 01:09:10,268 Train Accuracy: 74.510
+2022-11-21 01:09:10,373 Classification Precision 1: 90.929
+2022-11-21 01:09:10,374 Classification NDCG 1: 90.929
+2022-11-21 01:09:10,481 Classification Precision 3: 84.362
+2022-11-21 01:09:10,481 Classification NDCG 3: 90.867
+2022-11-21 01:09:10,603 Classification Precision 5: 71.851
+2022-11-21 01:09:10,603 Classification NDCG 5: 88.691
+2022-11-21 01:09:10,603 Valid Accuracy: 71.850
+2022-11-21 01:09:11,399 Classification Precision 1: 93.009
+2022-11-21 01:09:11,399 Classification NDCG 1: 93.009
+2022-11-21 01:09:12,201 Classification Precision 3: 86.122
+2022-11-21 01:09:12,202 Classification NDCG 3: 92.013
+2022-11-21 01:09:13,069 Classification Precision 5: 72.752
+2022-11-21 01:09:13,069 Classification NDCG 5: 89.478
+2022-11-21 01:09:13,070 Test Accuracy: 72.750
+2022-11-21 01:09:48,873 Epoch: 521 train_loss= 0.12689
+2022-11-21 01:09:50,703 Classification Precision 1: 95.536
+2022-11-21 01:09:50,704 Classification NDCG 1: 95.536
+2022-11-21 01:09:50,792 Classification Precision 3: 87.326
+2022-11-21 01:09:50,792 Classification NDCG 3: 94.352
+2022-11-21 01:09:50,886 Classification Precision 5: 74.643
+2022-11-21 01:09:50,887 Classification NDCG 5: 92.909
+2022-11-21 01:09:50,887 Train Accuracy: 74.640
+2022-11-21 01:09:50,977 Classification Precision 1: 91.227
+2022-11-21 01:09:50,977 Classification NDCG 1: 91.227
+2022-11-21 01:09:51,065 Classification Precision 3: 84.461
+2022-11-21 01:09:51,065 Classification NDCG 3: 91.026
+2022-11-21 01:09:51,157 Classification Precision 5: 71.985
+2022-11-21 01:09:51,157 Classification NDCG 5: 88.873
+2022-11-21 01:09:51,157 Valid Accuracy: 71.990
+2022-11-21 01:09:51,889 Classification Precision 1: 93.092
+2022-11-21 01:09:51,889 Classification NDCG 1: 93.092
+2022-11-21 01:09:52,611 Classification Precision 3: 86.160
+2022-11-21 01:09:52,611 Classification NDCG 3: 92.081
+2022-11-21 01:09:53,348 Classification Precision 5: 72.841
+2022-11-21 01:09:53,349 Classification NDCG 5: 89.578
+2022-11-21 01:09:53,350 Test Accuracy: 72.840
+2022-11-21 01:10:29,084 Epoch: 531 train_loss= 0.12586
+2022-11-21 01:10:30,921 Classification Precision 1: 95.610
+2022-11-21 01:10:30,922 Classification NDCG 1: 95.610
+2022-11-21 01:10:31,045 Classification Precision 3: 87.376
+2022-11-21 01:10:31,045 Classification NDCG 3: 94.409
+2022-11-21 01:10:31,146 Classification Precision 5: 74.717
+2022-11-21 01:10:31,147 Classification NDCG 5: 92.986
+2022-11-21 01:10:31,147 Train Accuracy: 74.720
+2022-11-21 01:10:31,240 Classification Precision 1: 91.301
+2022-11-21 01:10:31,241 Classification NDCG 1: 91.301
+2022-11-21 01:10:31,332 Classification Precision 3: 84.486
+2022-11-21 01:10:31,332 Classification NDCG 3: 91.065
+2022-11-21 01:10:31,437 Classification Precision 5: 72.074
+2022-11-21 01:10:31,438 Classification NDCG 5: 89.024
+2022-11-21 01:10:31,438 Valid Accuracy: 72.070
+2022-11-21 01:10:32,159 Classification Precision 1: 93.157
+2022-11-21 01:10:32,160 Classification NDCG 1: 93.157
+2022-11-21 01:10:32,890 Classification Precision 3: 86.191
+2022-11-21 01:10:32,890 Classification NDCG 3: 92.121
+2022-11-21 01:10:33,658 Classification Precision 5: 72.964
+2022-11-21 01:10:33,658 Classification NDCG 5: 89.705
+2022-11-21 01:10:33,659 Test Accuracy: 72.960
+2022-11-21 01:11:09,551 Epoch: 541 train_loss= 0.12488
+2022-11-21 01:11:11,405 Classification Precision 1: 95.685
+2022-11-21 01:11:11,406 Classification NDCG 1: 95.685
+2022-11-21 01:11:11,494 Classification Precision 3: 87.426
+2022-11-21 01:11:11,495 Classification NDCG 3: 94.472
+2022-11-21 01:11:11,586 Classification Precision 5: 74.821
+2022-11-21 01:11:11,586 Classification NDCG 5: 93.106
+2022-11-21 01:11:11,586 Train Accuracy: 74.820
+2022-11-21 01:11:11,676 Classification Precision 1: 91.375
+2022-11-21 01:11:11,676 Classification NDCG 1: 91.375
+2022-11-21 01:11:11,764 Classification Precision 3: 84.610
+2022-11-21 01:11:11,765 Classification NDCG 3: 91.183
+2022-11-21 01:11:11,856 Classification Precision 5: 72.119
+2022-11-21 01:11:11,856 Classification NDCG 5: 89.078
+2022-11-21 01:11:11,856 Valid Accuracy: 72.120
+2022-11-21 01:11:12,569 Classification Precision 1: 93.213
+2022-11-21 01:11:12,569 Classification NDCG 1: 93.213
+2022-11-21 01:11:13,288 Classification Precision 3: 86.265
+2022-11-21 01:11:13,288 Classification NDCG 3: 92.203
+2022-11-21 01:11:14,068 Classification Precision 5: 73.029
+2022-11-21 01:11:14,068 Classification NDCG 5: 89.779
+2022-11-21 01:11:14,070 Test Accuracy: 73.030
+2022-11-21 01:11:50,051 Epoch: 551 train_loss= 0.12392
+2022-11-21 01:11:51,898 Classification Precision 1: 95.908
+2022-11-21 01:11:51,898 Classification NDCG 1: 95.908
+2022-11-21 01:11:52,029 Classification Precision 3: 87.450
+2022-11-21 01:11:52,029 Classification NDCG 3: 94.568
+2022-11-21 01:11:52,122 Classification Precision 5: 74.926
+2022-11-21 01:11:52,122 Classification NDCG 5: 93.262
+2022-11-21 01:11:52,123 Train Accuracy: 74.930
+2022-11-21 01:11:52,217 Classification Precision 1: 91.673
+2022-11-21 01:11:52,217 Classification NDCG 1: 91.673
+2022-11-21 01:11:52,310 Classification Precision 3: 84.634
+2022-11-21 01:11:52,311 Classification NDCG 3: 91.276
+2022-11-21 01:11:52,409 Classification Precision 5: 72.208
+2022-11-21 01:11:52,409 Classification NDCG 5: 89.230
+2022-11-21 01:11:52,409 Valid Accuracy: 72.210
+2022-11-21 01:11:53,123 Classification Precision 1: 93.297
+2022-11-21 01:11:53,123 Classification NDCG 1: 93.297
+2022-11-21 01:11:53,860 Classification Precision 3: 86.287
+2022-11-21 01:11:53,860 Classification NDCG 3: 92.248
+2022-11-21 01:11:54,612 Classification Precision 5: 73.180
+2022-11-21 01:11:54,613 Classification NDCG 5: 89.927
+2022-11-21 01:11:54,614 Test Accuracy: 73.180
+2022-11-21 01:12:30,999 Epoch: 561 train_loss= 0.12297
+2022-11-21 01:12:32,874 Classification Precision 1: 96.205
+2022-11-21 01:12:32,874 Classification NDCG 1: 96.205
+2022-11-21 01:12:32,964 Classification Precision 3: 87.574
+2022-11-21 01:12:32,964 Classification NDCG 3: 94.775
+2022-11-21 01:12:33,056 Classification Precision 5: 75.015
+2022-11-21 01:12:33,056 Classification NDCG 5: 93.459
+2022-11-21 01:12:33,056 Train Accuracy: 75.010
+2022-11-21 01:12:33,146 Classification Precision 1: 91.747
+2022-11-21 01:12:33,147 Classification NDCG 1: 91.747
+2022-11-21 01:12:33,237 Classification Precision 3: 84.758
+2022-11-21 01:12:33,237 Classification NDCG 3: 91.391
+2022-11-21 01:12:33,330 Classification Precision 5: 72.283
+2022-11-21 01:12:33,331 Classification NDCG 5: 89.327
+2022-11-21 01:12:33,331 Valid Accuracy: 72.280
+2022-11-21 01:12:34,070 Classification Precision 1: 93.399
+2022-11-21 01:12:34,070 Classification NDCG 1: 93.399
+2022-11-21 01:12:34,784 Classification Precision 3: 86.361
+2022-11-21 01:12:34,784 Classification NDCG 3: 92.358
+2022-11-21 01:12:35,526 Classification Precision 5: 73.260
+2022-11-21 01:12:35,527 Classification NDCG 5: 90.036
+2022-11-21 01:12:35,528 Test Accuracy: 73.260
+2022-11-21 01:13:11,391 Epoch: 571 train_loss= 0.12203
+2022-11-21 01:13:13,234 Classification Precision 1: 96.354
+2022-11-21 01:13:13,234 Classification NDCG 1: 96.354
+2022-11-21 01:13:13,324 Classification Precision 3: 87.624
+2022-11-21 01:13:13,324 Classification NDCG 3: 94.868
+2022-11-21 01:13:13,419 Classification Precision 5: 75.119
+2022-11-21 01:13:13,420 Classification NDCG 5: 93.606
+2022-11-21 01:13:13,420 Train Accuracy: 75.120
+2022-11-21 01:13:13,510 Classification Precision 1: 91.822
+2022-11-21 01:13:13,511 Classification NDCG 1: 91.822
+2022-11-21 01:13:13,598 Classification Precision 3: 84.783
+2022-11-21 01:13:13,599 Classification NDCG 3: 91.441
+2022-11-21 01:13:13,690 Classification Precision 5: 72.387
+2022-11-21 01:13:13,690 Classification NDCG 5: 89.428
+2022-11-21 01:13:13,690 Valid Accuracy: 72.390
+2022-11-21 01:13:14,418 Classification Precision 1: 93.446
+2022-11-21 01:13:14,418 Classification NDCG 1: 93.446
+2022-11-21 01:13:15,157 Classification Precision 3: 86.373
+2022-11-21 01:13:15,158 Classification NDCG 3: 92.371
+2022-11-21 01:13:15,889 Classification Precision 5: 73.343
+2022-11-21 01:13:15,890 Classification NDCG 5: 90.110
+2022-11-21 01:13:15,891 Test Accuracy: 73.340
+2022-11-21 01:13:51,497 Epoch: 581 train_loss= 0.12111
+2022-11-21 01:13:53,331 Classification Precision 1: 96.354
+2022-11-21 01:13:53,331 Classification NDCG 1: 96.354
+2022-11-21 01:13:53,463 Classification Precision 3: 87.748
+2022-11-21 01:13:53,464 Classification NDCG 3: 94.985
+2022-11-21 01:13:53,580 Classification Precision 5: 75.223
+2022-11-21 01:13:53,580 Classification NDCG 5: 93.730
+2022-11-21 01:13:53,580 Train Accuracy: 75.220
+2022-11-21 01:13:53,678 Classification Precision 1: 91.822
+2022-11-21 01:13:53,678 Classification NDCG 1: 91.822
+2022-11-21 01:13:53,772 Classification Precision 3: 84.808
+2022-11-21 01:13:53,772 Classification NDCG 3: 91.479
+2022-11-21 01:13:53,867 Classification Precision 5: 72.416
+2022-11-21 01:13:53,867 Classification NDCG 5: 89.479
+2022-11-21 01:13:53,867 Valid Accuracy: 72.420
+2022-11-21 01:13:54,662 Classification Precision 1: 93.492
+2022-11-21 01:13:54,662 Classification NDCG 1: 93.492
+2022-11-21 01:13:55,495 Classification Precision 3: 86.420
+2022-11-21 01:13:55,495 Classification NDCG 3: 92.437
+2022-11-21 01:13:56,281 Classification Precision 5: 73.440
+2022-11-21 01:13:56,282 Classification NDCG 5: 90.224
+2022-11-21 01:13:56,282 Test Accuracy: 73.440
+2022-11-21 01:14:32,007 Epoch: 591 train_loss= 0.12022
+2022-11-21 01:14:33,857 Classification Precision 1: 96.429
+2022-11-21 01:14:33,857 Classification NDCG 1: 96.429
+2022-11-21 01:14:33,948 Classification Precision 3: 87.847
+2022-11-21 01:14:33,948 Classification NDCG 3: 95.078
+2022-11-21 01:14:34,040 Classification Precision 5: 75.312
+2022-11-21 01:14:34,040 Classification NDCG 5: 93.826
+2022-11-21 01:14:34,040 Train Accuracy: 75.310
+2022-11-21 01:14:34,131 Classification Precision 1: 91.896
+2022-11-21 01:14:34,131 Classification NDCG 1: 91.896
+2022-11-21 01:14:34,220 Classification Precision 3: 84.857
+2022-11-21 01:14:34,221 Classification NDCG 3: 91.542
+2022-11-21 01:14:34,312 Classification Precision 5: 72.416
+2022-11-21 01:14:34,312 Classification NDCG 5: 89.520
+2022-11-21 01:14:34,313 Valid Accuracy: 72.420
+2022-11-21 01:14:34,313 Test Accuracy: 73.440
+2022-11-21 01:15:10,277 Epoch: 601 train_loss= 0.11935
+2022-11-21 01:15:12,218 Classification Precision 1: 96.429
+2022-11-21 01:15:12,218 Classification NDCG 1: 96.429
+2022-11-21 01:15:12,326 Classification Precision 3: 87.872
+2022-11-21 01:15:12,326 Classification NDCG 3: 95.115
+2022-11-21 01:15:12,420 Classification Precision 5: 75.372
+2022-11-21 01:15:12,420 Classification NDCG 5: 93.906
+2022-11-21 01:15:12,420 Train Accuracy: 75.370
+2022-11-21 01:15:12,509 Classification Precision 1: 92.268
+2022-11-21 01:15:12,510 Classification NDCG 1: 92.268
+2022-11-21 01:15:12,601 Classification Precision 3: 84.857
+2022-11-21 01:15:12,601 Classification NDCG 3: 91.640
+2022-11-21 01:15:12,693 Classification Precision 5: 72.491
+2022-11-21 01:15:12,693 Classification NDCG 5: 89.707
+2022-11-21 01:15:12,693 Valid Accuracy: 72.490
+2022-11-21 01:15:13,407 Classification Precision 1: 93.557
+2022-11-21 01:15:13,407 Classification NDCG 1: 93.557
+2022-11-21 01:15:14,132 Classification Precision 3: 86.466
+2022-11-21 01:15:14,132 Classification NDCG 3: 92.487
+2022-11-21 01:15:14,904 Classification Precision 5: 73.529
+2022-11-21 01:15:14,904 Classification NDCG 5: 90.316
+2022-11-21 01:15:14,905 Test Accuracy: 73.530
+2022-11-21 01:15:50,654 Epoch: 611 train_loss= 0.11848
+2022-11-21 01:15:52,502 Classification Precision 1: 96.577
+2022-11-21 01:15:52,503 Classification NDCG 1: 96.577
+2022-11-21 01:15:52,604 Classification Precision 3: 87.897
+2022-11-21 01:15:52,604 Classification NDCG 3: 95.198
+2022-11-21 01:15:52,696 Classification Precision 5: 75.446
+2022-11-21 01:15:52,697 Classification NDCG 5: 94.039
+2022-11-21 01:15:52,697 Train Accuracy: 75.450
+2022-11-21 01:15:52,802 Classification Precision 1: 92.491
+2022-11-21 01:15:52,802 Classification NDCG 1: 92.491
+2022-11-21 01:15:52,901 Classification Precision 3: 84.957
+2022-11-21 01:15:52,901 Classification NDCG 3: 91.793
+2022-11-21 01:15:52,992 Classification Precision 5: 72.476
+2022-11-21 01:15:52,992 Classification NDCG 5: 89.780
+2022-11-21 01:15:52,992 Valid Accuracy: 72.480
+2022-11-21 01:15:52,992 Test Accuracy: 73.530
+2022-11-21 01:16:28,980 Epoch: 621 train_loss= 0.11763
+2022-11-21 01:16:30,898 Classification Precision 1: 96.577
+2022-11-21 01:16:30,898 Classification NDCG 1: 96.577
+2022-11-21 01:16:31,002 Classification Precision 3: 87.946
+2022-11-21 01:16:31,002 Classification NDCG 3: 95.267
+2022-11-21 01:16:31,100 Classification Precision 5: 75.551
+2022-11-21 01:16:31,100 Classification NDCG 5: 94.176
+2022-11-21 01:16:31,100 Train Accuracy: 75.550
+2022-11-21 01:16:31,197 Classification Precision 1: 92.416
+2022-11-21 01:16:31,197 Classification NDCG 1: 92.416
+2022-11-21 01:16:31,295 Classification Precision 3: 84.907
+2022-11-21 01:16:31,296 Classification NDCG 3: 91.781
+2022-11-21 01:16:31,405 Classification Precision 5: 72.550
+2022-11-21 01:16:31,405 Classification NDCG 5: 89.880
+2022-11-21 01:16:31,406 Valid Accuracy: 72.550
+2022-11-21 01:16:32,115 Classification Precision 1: 93.734
+2022-11-21 01:16:32,116 Classification NDCG 1: 93.734
+2022-11-21 01:16:32,835 Classification Precision 3: 86.575
+2022-11-21 01:16:32,835 Classification NDCG 3: 92.656
+2022-11-21 01:16:33,580 Classification Precision 5: 73.605
+2022-11-21 01:16:33,580 Classification NDCG 5: 90.477
+2022-11-21 01:16:33,581 Test Accuracy: 73.610
+2022-11-21 01:17:09,821 Epoch: 631 train_loss= 0.11682
+2022-11-21 01:17:11,670 Classification Precision 1: 96.652
+2022-11-21 01:17:11,671 Classification NDCG 1: 96.652
+2022-11-21 01:17:11,768 Classification Precision 3: 88.021
+2022-11-21 01:17:11,769 Classification NDCG 3: 95.369
+2022-11-21 01:17:11,878 Classification Precision 5: 75.610
+2022-11-21 01:17:11,879 Classification NDCG 5: 94.275
+2022-11-21 01:17:11,879 Train Accuracy: 75.610
+2022-11-21 01:17:11,969 Classification Precision 1: 92.565
+2022-11-21 01:17:11,969 Classification NDCG 1: 92.565
+2022-11-21 01:17:12,058 Classification Precision 3: 84.932
+2022-11-21 01:17:12,058 Classification NDCG 3: 91.873
+2022-11-21 01:17:12,150 Classification Precision 5: 72.580
+2022-11-21 01:17:12,150 Classification NDCG 5: 89.973
+2022-11-21 01:17:12,151 Valid Accuracy: 72.580
+2022-11-21 01:17:12,974 Classification Precision 1: 93.771
+2022-11-21 01:17:12,975 Classification NDCG 1: 93.771
+2022-11-21 01:17:13,823 Classification Precision 3: 86.628
+2022-11-21 01:17:13,823 Classification NDCG 3: 92.727
+2022-11-21 01:17:14,611 Classification Precision 5: 73.635
+2022-11-21 01:17:14,612 Classification NDCG 5: 90.524
+2022-11-21 01:17:14,613 Test Accuracy: 73.640
+2022-11-21 01:17:51,913 Epoch: 641 train_loss= 0.11599
+2022-11-21 01:17:53,832 Classification Precision 1: 96.875
+2022-11-21 01:17:53,833 Classification NDCG 1: 96.875
+2022-11-21 01:17:53,922 Classification Precision 3: 88.070
+2022-11-21 01:17:53,922 Classification NDCG 3: 95.467
+2022-11-21 01:17:54,014 Classification Precision 5: 75.714
+2022-11-21 01:17:54,014 Classification NDCG 5: 94.423
+2022-11-21 01:17:54,014 Train Accuracy: 75.710
+2022-11-21 01:17:54,105 Classification Precision 1: 92.639
+2022-11-21 01:17:54,105 Classification NDCG 1: 92.639
+2022-11-21 01:17:54,201 Classification Precision 3: 85.006
+2022-11-21 01:17:54,201 Classification NDCG 3: 91.988
+2022-11-21 01:17:54,297 Classification Precision 5: 72.625
+2022-11-21 01:17:54,297 Classification NDCG 5: 90.056
+2022-11-21 01:17:54,298 Valid Accuracy: 72.620
+2022-11-21 01:17:55,046 Classification Precision 1: 93.864
+2022-11-21 01:17:55,046 Classification NDCG 1: 93.864
+2022-11-21 01:17:55,832 Classification Precision 3: 86.637
+2022-11-21 01:17:55,833 Classification NDCG 3: 92.753
+2022-11-21 01:17:56,580 Classification Precision 5: 73.667
+2022-11-21 01:17:56,580 Classification NDCG 5: 90.569
+2022-11-21 01:17:56,581 Test Accuracy: 73.670
+2022-11-21 01:18:32,687 Epoch: 651 train_loss= 0.11519
+2022-11-21 01:18:34,537 Classification Precision 1: 96.875
+2022-11-21 01:18:34,537 Classification NDCG 1: 96.875
+2022-11-21 01:18:34,626 Classification Precision 3: 88.145
+2022-11-21 01:18:34,627 Classification NDCG 3: 95.539
+2022-11-21 01:18:34,736 Classification Precision 5: 75.729
+2022-11-21 01:18:34,736 Classification NDCG 5: 94.463
+2022-11-21 01:18:34,737 Train Accuracy: 75.730
+2022-11-21 01:18:34,827 Classification Precision 1: 92.714
+2022-11-21 01:18:34,827 Classification NDCG 1: 92.714
+2022-11-21 01:18:34,917 Classification Precision 3: 85.031
+2022-11-21 01:18:34,917 Classification NDCG 3: 92.017
+2022-11-21 01:18:35,012 Classification Precision 5: 72.639
+2022-11-21 01:18:35,012 Classification NDCG 5: 90.095
+2022-11-21 01:18:35,013 Valid Accuracy: 72.640
+2022-11-21 01:18:35,746 Classification Precision 1: 93.873
+2022-11-21 01:18:35,746 Classification NDCG 1: 93.873
+2022-11-21 01:18:36,459 Classification Precision 3: 86.677
+2022-11-21 01:18:36,459 Classification NDCG 3: 92.801
+2022-11-21 01:18:37,212 Classification Precision 5: 73.713
+2022-11-21 01:18:37,212 Classification NDCG 5: 90.627
+2022-11-21 01:18:37,213 Test Accuracy: 73.710
+2022-11-21 01:19:12,835 Epoch: 661 train_loss= 0.11441
+2022-11-21 01:19:14,683 Classification Precision 1: 96.875
+2022-11-21 01:19:14,683 Classification NDCG 1: 96.875
+2022-11-21 01:19:14,802 Classification Precision 3: 88.194
+2022-11-21 01:19:14,802 Classification NDCG 3: 95.621
+2022-11-21 01:19:14,922 Classification Precision 5: 75.804
+2022-11-21 01:19:14,923 Classification NDCG 5: 94.578
+2022-11-21 01:19:14,923 Train Accuracy: 75.800
+2022-11-21 01:19:15,039 Classification Precision 1: 92.862
+2022-11-21 01:19:15,039 Classification NDCG 1: 92.862
+2022-11-21 01:19:15,137 Classification Precision 3: 85.031
+2022-11-21 01:19:15,137 Classification NDCG 3: 92.053
+2022-11-21 01:19:15,232 Classification Precision 5: 72.654
+2022-11-21 01:19:15,232 Classification NDCG 5: 90.155
+2022-11-21 01:19:15,232 Valid Accuracy: 72.650
+2022-11-21 01:19:16,040 Classification Precision 1: 93.910
+2022-11-21 01:19:16,041 Classification NDCG 1: 93.910
+2022-11-21 01:19:16,787 Classification Precision 3: 86.727
+2022-11-21 01:19:16,788 Classification NDCG 3: 92.864
+2022-11-21 01:19:17,557 Classification Precision 5: 73.726
+2022-11-21 01:19:17,558 Classification NDCG 5: 90.668
+2022-11-21 01:19:17,559 Test Accuracy: 73.730
+2022-11-21 01:19:53,309 Epoch: 671 train_loss= 0.11364
+2022-11-21 01:19:55,174 Classification Precision 1: 96.949
+2022-11-21 01:19:55,175 Classification NDCG 1: 96.949
+2022-11-21 01:19:55,280 Classification Precision 3: 88.269
+2022-11-21 01:19:55,280 Classification NDCG 3: 95.726
+2022-11-21 01:19:55,378 Classification Precision 5: 75.863
+2022-11-21 01:19:55,378 Classification NDCG 5: 94.665
+2022-11-21 01:19:55,379 Train Accuracy: 75.860
+2022-11-21 01:19:55,492 Classification Precision 1: 92.862
+2022-11-21 01:19:55,492 Classification NDCG 1: 92.862
+2022-11-21 01:19:55,583 Classification Precision 3: 84.981
+2022-11-21 01:19:55,584 Classification NDCG 3: 92.023
+2022-11-21 01:19:55,687 Classification Precision 5: 72.639
+2022-11-21 01:19:55,688 Classification NDCG 5: 90.150
+2022-11-21 01:19:55,688 Valid Accuracy: 72.640
+2022-11-21 01:19:55,688 Test Accuracy: 73.730
+2022-11-21 01:20:31,675 Epoch: 681 train_loss= 0.11284
+2022-11-21 01:20:33,603 Classification Precision 1: 96.949
+2022-11-21 01:20:33,603 Classification NDCG 1: 96.949
+2022-11-21 01:20:33,725 Classification Precision 3: 88.418
+2022-11-21 01:20:33,726 Classification NDCG 3: 95.876
+2022-11-21 01:20:33,854 Classification Precision 5: 76.027
+2022-11-21 01:20:33,854 Classification NDCG 5: 94.808
+2022-11-21 01:20:33,854 Train Accuracy: 76.030
+2022-11-21 01:20:33,948 Classification Precision 1: 92.862
+2022-11-21 01:20:33,949 Classification NDCG 1: 92.862
+2022-11-21 01:20:34,045 Classification Precision 3: 84.981
+2022-11-21 01:20:34,045 Classification NDCG 3: 92.050
+2022-11-21 01:20:34,152 Classification Precision 5: 72.669
+2022-11-21 01:20:34,152 Classification NDCG 5: 90.185
+2022-11-21 01:20:34,153 Valid Accuracy: 72.670
+2022-11-21 01:20:34,924 Classification Precision 1: 94.031
+2022-11-21 01:20:34,924 Classification NDCG 1: 94.031
+2022-11-21 01:20:35,728 Classification Precision 3: 86.795
+2022-11-21 01:20:35,728 Classification NDCG 3: 92.962
+2022-11-21 01:20:36,589 Classification Precision 5: 73.786
+2022-11-21 01:20:36,589 Classification NDCG 5: 90.762
+2022-11-21 01:20:36,591 Test Accuracy: 73.790
+2022-11-21 01:21:12,406 Epoch: 691 train_loss= 0.11214
+2022-11-21 01:21:14,263 Classification Precision 1: 97.024
+2022-11-21 01:21:14,263 Classification NDCG 1: 97.024
+2022-11-21 01:21:14,355 Classification Precision 3: 88.492
+2022-11-21 01:21:14,355 Classification NDCG 3: 95.956
+2022-11-21 01:21:14,447 Classification Precision 5: 76.086
+2022-11-21 01:21:14,447 Classification NDCG 5: 94.881
+2022-11-21 01:21:14,447 Train Accuracy: 76.090
+2022-11-21 01:21:14,538 Classification Precision 1: 93.086
+2022-11-21 01:21:14,538 Classification NDCG 1: 93.086
+2022-11-21 01:21:14,626 Classification Precision 3: 84.932
+2022-11-21 01:21:14,626 Classification NDCG 3: 92.081
+2022-11-21 01:21:14,722 Classification Precision 5: 72.699
+2022-11-21 01:21:14,722 Classification NDCG 5: 90.296
+2022-11-21 01:21:14,722 Valid Accuracy: 72.700
+2022-11-21 01:21:15,451 Classification Precision 1: 94.050
+2022-11-21 01:21:15,452 Classification NDCG 1: 94.050
+2022-11-21 01:21:16,171 Classification Precision 3: 86.835
+2022-11-21 01:21:16,171 Classification NDCG 3: 93.008
+2022-11-21 01:21:16,908 Classification Precision 5: 73.812
+2022-11-21 01:21:16,908 Classification NDCG 5: 90.792
+2022-11-21 01:21:16,909 Test Accuracy: 73.810
+2022-11-21 01:21:52,746 Epoch: 701 train_loss= 0.11138
+2022-11-21 01:21:54,683 Classification Precision 1: 97.396
+2022-11-21 01:21:54,683 Classification NDCG 1: 97.396
+2022-11-21 01:21:54,773 Classification Precision 3: 88.492
+2022-11-21 01:21:54,773 Classification NDCG 3: 96.114
+2022-11-21 01:21:54,879 Classification Precision 5: 76.190
+2022-11-21 01:21:54,880 Classification NDCG 5: 95.097
+2022-11-21 01:21:54,880 Train Accuracy: 76.190
+2022-11-21 01:21:54,972 Classification Precision 1: 93.160
+2022-11-21 01:21:54,972 Classification NDCG 1: 93.160
+2022-11-21 01:21:55,080 Classification Precision 3: 84.981
+2022-11-21 01:21:55,080 Classification NDCG 3: 92.126
+2022-11-21 01:21:55,199 Classification Precision 5: 72.729
+2022-11-21 01:21:55,199 Classification NDCG 5: 90.303
+2022-11-21 01:21:55,199 Valid Accuracy: 72.730
+2022-11-21 01:21:55,967 Classification Precision 1: 94.143
+2022-11-21 01:21:55,967 Classification NDCG 1: 94.143
+2022-11-21 01:21:56,689 Classification Precision 3: 86.888
+2022-11-21 01:21:56,689 Classification NDCG 3: 93.077
+2022-11-21 01:21:57,432 Classification Precision 5: 73.853
+2022-11-21 01:21:57,432 Classification NDCG 5: 90.865
+2022-11-21 01:21:57,433 Test Accuracy: 73.850
+2022-11-21 01:22:33,369 Epoch: 711 train_loss= 0.11065
+2022-11-21 01:22:35,221 Classification Precision 1: 97.396
+2022-11-21 01:22:35,221 Classification NDCG 1: 97.396
+2022-11-21 01:22:35,318 Classification Precision 3: 88.591
+2022-11-21 01:22:35,318 Classification NDCG 3: 96.213
+2022-11-21 01:22:35,411 Classification Precision 5: 76.280
+2022-11-21 01:22:35,411 Classification NDCG 5: 95.198
+2022-11-21 01:22:35,411 Train Accuracy: 76.280
+2022-11-21 01:22:35,502 Classification Precision 1: 93.309
+2022-11-21 01:22:35,502 Classification NDCG 1: 93.309
+2022-11-21 01:22:35,690 Classification Precision 3: 85.056
+2022-11-21 01:22:35,690 Classification NDCG 3: 92.204
+2022-11-21 01:22:35,898 Classification Precision 5: 72.803
+2022-11-21 01:22:35,899 Classification NDCG 5: 90.404
+2022-11-21 01:22:35,899 Valid Accuracy: 72.800
+2022-11-21 01:22:36,837 Classification Precision 1: 94.236
+2022-11-21 01:22:36,837 Classification NDCG 1: 94.236
+2022-11-21 01:22:37,598 Classification Precision 3: 86.962
+2022-11-21 01:22:37,598 Classification NDCG 3: 93.163
+2022-11-21 01:22:38,327 Classification Precision 5: 73.894
+2022-11-21 01:22:38,327 Classification NDCG 5: 90.948
+2022-11-21 01:22:38,328 Test Accuracy: 73.890
+2022-11-21 01:23:14,077 Epoch: 721 train_loss= 0.10997
+2022-11-21 01:23:15,874 Classification Precision 1: 97.396
+2022-11-21 01:23:15,874 Classification NDCG 1: 97.396
+2022-11-21 01:23:15,963 Classification Precision 3: 88.690
+2022-11-21 01:23:15,963 Classification NDCG 3: 96.300
+2022-11-21 01:23:16,060 Classification Precision 5: 76.324
+2022-11-21 01:23:16,061 Classification NDCG 5: 95.260
+2022-11-21 01:23:16,061 Train Accuracy: 76.320
+2022-11-21 01:23:16,153 Classification Precision 1: 93.680
+2022-11-21 01:23:16,153 Classification NDCG 1: 93.680
+2022-11-21 01:23:16,250 Classification Precision 3: 85.130
+2022-11-21 01:23:16,250 Classification NDCG 3: 92.364
+2022-11-21 01:23:16,341 Classification Precision 5: 72.862
+2022-11-21 01:23:16,341 Classification NDCG 5: 90.555
+2022-11-21 01:23:16,342 Valid Accuracy: 72.860
+2022-11-21 01:23:17,059 Classification Precision 1: 94.282
+2022-11-21 01:23:17,059 Classification NDCG 1: 94.282
+2022-11-21 01:23:17,792 Classification Precision 3: 86.996
+2022-11-21 01:23:17,793 Classification NDCG 3: 93.216
+2022-11-21 01:23:18,581 Classification Precision 5: 73.938
+2022-11-21 01:23:18,581 Classification NDCG 5: 91.005
+2022-11-21 01:23:18,582 Test Accuracy: 73.940
+2022-11-21 01:23:54,508 Epoch: 731 train_loss= 0.10925
+2022-11-21 01:23:56,396 Classification Precision 1: 97.470
+2022-11-21 01:23:56,396 Classification NDCG 1: 97.470
+2022-11-21 01:23:56,492 Classification Precision 3: 88.814
+2022-11-21 01:23:56,492 Classification NDCG 3: 96.447
+2022-11-21 01:23:56,593 Classification Precision 5: 76.369
+2022-11-21 01:23:56,593 Classification NDCG 5: 95.374
+2022-11-21 01:23:56,593 Train Accuracy: 76.370
+2022-11-21 01:23:56,685 Classification Precision 1: 93.680
+2022-11-21 01:23:56,685 Classification NDCG 1: 93.680
+2022-11-21 01:23:56,782 Classification Precision 3: 85.180
+2022-11-21 01:23:56,782 Classification NDCG 3: 92.391
+2022-11-21 01:23:56,883 Classification Precision 5: 72.892
+2022-11-21 01:23:56,883 Classification NDCG 5: 90.580
+2022-11-21 01:23:56,884 Valid Accuracy: 72.890
+2022-11-21 01:23:57,618 Classification Precision 1: 94.347
+2022-11-21 01:23:57,618 Classification NDCG 1: 94.347
+2022-11-21 01:23:58,325 Classification Precision 3: 87.049
+2022-11-21 01:23:58,326 Classification NDCG 3: 93.277
+2022-11-21 01:23:59,074 Classification Precision 5: 73.957
+2022-11-21 01:23:59,074 Classification NDCG 5: 91.051
+2022-11-21 01:23:59,075 Test Accuracy: 73.960
+2022-11-21 01:24:34,807 Epoch: 741 train_loss= 0.10860
+2022-11-21 01:24:36,610 Classification Precision 1: 97.470
+2022-11-21 01:24:36,610 Classification NDCG 1: 97.470
+2022-11-21 01:24:36,708 Classification Precision 3: 88.814
+2022-11-21 01:24:36,709 Classification NDCG 3: 96.443
+2022-11-21 01:24:36,803 Classification Precision 5: 76.458
+2022-11-21 01:24:36,804 Classification NDCG 5: 95.442
+2022-11-21 01:24:36,804 Train Accuracy: 76.460
+2022-11-21 01:24:36,895 Classification Precision 1: 93.755
+2022-11-21 01:24:36,895 Classification NDCG 1: 93.755
+2022-11-21 01:24:36,983 Classification Precision 3: 85.254
+2022-11-21 01:24:36,984 Classification NDCG 3: 92.483
+2022-11-21 01:24:37,075 Classification Precision 5: 72.937
+2022-11-21 01:24:37,075 Classification NDCG 5: 90.680
+2022-11-21 01:24:37,075 Valid Accuracy: 72.940
+2022-11-21 01:24:37,785 Classification Precision 1: 94.347
+2022-11-21 01:24:37,785 Classification NDCG 1: 94.347
+2022-11-21 01:24:38,492 Classification Precision 3: 87.058
+2022-11-21 01:24:38,492 Classification NDCG 3: 93.284
+2022-11-21 01:24:39,239 Classification Precision 5: 73.992
+2022-11-21 01:24:39,240 Classification NDCG 5: 91.076
+2022-11-21 01:24:39,241 Test Accuracy: 73.990
+2022-11-21 01:25:15,053 Epoch: 751 train_loss= 0.10794
+2022-11-21 01:25:16,875 Classification Precision 1: 97.693
+2022-11-21 01:25:16,875 Classification NDCG 1: 97.693
+2022-11-21 01:25:16,963 Classification Precision 3: 88.889
+2022-11-21 01:25:16,963 Classification NDCG 3: 96.616
+2022-11-21 01:25:17,053 Classification Precision 5: 76.518
+2022-11-21 01:25:17,054 Classification NDCG 5: 95.589
+2022-11-21 01:25:17,054 Train Accuracy: 76.520
+2022-11-21 01:25:17,147 Classification Precision 1: 93.903
+2022-11-21 01:25:17,147 Classification NDCG 1: 93.903
+2022-11-21 01:25:17,242 Classification Precision 3: 85.229
+2022-11-21 01:25:17,242 Classification NDCG 3: 92.513
+2022-11-21 01:25:17,334 Classification Precision 5: 72.996
+2022-11-21 01:25:17,334 Classification NDCG 5: 90.746
+2022-11-21 01:25:17,334 Valid Accuracy: 73.000
+2022-11-21 01:25:18,045 Classification Precision 1: 94.431
+2022-11-21 01:25:18,046 Classification NDCG 1: 94.431
+2022-11-21 01:25:18,769 Classification Precision 3: 87.102
+2022-11-21 01:25:18,770 Classification NDCG 3: 93.333
+2022-11-21 01:25:19,495 Classification Precision 5: 74.018
+2022-11-21 01:25:19,496 Classification NDCG 5: 91.124
+2022-11-21 01:25:19,497 Test Accuracy: 74.020
+2022-11-21 01:25:55,140 Epoch: 761 train_loss= 0.10727
+2022-11-21 01:25:57,014 Classification Precision 1: 97.693
+2022-11-21 01:25:57,014 Classification NDCG 1: 97.693
+2022-11-21 01:25:57,111 Classification Precision 3: 89.013
+2022-11-21 01:25:57,111 Classification NDCG 3: 96.714
+2022-11-21 01:25:57,215 Classification Precision 5: 76.562
+2022-11-21 01:25:57,215 Classification NDCG 5: 95.640
+2022-11-21 01:25:57,215 Train Accuracy: 76.560
+2022-11-21 01:25:57,336 Classification Precision 1: 93.978
+2022-11-21 01:25:57,336 Classification NDCG 1: 93.978
+2022-11-21 01:25:57,433 Classification Precision 3: 85.229
+2022-11-21 01:25:57,433 Classification NDCG 3: 92.517
+2022-11-21 01:25:57,524 Classification Precision 5: 72.981
+2022-11-21 01:25:57,525 Classification NDCG 5: 90.711
+2022-11-21 01:25:57,525 Valid Accuracy: 72.980
+2022-11-21 01:25:57,525 Test Accuracy: 74.020
+2022-11-21 01:26:33,359 Epoch: 771 train_loss= 0.10662
+2022-11-21 01:26:35,225 Classification Precision 1: 97.693
+2022-11-21 01:26:35,226 Classification NDCG 1: 97.693
+2022-11-21 01:26:35,314 Classification Precision 3: 89.137
+2022-11-21 01:26:35,314 Classification NDCG 3: 96.821
+2022-11-21 01:26:35,404 Classification Precision 5: 76.652
+2022-11-21 01:26:35,405 Classification NDCG 5: 95.738
+2022-11-21 01:26:35,405 Train Accuracy: 76.650
+2022-11-21 01:26:35,494 Classification Precision 1: 93.978
+2022-11-21 01:26:35,494 Classification NDCG 1: 93.978
+2022-11-21 01:26:35,582 Classification Precision 3: 85.180
+2022-11-21 01:26:35,582 Classification NDCG 3: 92.482
+2022-11-21 01:26:35,674 Classification Precision 5: 72.981
+2022-11-21 01:26:35,675 Classification NDCG 5: 90.715
+2022-11-21 01:26:35,675 Valid Accuracy: 72.980
+2022-11-21 01:26:35,675 Test Accuracy: 74.020
+2022-11-21 01:27:11,494 Epoch: 781 train_loss= 0.10597
+2022-11-21 01:27:13,356 Classification Precision 1: 97.917
+2022-11-21 01:27:13,356 Classification NDCG 1: 97.917
+2022-11-21 01:27:13,455 Classification Precision 3: 89.187
+2022-11-21 01:27:13,455 Classification NDCG 3: 96.944
+2022-11-21 01:27:13,546 Classification Precision 5: 76.801
+2022-11-21 01:27:13,546 Classification NDCG 5: 95.930
+2022-11-21 01:27:13,546 Train Accuracy: 76.800
+2022-11-21 01:27:13,636 Classification Precision 1: 93.903
+2022-11-21 01:27:13,636 Classification NDCG 1: 93.903
+2022-11-21 01:27:13,724 Classification Precision 3: 85.229
+2022-11-21 01:27:13,725 Classification NDCG 3: 92.537
+2022-11-21 01:27:13,816 Classification Precision 5: 73.041
+2022-11-21 01:27:13,816 Classification NDCG 5: 90.768
+2022-11-21 01:27:13,816 Valid Accuracy: 73.040
+2022-11-21 01:27:14,575 Classification Precision 1: 94.422
+2022-11-21 01:27:14,576 Classification NDCG 1: 94.422
+2022-11-21 01:27:15,306 Classification Precision 3: 87.210
+2022-11-21 01:27:15,306 Classification NDCG 3: 93.441
+2022-11-21 01:27:16,065 Classification Precision 5: 74.152
+2022-11-21 01:27:16,066 Classification NDCG 5: 91.284
+2022-11-21 01:27:16,067 Test Accuracy: 74.150
+2022-11-21 01:27:52,141 Epoch: 791 train_loss= 0.10533
+2022-11-21 01:27:54,025 Classification Precision 1: 97.991
+2022-11-21 01:27:54,025 Classification NDCG 1: 97.991
+2022-11-21 01:27:54,115 Classification Precision 3: 89.236
+2022-11-21 01:27:54,116 Classification NDCG 3: 97.008
+2022-11-21 01:27:54,210 Classification Precision 5: 76.875
+2022-11-21 01:27:54,210 Classification NDCG 5: 96.024
+2022-11-21 01:27:54,211 Train Accuracy: 76.870
+2022-11-21 01:27:54,308 Classification Precision 1: 93.903
+2022-11-21 01:27:54,309 Classification NDCG 1: 93.903
+2022-11-21 01:27:54,397 Classification Precision 3: 85.229
+2022-11-21 01:27:54,398 Classification NDCG 3: 92.556
+2022-11-21 01:27:54,489 Classification Precision 5: 73.071
+2022-11-21 01:27:54,490 Classification NDCG 5: 90.830
+2022-11-21 01:27:54,490 Valid Accuracy: 73.070
+2022-11-21 01:27:55,226 Classification Precision 1: 94.487
+2022-11-21 01:27:55,227 Classification NDCG 1: 94.487
+2022-11-21 01:27:55,946 Classification Precision 3: 87.226
+2022-11-21 01:27:55,946 Classification NDCG 3: 93.473
+2022-11-21 01:27:56,734 Classification Precision 5: 74.178
+2022-11-21 01:27:56,734 Classification NDCG 5: 91.332
+2022-11-21 01:27:56,735 Test Accuracy: 74.180
+2022-11-21 01:28:32,788 Epoch: 801 train_loss= 0.10471
+2022-11-21 01:28:34,638 Classification Precision 1: 97.991
+2022-11-21 01:28:34,638 Classification NDCG 1: 97.991
+2022-11-21 01:28:34,762 Classification Precision 3: 89.261
+2022-11-21 01:28:34,763 Classification NDCG 3: 97.034
+2022-11-21 01:28:34,857 Classification Precision 5: 76.935
+2022-11-21 01:28:34,857 Classification NDCG 5: 96.061
+2022-11-21 01:28:34,858 Train Accuracy: 76.930
+2022-11-21 01:28:34,947 Classification Precision 1: 93.903
+2022-11-21 01:28:34,948 Classification NDCG 1: 93.903
+2022-11-21 01:28:35,039 Classification Precision 3: 85.254
+2022-11-21 01:28:35,039 Classification NDCG 3: 92.569
+2022-11-21 01:28:35,131 Classification Precision 5: 73.086
+2022-11-21 01:28:35,132 Classification NDCG 5: 90.809
+2022-11-21 01:28:35,132 Valid Accuracy: 73.090
+2022-11-21 01:28:35,853 Classification Precision 1: 94.580
+2022-11-21 01:28:35,854 Classification NDCG 1: 94.580
+2022-11-21 01:28:36,564 Classification Precision 3: 87.254
+2022-11-21 01:28:36,564 Classification NDCG 3: 93.538
+2022-11-21 01:28:37,313 Classification Precision 5: 74.221
+2022-11-21 01:28:37,313 Classification NDCG 5: 91.405
+2022-11-21 01:28:37,314 Test Accuracy: 74.220
+2022-11-21 01:29:12,957 Epoch: 811 train_loss= 0.10410
+2022-11-21 01:29:14,828 Classification Precision 1: 98.140
+2022-11-21 01:29:14,828 Classification NDCG 1: 98.140
+2022-11-21 01:29:14,918 Classification Precision 3: 89.286
+2022-11-21 01:29:14,918 Classification NDCG 3: 97.110
+2022-11-21 01:29:15,011 Classification Precision 5: 76.935
+2022-11-21 01:29:15,012 Classification NDCG 5: 96.117
+2022-11-21 01:29:15,012 Train Accuracy: 76.930
+2022-11-21 01:29:15,104 Classification Precision 1: 93.903
+2022-11-21 01:29:15,104 Classification NDCG 1: 93.903
+2022-11-21 01:29:15,194 Classification Precision 3: 85.254
+2022-11-21 01:29:15,194 Classification NDCG 3: 92.562
+2022-11-21 01:29:15,286 Classification Precision 5: 73.219
+2022-11-21 01:29:15,286 Classification NDCG 5: 90.936
+2022-11-21 01:29:15,286 Valid Accuracy: 73.220
+2022-11-21 01:29:16,129 Classification Precision 1: 94.645
+2022-11-21 01:29:16,129 Classification NDCG 1: 94.645
+2022-11-21 01:29:16,947 Classification Precision 3: 87.319
+2022-11-21 01:29:16,948 Classification NDCG 3: 93.621
+2022-11-21 01:29:17,799 Classification Precision 5: 74.238
+2022-11-21 01:29:17,799 Classification NDCG 5: 91.448
+2022-11-21 01:29:17,800 Test Accuracy: 74.240
+2022-11-21 01:29:53,496 Epoch: 821 train_loss= 0.10350
+2022-11-21 01:29:55,319 Classification Precision 1: 98.289
+2022-11-21 01:29:55,319 Classification NDCG 1: 98.289
+2022-11-21 01:29:55,433 Classification Precision 3: 89.311
+2022-11-21 01:29:55,434 Classification NDCG 3: 97.177
+2022-11-21 01:29:55,533 Classification Precision 5: 76.994
+2022-11-21 01:29:55,533 Classification NDCG 5: 96.207
+2022-11-21 01:29:55,533 Train Accuracy: 76.990
+2022-11-21 01:29:55,642 Classification Precision 1: 93.978
+2022-11-21 01:29:55,643 Classification NDCG 1: 93.978
+2022-11-21 01:29:55,733 Classification Precision 3: 85.254
+2022-11-21 01:29:55,733 Classification NDCG 3: 92.610
+2022-11-21 01:29:55,826 Classification Precision 5: 73.204
+2022-11-21 01:29:55,827 Classification NDCG 5: 90.995
+2022-11-21 01:29:55,827 Valid Accuracy: 73.200
+2022-11-21 01:29:55,827 Test Accuracy: 74.240
+2022-11-21 01:30:31,554 Epoch: 831 train_loss= 0.10290
+2022-11-21 01:30:33,380 Classification Precision 1: 98.289
+2022-11-21 01:30:33,380 Classification NDCG 1: 98.289
+2022-11-21 01:30:33,483 Classification Precision 3: 89.385
+2022-11-21 01:30:33,483 Classification NDCG 3: 97.238
+2022-11-21 01:30:33,611 Classification Precision 5: 77.024
+2022-11-21 01:30:33,611 Classification NDCG 5: 96.248
+2022-11-21 01:30:33,611 Train Accuracy: 77.020
+2022-11-21 01:30:33,706 Classification Precision 1: 93.903
+2022-11-21 01:30:33,706 Classification NDCG 1: 93.903
+2022-11-21 01:30:33,795 Classification Precision 3: 85.328
+2022-11-21 01:30:33,795 Classification NDCG 3: 92.644
+2022-11-21 01:30:33,886 Classification Precision 5: 73.190
+2022-11-21 01:30:33,886 Classification NDCG 5: 90.974
+2022-11-21 01:30:33,886 Valid Accuracy: 73.190
+2022-11-21 01:30:33,887 Test Accuracy: 74.240
+2022-11-21 01:31:09,547 Epoch: 841 train_loss= 0.10232
+2022-11-21 01:31:11,386 Classification Precision 1: 98.363
+2022-11-21 01:31:11,386 Classification NDCG 1: 98.363
+2022-11-21 01:31:11,478 Classification Precision 3: 89.435
+2022-11-21 01:31:11,478 Classification NDCG 3: 97.313
+2022-11-21 01:31:11,569 Classification Precision 5: 77.098
+2022-11-21 01:31:11,570 Classification NDCG 5: 96.351
+2022-11-21 01:31:11,570 Train Accuracy: 77.100
+2022-11-21 01:31:11,659 Classification Precision 1: 93.755
+2022-11-21 01:31:11,659 Classification NDCG 1: 93.755
+2022-11-21 01:31:11,747 Classification Precision 3: 85.254
+2022-11-21 01:31:11,748 Classification NDCG 3: 92.534
+2022-11-21 01:31:11,838 Classification Precision 5: 73.219
+2022-11-21 01:31:11,839 Classification NDCG 5: 90.940
+2022-11-21 01:31:11,839 Valid Accuracy: 73.220
+2022-11-21 01:31:11,839 Test Accuracy: 74.240
+2022-11-21 01:31:47,799 Epoch: 851 train_loss= 0.10174
+2022-11-21 01:31:49,639 Classification Precision 1: 98.661
+2022-11-21 01:31:49,639 Classification NDCG 1: 98.661
+2022-11-21 01:31:49,729 Classification Precision 3: 89.435
+2022-11-21 01:31:49,729 Classification NDCG 3: 97.397
+2022-11-21 01:31:49,820 Classification Precision 5: 77.202
+2022-11-21 01:31:49,820 Classification NDCG 5: 96.516
+2022-11-21 01:31:49,821 Train Accuracy: 77.200
+2022-11-21 01:31:49,913 Classification Precision 1: 93.829
+2022-11-21 01:31:49,913 Classification NDCG 1: 93.829
+2022-11-21 01:31:50,001 Classification Precision 3: 85.328
+2022-11-21 01:31:50,001 Classification NDCG 3: 92.617
+2022-11-21 01:31:50,092 Classification Precision 5: 73.190
+2022-11-21 01:31:50,092 Classification NDCG 5: 90.954
+2022-11-21 01:31:50,093 Valid Accuracy: 73.190
+2022-11-21 01:31:50,093 Test Accuracy: 74.240
+2022-11-21 01:32:25,734 Epoch: 861 train_loss= 0.10115
+2022-11-21 01:32:27,640 Classification Precision 1: 98.586
+2022-11-21 01:32:27,640 Classification NDCG 1: 98.586
+2022-11-21 01:32:27,737 Classification Precision 3: 89.459
+2022-11-21 01:32:27,738 Classification NDCG 3: 97.399
+2022-11-21 01:32:27,843 Classification Precision 5: 77.232
+2022-11-21 01:32:27,843 Classification NDCG 5: 96.525
+2022-11-21 01:32:27,844 Train Accuracy: 77.230
+2022-11-21 01:32:27,934 Classification Precision 1: 93.829
+2022-11-21 01:32:27,935 Classification NDCG 1: 93.829
+2022-11-21 01:32:28,023 Classification Precision 3: 85.328
+2022-11-21 01:32:28,024 Classification NDCG 3: 92.621
+2022-11-21 01:32:28,124 Classification Precision 5: 73.190
+2022-11-21 01:32:28,124 Classification NDCG 5: 90.957
+2022-11-21 01:32:28,124 Valid Accuracy: 73.190
+2022-11-21 01:32:28,124 Test Accuracy: 74.240
+2022-11-21 01:33:04,573 Epoch: 871 train_loss= 0.10059
+2022-11-21 01:33:06,402 Classification Precision 1: 98.735
+2022-11-21 01:33:06,402 Classification NDCG 1: 98.735
+2022-11-21 01:33:06,490 Classification Precision 3: 89.459
+2022-11-21 01:33:06,491 Classification NDCG 3: 97.466
+2022-11-21 01:33:06,583 Classification Precision 5: 77.277
+2022-11-21 01:33:06,583 Classification NDCG 5: 96.630
+2022-11-21 01:33:06,583 Train Accuracy: 77.280
+2022-11-21 01:33:06,674 Classification Precision 1: 94.052
+2022-11-21 01:33:06,674 Classification NDCG 1: 94.052
+2022-11-21 01:33:06,767 Classification Precision 3: 85.304
+2022-11-21 01:33:06,768 Classification NDCG 3: 92.641
+2022-11-21 01:33:06,859 Classification Precision 5: 73.190
+2022-11-21 01:33:06,859 Classification NDCG 5: 90.997
+2022-11-21 01:33:06,859 Valid Accuracy: 73.190
+2022-11-21 01:33:06,859 Test Accuracy: 74.240
+2022-11-21 01:33:42,712 Epoch: 881 train_loss= 0.10005
+2022-11-21 01:33:44,570 Classification Precision 1: 98.884
+2022-11-21 01:33:44,571 Classification NDCG 1: 98.884
+2022-11-21 01:33:44,659 Classification Precision 3: 89.484
+2022-11-21 01:33:44,659 Classification NDCG 3: 97.552
+2022-11-21 01:33:44,751 Classification Precision 5: 77.307
+2022-11-21 01:33:44,752 Classification NDCG 5: 96.750
+2022-11-21 01:33:44,752 Train Accuracy: 77.310
+2022-11-21 01:33:44,842 Classification Precision 1: 94.052
+2022-11-21 01:33:44,843 Classification NDCG 1: 94.052
+2022-11-21 01:33:44,931 Classification Precision 3: 85.304
+2022-11-21 01:33:44,932 Classification NDCG 3: 92.630
+2022-11-21 01:33:45,023 Classification Precision 5: 73.249
+2022-11-21 01:33:45,023 Classification NDCG 5: 91.026
+2022-11-21 01:33:45,023 Valid Accuracy: 73.250
+2022-11-21 01:33:45,736 Classification Precision 1: 94.803
+2022-11-21 01:33:45,736 Classification NDCG 1: 94.803
+2022-11-21 01:33:46,448 Classification Precision 3: 87.405
+2022-11-21 01:33:46,448 Classification NDCG 3: 93.759
+2022-11-21 01:33:47,207 Classification Precision 5: 74.331
+2022-11-21 01:33:47,207 Classification NDCG 5: 91.590
+2022-11-21 01:33:47,208 Test Accuracy: 74.330
+2022-11-21 01:34:22,972 Epoch: 891 train_loss= 0.09947
+2022-11-21 01:34:24,809 Classification Precision 1: 98.810
+2022-11-21 01:34:24,809 Classification NDCG 1: 98.810
+2022-11-21 01:34:24,907 Classification Precision 3: 89.559
+2022-11-21 01:34:24,907 Classification NDCG 3: 97.598
+2022-11-21 01:34:25,011 Classification Precision 5: 77.381
+2022-11-21 01:34:25,011 Classification NDCG 5: 96.803
+2022-11-21 01:34:25,011 Train Accuracy: 77.380
+2022-11-21 01:34:25,102 Classification Precision 1: 94.052
+2022-11-21 01:34:25,102 Classification NDCG 1: 94.052
+2022-11-21 01:34:25,200 Classification Precision 3: 85.403
+2022-11-21 01:34:25,200 Classification NDCG 3: 92.701
+2022-11-21 01:34:25,307 Classification Precision 5: 73.264
+2022-11-21 01:34:25,307 Classification NDCG 5: 91.043
+2022-11-21 01:34:25,308 Valid Accuracy: 73.260
+2022-11-21 01:34:26,042 Classification Precision 1: 94.756
+2022-11-21 01:34:26,043 Classification NDCG 1: 94.756
+2022-11-21 01:34:26,760 Classification Precision 3: 87.433
+2022-11-21 01:34:26,760 Classification NDCG 3: 93.774
+2022-11-21 01:34:27,514 Classification Precision 5: 74.357
+2022-11-21 01:34:27,515 Classification NDCG 5: 91.601
+2022-11-21 01:34:27,516 Test Accuracy: 74.360
+2022-11-21 01:35:03,030 Epoch: 901 train_loss= 0.09894
+2022-11-21 01:35:04,893 Classification Precision 1: 98.958
+2022-11-21 01:35:04,894 Classification NDCG 1: 98.958
+2022-11-21 01:35:04,981 Classification Precision 3: 89.633
+2022-11-21 01:35:04,982 Classification NDCG 3: 97.720
+2022-11-21 01:35:05,072 Classification Precision 5: 77.411
+2022-11-21 01:35:05,072 Classification NDCG 5: 96.899
+2022-11-21 01:35:05,073 Train Accuracy: 77.410
+2022-11-21 01:35:05,164 Classification Precision 1: 93.978
+2022-11-21 01:35:05,164 Classification NDCG 1: 93.978
+2022-11-21 01:35:05,257 Classification Precision 3: 85.378
+2022-11-21 01:35:05,257 Classification NDCG 3: 92.675
+2022-11-21 01:35:05,349 Classification Precision 5: 73.264
+2022-11-21 01:35:05,349 Classification NDCG 5: 91.028
+2022-11-21 01:35:05,349 Valid Accuracy: 73.260
+2022-11-21 01:35:05,350 Test Accuracy: 74.360
+2022-11-21 01:35:41,113 Epoch: 911 train_loss= 0.09841
+2022-11-21 01:35:42,940 Classification Precision 1: 98.958
+2022-11-21 01:35:42,940 Classification NDCG 1: 98.958
+2022-11-21 01:35:43,029 Classification Precision 3: 89.658
+2022-11-21 01:35:43,029 Classification NDCG 3: 97.753
+2022-11-21 01:35:43,131 Classification Precision 5: 77.411
+2022-11-21 01:35:43,131 Classification NDCG 5: 96.924
+2022-11-21 01:35:43,131 Train Accuracy: 77.410
+2022-11-21 01:35:43,230 Classification Precision 1: 93.978
+2022-11-21 01:35:43,230 Classification NDCG 1: 93.978
+2022-11-21 01:35:43,336 Classification Precision 3: 85.403
+2022-11-21 01:35:43,336 Classification NDCG 3: 92.709
+2022-11-21 01:35:43,427 Classification Precision 5: 73.249
+2022-11-21 01:35:43,428 Classification NDCG 5: 91.032
+2022-11-21 01:35:43,428 Valid Accuracy: 73.250
+2022-11-21 01:35:43,428 Test Accuracy: 74.360
+2022-11-21 01:36:19,113 Epoch: 921 train_loss= 0.09790
+2022-11-21 01:36:20,961 Classification Precision 1: 98.958
+2022-11-21 01:36:20,961 Classification NDCG 1: 98.958
+2022-11-21 01:36:21,059 Classification Precision 3: 89.683
+2022-11-21 01:36:21,059 Classification NDCG 3: 97.776
+2022-11-21 01:36:21,153 Classification Precision 5: 77.485
+2022-11-21 01:36:21,153 Classification NDCG 5: 97.002
+2022-11-21 01:36:21,153 Train Accuracy: 77.490
+2022-11-21 01:36:21,243 Classification Precision 1: 93.978
+2022-11-21 01:36:21,243 Classification NDCG 1: 93.978
+2022-11-21 01:36:21,332 Classification Precision 3: 85.428
+2022-11-21 01:36:21,333 Classification NDCG 3: 92.731
+2022-11-21 01:36:21,424 Classification Precision 5: 73.294
+2022-11-21 01:36:21,424 Classification NDCG 5: 91.075
+2022-11-21 01:36:21,425 Valid Accuracy: 73.290
+2022-11-21 01:36:22,140 Classification Precision 1: 94.868
+2022-11-21 01:36:22,140 Classification NDCG 1: 94.868
+2022-11-21 01:36:22,853 Classification Precision 3: 87.471
+2022-11-21 01:36:22,853 Classification NDCG 3: 93.855
+2022-11-21 01:36:23,579 Classification Precision 5: 74.392
+2022-11-21 01:36:23,580 Classification NDCG 5: 91.676
+2022-11-21 01:36:23,581 Test Accuracy: 74.390
+2022-11-21 01:36:59,642 Epoch: 931 train_loss= 0.09735
+2022-11-21 01:37:01,552 Classification Precision 1: 99.033
+2022-11-21 01:37:01,552 Classification NDCG 1: 99.033
+2022-11-21 01:37:01,679 Classification Precision 3: 89.658
+2022-11-21 01:37:01,679 Classification NDCG 3: 97.780
+2022-11-21 01:37:01,777 Classification Precision 5: 77.485
+2022-11-21 01:37:01,777 Classification NDCG 5: 97.023
+2022-11-21 01:37:01,777 Train Accuracy: 77.490
+2022-11-21 01:37:01,883 Classification Precision 1: 93.903
+2022-11-21 01:37:01,884 Classification NDCG 1: 93.903
+2022-11-21 01:37:01,979 Classification Precision 3: 85.477
+2022-11-21 01:37:01,979 Classification NDCG 3: 92.756
+2022-11-21 01:37:02,072 Classification Precision 5: 73.323
+2022-11-21 01:37:02,073 Classification NDCG 5: 91.088
+2022-11-21 01:37:02,073 Valid Accuracy: 73.320
+2022-11-21 01:37:02,806 Classification Precision 1: 94.859
+2022-11-21 01:37:02,806 Classification NDCG 1: 94.859
+2022-11-21 01:37:03,518 Classification Precision 3: 87.464
+2022-11-21 01:37:03,519 Classification NDCG 3: 93.850
+2022-11-21 01:37:04,270 Classification Precision 5: 74.392
+2022-11-21 01:37:04,270 Classification NDCG 5: 91.675
+2022-11-21 01:37:04,271 Test Accuracy: 74.390
+2022-11-21 01:37:40,649 Epoch: 941 train_loss= 0.09681
+2022-11-21 01:37:42,551 Classification Precision 1: 99.107
+2022-11-21 01:37:42,551 Classification NDCG 1: 99.107
+2022-11-21 01:37:42,651 Classification Precision 3: 89.683
+2022-11-21 01:37:42,651 Classification NDCG 3: 97.831
+2022-11-21 01:37:42,749 Classification Precision 5: 77.545
+2022-11-21 01:37:42,749 Classification NDCG 5: 97.095
+2022-11-21 01:37:42,749 Train Accuracy: 77.540
+2022-11-21 01:37:42,861 Classification Precision 1: 93.903
+2022-11-21 01:37:42,861 Classification NDCG 1: 93.903
+2022-11-21 01:37:42,962 Classification Precision 3: 85.477
+2022-11-21 01:37:42,963 Classification NDCG 3: 92.738
+2022-11-21 01:37:43,069 Classification Precision 5: 73.323
+2022-11-21 01:37:43,069 Classification NDCG 5: 91.064
+2022-11-21 01:37:43,069 Valid Accuracy: 73.320
+2022-11-21 01:37:43,070 Test Accuracy: 74.390
+2022-11-21 01:38:21,150 Epoch: 951 train_loss= 0.09631
+2022-11-21 01:38:23,067 Classification Precision 1: 99.107
+2022-11-21 01:38:23,067 Classification NDCG 1: 99.107
+2022-11-21 01:38:23,162 Classification Precision 3: 89.707
+2022-11-21 01:38:23,162 Classification NDCG 3: 97.854
+2022-11-21 01:38:23,263 Classification Precision 5: 77.589
+2022-11-21 01:38:23,263 Classification NDCG 5: 97.137
+2022-11-21 01:38:23,263 Train Accuracy: 77.590
+2022-11-21 01:38:23,370 Classification Precision 1: 93.978
+2022-11-21 01:38:23,370 Classification NDCG 1: 93.978
+2022-11-21 01:38:23,480 Classification Precision 3: 85.477
+2022-11-21 01:38:23,480 Classification NDCG 3: 92.779
+2022-11-21 01:38:23,581 Classification Precision 5: 73.383
+2022-11-21 01:38:23,581 Classification NDCG 5: 91.139
+2022-11-21 01:38:23,581 Valid Accuracy: 73.380
+2022-11-21 01:38:24,394 Classification Precision 1: 94.896
+2022-11-21 01:38:24,395 Classification NDCG 1: 94.896
+2022-11-21 01:38:25,164 Classification Precision 3: 87.495
+2022-11-21 01:38:25,165 Classification NDCG 3: 93.907
+2022-11-21 01:38:25,962 Classification Precision 5: 74.437
+2022-11-21 01:38:25,962 Classification NDCG 5: 91.736
+2022-11-21 01:38:25,963 Test Accuracy: 74.440
+2022-11-21 01:39:03,091 Epoch: 961 train_loss= 0.09579
+2022-11-21 01:39:04,933 Classification Precision 1: 99.107
+2022-11-21 01:39:04,933 Classification NDCG 1: 99.107
+2022-11-21 01:39:05,027 Classification Precision 3: 89.807
+2022-11-21 01:39:05,027 Classification NDCG 3: 97.935
+2022-11-21 01:39:05,120 Classification Precision 5: 77.619
+2022-11-21 01:39:05,120 Classification NDCG 5: 97.176
+2022-11-21 01:39:05,120 Train Accuracy: 77.620
+2022-11-21 01:39:05,213 Classification Precision 1: 94.126
+2022-11-21 01:39:05,213 Classification NDCG 1: 94.126
+2022-11-21 01:39:05,302 Classification Precision 3: 85.477
+2022-11-21 01:39:05,302 Classification NDCG 3: 92.829
+2022-11-21 01:39:05,397 Classification Precision 5: 73.338
+2022-11-21 01:39:05,397 Classification NDCG 5: 91.154
+2022-11-21 01:39:05,398 Valid Accuracy: 73.340
+2022-11-21 01:39:05,398 Test Accuracy: 74.440
+2022-11-21 01:39:41,410 Epoch: 971 train_loss= 0.09530
+2022-11-21 01:39:43,300 Classification Precision 1: 99.182
+2022-11-21 01:39:43,300 Classification NDCG 1: 99.182
+2022-11-21 01:39:43,392 Classification Precision 3: 89.807
+2022-11-21 01:39:43,393 Classification NDCG 3: 97.968
+2022-11-21 01:39:43,485 Classification Precision 5: 77.693
+2022-11-21 01:39:43,485 Classification NDCG 5: 97.262
+2022-11-21 01:39:43,485 Train Accuracy: 77.690
+2022-11-21 01:39:43,576 Classification Precision 1: 94.126
+2022-11-21 01:39:43,577 Classification NDCG 1: 94.126
+2022-11-21 01:39:43,665 Classification Precision 3: 85.527
+2022-11-21 01:39:43,666 Classification NDCG 3: 92.861
+2022-11-21 01:39:43,756 Classification Precision 5: 73.338
+2022-11-21 01:39:43,757 Classification NDCG 5: 91.133
+2022-11-21 01:39:43,757 Valid Accuracy: 73.340
+2022-11-21 01:39:43,757 Test Accuracy: 74.440
+2022-11-21 01:40:19,815 Epoch: 981 train_loss= 0.09481
+2022-11-21 01:40:21,629 Classification Precision 1: 99.256
+2022-11-21 01:40:21,630 Classification NDCG 1: 99.256
+2022-11-21 01:40:21,717 Classification Precision 3: 89.831
+2022-11-21 01:40:21,718 Classification NDCG 3: 98.018
+2022-11-21 01:40:21,826 Classification Precision 5: 77.693
+2022-11-21 01:40:21,826 Classification NDCG 5: 97.292
+2022-11-21 01:40:21,826 Train Accuracy: 77.690
+2022-11-21 01:40:21,919 Classification Precision 1: 94.052
+2022-11-21 01:40:21,919 Classification NDCG 1: 94.052
+2022-11-21 01:40:22,015 Classification Precision 3: 85.576
+2022-11-21 01:40:22,015 Classification NDCG 3: 92.893
+2022-11-21 01:40:22,116 Classification Precision 5: 73.309
+2022-11-21 01:40:22,117 Classification NDCG 5: 91.116
+2022-11-21 01:40:22,117 Valid Accuracy: 73.310
+2022-11-21 01:40:22,117 Test Accuracy: 74.440
+2022-11-21 01:40:58,072 Epoch: 991 train_loss= 0.09430
+2022-11-21 01:40:59,890 Classification Precision 1: 99.256
+2022-11-21 01:40:59,890 Classification NDCG 1: 99.256
+2022-11-21 01:40:59,989 Classification Precision 3: 89.831
+2022-11-21 01:40:59,990 Classification NDCG 3: 98.018
+2022-11-21 01:41:00,101 Classification Precision 5: 77.723
+2022-11-21 01:41:00,101 Classification NDCG 5: 97.314
+2022-11-21 01:41:00,101 Train Accuracy: 77.720
+2022-11-21 01:41:00,195 Classification Precision 1: 94.052
+2022-11-21 01:41:00,196 Classification NDCG 1: 94.052
+2022-11-21 01:41:00,283 Classification Precision 3: 85.601
+2022-11-21 01:41:00,284 Classification NDCG 3: 92.897
+2022-11-21 01:41:00,375 Classification Precision 5: 73.413
+2022-11-21 01:41:00,376 Classification NDCG 5: 91.177
+2022-11-21 01:41:00,376 Valid Accuracy: 73.410
+2022-11-21 01:41:01,102 Classification Precision 1: 94.896
+2022-11-21 01:41:01,103 Classification NDCG 1: 94.896
+2022-11-21 01:41:01,812 Classification Precision 3: 87.474
+2022-11-21 01:41:01,812 Classification NDCG 3: 93.891
+2022-11-21 01:41:02,664 Classification Precision 5: 74.492
+2022-11-21 01:41:02,664 Classification NDCG 5: 91.781
+2022-11-21 01:41:02,665 Test Accuracy: 74.490
+2022-11-21 01:41:34,937 Optimization Finished! Best Valid Acc: 73.41 Test: 94.9 94.9 87.47 93.89 74.49 91.78

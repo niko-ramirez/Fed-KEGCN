@@ -1,0 +1,426 @@
+2022-11-20 01:48:29,394 From train_class.py:90: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-11-20 01:48:29,401 From train_class.py:91: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2022-11-20 01:48:29,409 From C:\Users\nikor\conda_test\KE-GCN\models.py:121: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2022-11-20 01:48:29,410 From C:\Users\nikor\conda_test\KE-GCN\models.py:146: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-11-20 01:48:29,410 From C:\Users\nikor\conda_test\KE-GCN\inits.py:34: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+2022-11-20 01:48:29,447 From C:\Users\nikor\conda_test\KE-GCN\inits.py:14: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+2022-11-20 01:48:29,457 From C:\Users\nikor\conda_test\KE-GCN\layers.py:112: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+2022-11-20 01:48:29,518 From C:\Users\nikor\Anaconda3\envs\kegcn\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2022-11-20 01:48:29,970 From C:\Users\nikor\conda_test\KE-GCN\models.py:170: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2022-11-20 01:48:29,971 From C:\Users\nikor\conda_test\KE-GCN\models.py:170: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2022-11-20 01:48:31,304 From train_class.py:112: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-11-20 01:48:31,726 From train_class.py:113: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-11-20 01:48:33,456 Epoch: 1 train_loss= 3.29110
+2022-11-20 01:48:33,982 Train Accuracy: 34.220
+2022-11-20 01:48:33,986 Valid Accuracy: 25.517
+2022-11-20 01:48:34,009 Test Accuracy: 25.471
+2022-11-20 01:48:41,480 Epoch: 11 train_loss= 2.75185
+2022-11-20 01:48:41,862 Train Accuracy: 35.097
+2022-11-20 01:48:41,865 Valid Accuracy: 25.329
+2022-11-20 01:48:41,865 Test Accuracy: 25.471
+2022-11-20 01:48:49,250 Epoch: 21 train_loss= 2.50613
+2022-11-20 01:48:49,615 Train Accuracy: 40.920
+2022-11-20 01:48:49,618 Valid Accuracy: 30.025
+2022-11-20 01:48:49,636 Test Accuracy: 30.436
+2022-11-20 01:48:57,139 Epoch: 31 train_loss= 2.33095
+2022-11-20 01:48:57,505 Train Accuracy: 47.902
+2022-11-20 01:48:57,508 Valid Accuracy: 33.406
+2022-11-20 01:48:57,527 Test Accuracy: 34.322
+2022-11-20 01:49:05,038 Epoch: 41 train_loss= 2.19501
+2022-11-20 01:49:05,396 Train Accuracy: 53.350
+2022-11-20 01:49:05,399 Valid Accuracy: 38.228
+2022-11-20 01:49:05,419 Test Accuracy: 39.073
+2022-11-20 01:49:12,909 Epoch: 51 train_loss= 2.08334
+2022-11-20 01:49:13,276 Train Accuracy: 56.418
+2022-11-20 01:49:13,279 Valid Accuracy: 41.265
+2022-11-20 01:49:13,311 Test Accuracy: 41.855
+2022-11-20 01:49:20,806 Epoch: 61 train_loss= 1.98557
+2022-11-20 01:49:21,177 Train Accuracy: 58.547
+2022-11-20 01:49:21,180 Valid Accuracy: 42.517
+2022-11-20 01:49:21,201 Test Accuracy: 43.303
+2022-11-20 01:49:28,620 Epoch: 71 train_loss= 1.89642
+2022-11-20 01:49:28,996 Train Accuracy: 61.177
+2022-11-20 01:49:29,000 Valid Accuracy: 43.895
+2022-11-20 01:49:29,019 Test Accuracy: 44.398
+2022-11-20 01:49:36,545 Epoch: 81 train_loss= 1.81353
+2022-11-20 01:49:36,895 Train Accuracy: 63.525
+2022-11-20 01:49:36,897 Valid Accuracy: 44.834
+2022-11-20 01:49:36,917 Test Accuracy: 45.338
+2022-11-20 01:49:44,361 Epoch: 91 train_loss= 1.73573
+2022-11-20 01:49:44,720 Train Accuracy: 66.969
+2022-11-20 01:49:44,723 Valid Accuracy: 45.492
+2022-11-20 01:49:44,742 Test Accuracy: 46.191
+2022-11-20 01:49:52,176 Epoch: 101 train_loss= 1.66227
+2022-11-20 01:49:52,537 Train Accuracy: 69.474
+2022-11-20 01:49:52,540 Valid Accuracy: 46.399
+2022-11-20 01:49:52,558 Test Accuracy: 46.934
+2022-11-20 01:50:00,065 Epoch: 111 train_loss= 1.59285
+2022-11-20 01:50:00,446 Train Accuracy: 72.135
+2022-11-20 01:50:00,449 Valid Accuracy: 46.994
+2022-11-20 01:50:00,469 Test Accuracy: 47.591
+2022-11-20 01:50:07,869 Epoch: 121 train_loss= 1.52697
+2022-11-20 01:50:08,244 Train Accuracy: 74.609
+2022-11-20 01:50:08,247 Valid Accuracy: 47.902
+2022-11-20 01:50:08,266 Test Accuracy: 48.327
+2022-11-20 01:50:15,734 Epoch: 131 train_loss= 1.46453
+2022-11-20 01:50:16,103 Train Accuracy: 76.550
+2022-11-20 01:50:16,105 Valid Accuracy: 48.435
+2022-11-20 01:50:16,125 Test Accuracy: 48.875
+2022-11-20 01:50:23,644 Epoch: 141 train_loss= 1.40542
+2022-11-20 01:50:23,998 Train Accuracy: 78.366
+2022-11-20 01:50:24,001 Valid Accuracy: 49.029
+2022-11-20 01:50:24,022 Test Accuracy: 49.395
+2022-11-20 01:50:31,474 Epoch: 151 train_loss= 1.34938
+2022-11-20 01:50:31,834 Train Accuracy: 79.931
+2022-11-20 01:50:31,837 Valid Accuracy: 50.031
+2022-11-20 01:50:31,857 Test Accuracy: 49.908
+2022-11-20 01:50:39,298 Epoch: 161 train_loss= 1.29611
+2022-11-20 01:50:39,655 Train Accuracy: 81.371
+2022-11-20 01:50:39,658 Valid Accuracy: 50.313
+2022-11-20 01:50:39,677 Test Accuracy: 50.468
+2022-11-20 01:50:47,151 Epoch: 171 train_loss= 1.24549
+2022-11-20 01:50:47,526 Train Accuracy: 82.749
+2022-11-20 01:50:47,531 Valid Accuracy: 50.689
+2022-11-20 01:50:47,555 Test Accuracy: 50.933
+2022-11-20 01:50:55,033 Epoch: 181 train_loss= 1.19741
+2022-11-20 01:50:55,525 Train Accuracy: 84.001
+2022-11-20 01:50:55,531 Valid Accuracy: 51.127
+2022-11-20 01:50:55,569 Test Accuracy: 51.332
+2022-11-20 01:51:04,622 Epoch: 191 train_loss= 1.15171
+2022-11-20 01:51:05,055 Train Accuracy: 84.878
+2022-11-20 01:51:05,059 Valid Accuracy: 51.534
+2022-11-20 01:51:05,083 Test Accuracy: 51.661
+2022-11-20 01:51:13,137 Epoch: 201 train_loss= 1.10832
+2022-11-20 01:51:13,542 Train Accuracy: 85.848
+2022-11-20 01:51:13,546 Valid Accuracy: 51.879
+2022-11-20 01:51:13,568 Test Accuracy: 51.959
+2022-11-20 01:51:21,147 Epoch: 211 train_loss= 1.06705
+2022-11-20 01:51:21,544 Train Accuracy: 86.662
+2022-11-20 01:51:21,547 Valid Accuracy: 52.160
+2022-11-20 01:51:21,566 Test Accuracy: 52.221
+2022-11-20 01:51:29,218 Epoch: 221 train_loss= 1.02777
+2022-11-20 01:51:29,586 Train Accuracy: 87.383
+2022-11-20 01:51:29,589 Valid Accuracy: 52.411
+2022-11-20 01:51:29,608 Test Accuracy: 52.530
+2022-11-20 01:51:37,177 Epoch: 231 train_loss= 0.99045
+2022-11-20 01:51:37,539 Train Accuracy: 88.134
+2022-11-20 01:51:37,542 Valid Accuracy: 52.786
+2022-11-20 01:51:37,561 Test Accuracy: 52.800
+2022-11-20 01:51:45,040 Epoch: 241 train_loss= 0.95496
+2022-11-20 01:51:45,400 Train Accuracy: 88.729
+2022-11-20 01:51:45,403 Valid Accuracy: 53.037
+2022-11-20 01:51:45,422 Test Accuracy: 53.011
+2022-11-20 01:51:52,849 Epoch: 251 train_loss= 0.92119
+2022-11-20 01:51:53,193 Train Accuracy: 89.324
+2022-11-20 01:51:53,196 Valid Accuracy: 53.100
+2022-11-20 01:51:53,215 Test Accuracy: 53.238
+2022-11-20 01:52:00,692 Epoch: 261 train_loss= 0.88903
+2022-11-20 01:52:01,040 Train Accuracy: 89.731
+2022-11-20 01:52:01,043 Valid Accuracy: 53.444
+2022-11-20 01:52:01,067 Test Accuracy: 53.489
+2022-11-20 01:52:08,525 Epoch: 271 train_loss= 0.85833
+2022-11-20 01:52:08,880 Train Accuracy: 90.263
+2022-11-20 01:52:08,882 Valid Accuracy: 53.663
+2022-11-20 01:52:08,902 Test Accuracy: 53.602
+2022-11-20 01:52:16,262 Epoch: 281 train_loss= 0.82892
+2022-11-20 01:52:16,626 Train Accuracy: 90.764
+2022-11-20 01:52:16,628 Valid Accuracy: 53.976
+2022-11-20 01:52:16,648 Test Accuracy: 53.821
+2022-11-20 01:52:24,090 Epoch: 291 train_loss= 0.80079
+2022-11-20 01:52:24,456 Train Accuracy: 91.202
+2022-11-20 01:52:24,459 Valid Accuracy: 54.289
+2022-11-20 01:52:24,478 Test Accuracy: 54.032
+2022-11-20 01:52:32,004 Epoch: 301 train_loss= 0.77396
+2022-11-20 01:52:32,373 Train Accuracy: 91.672
+2022-11-20 01:52:32,376 Valid Accuracy: 54.415
+2022-11-20 01:52:32,396 Test Accuracy: 54.244
+2022-11-20 01:52:39,743 Epoch: 311 train_loss= 0.74827
+2022-11-20 01:52:40,096 Train Accuracy: 92.204
+2022-11-20 01:52:40,100 Valid Accuracy: 54.602
+2022-11-20 01:52:40,120 Test Accuracy: 54.416
+2022-11-20 01:52:47,579 Epoch: 321 train_loss= 0.72363
+2022-11-20 01:52:47,936 Train Accuracy: 92.455
+2022-11-20 01:52:47,939 Valid Accuracy: 54.634
+2022-11-20 01:52:47,958 Test Accuracy: 54.522
+2022-11-20 01:52:55,352 Epoch: 331 train_loss= 0.70001
+2022-11-20 01:52:55,732 Train Accuracy: 92.830
+2022-11-20 01:52:55,735 Valid Accuracy: 54.853
+2022-11-20 01:52:55,755 Test Accuracy: 54.706
+2022-11-20 01:53:03,271 Epoch: 341 train_loss= 0.67735
+2022-11-20 01:53:03,634 Train Accuracy: 93.206
+2022-11-20 01:53:03,637 Valid Accuracy: 54.915
+2022-11-20 01:53:03,657 Test Accuracy: 54.807
+2022-11-20 01:53:11,046 Epoch: 351 train_loss= 0.65572
+2022-11-20 01:53:11,398 Train Accuracy: 93.456
+2022-11-20 01:53:11,401 Valid Accuracy: 55.009
+2022-11-20 01:53:11,421 Test Accuracy: 54.956
+2022-11-20 01:53:18,861 Epoch: 361 train_loss= 0.63501
+2022-11-20 01:53:19,203 Train Accuracy: 94.020
+2022-11-20 01:53:19,206 Valid Accuracy: 55.260
+2022-11-20 01:53:19,226 Test Accuracy: 55.097
+2022-11-20 01:53:27,687 Epoch: 371 train_loss= 0.61520
+2022-11-20 01:53:28,116 Train Accuracy: 94.646
+2022-11-20 01:53:28,119 Valid Accuracy: 55.229
+2022-11-20 01:53:28,119 Test Accuracy: 55.097
+2022-11-20 01:53:36,869 Epoch: 381 train_loss= 0.59616
+2022-11-20 01:53:37,227 Train Accuracy: 95.085
+2022-11-20 01:53:37,230 Valid Accuracy: 55.448
+2022-11-20 01:53:37,250 Test Accuracy: 55.273
+2022-11-20 01:53:45,808 Epoch: 391 train_loss= 0.57788
+2022-11-20 01:53:46,290 Train Accuracy: 95.429
+2022-11-20 01:53:46,297 Valid Accuracy: 55.542
+2022-11-20 01:53:46,343 Test Accuracy: 55.339
+2022-11-20 01:53:55,362 Epoch: 401 train_loss= 0.56033
+2022-11-20 01:53:55,754 Train Accuracy: 95.805
+2022-11-20 01:53:55,758 Valid Accuracy: 55.573
+2022-11-20 01:53:55,786 Test Accuracy: 55.426
+2022-11-20 01:54:04,015 Epoch: 411 train_loss= 0.54344
+2022-11-20 01:54:04,381 Train Accuracy: 96.055
+2022-11-20 01:54:04,385 Valid Accuracy: 55.729
+2022-11-20 01:54:04,406 Test Accuracy: 55.519
+2022-11-20 01:54:11,904 Epoch: 421 train_loss= 0.52717
+2022-11-20 01:54:12,277 Train Accuracy: 96.212
+2022-11-20 01:54:12,279 Valid Accuracy: 55.761
+2022-11-20 01:54:12,300 Test Accuracy: 55.590
+2022-11-20 01:54:19,903 Epoch: 431 train_loss= 0.51149
+2022-11-20 01:54:20,263 Train Accuracy: 96.399
+2022-11-20 01:54:20,266 Valid Accuracy: 55.792
+2022-11-20 01:54:20,286 Test Accuracy: 55.715
+2022-11-20 01:54:27,772 Epoch: 441 train_loss= 0.49641
+2022-11-20 01:54:28,134 Train Accuracy: 96.525
+2022-11-20 01:54:28,138 Valid Accuracy: 55.949
+2022-11-20 01:54:28,160 Test Accuracy: 55.809
+2022-11-20 01:54:35,663 Epoch: 451 train_loss= 0.48184
+2022-11-20 01:54:36,013 Train Accuracy: 96.838
+2022-11-20 01:54:36,018 Valid Accuracy: 56.043
+2022-11-20 01:54:36,039 Test Accuracy: 55.934
+2022-11-20 01:54:43,947 Epoch: 461 train_loss= 0.46786
+2022-11-20 01:54:44,310 Train Accuracy: 96.963
+2022-11-20 01:54:44,313 Valid Accuracy: 56.105
+2022-11-20 01:54:44,334 Test Accuracy: 55.981
+2022-11-20 01:54:52,214 Epoch: 471 train_loss= 0.45438
+2022-11-20 01:54:52,593 Train Accuracy: 97.057
+2022-11-20 01:54:52,597 Valid Accuracy: 56.293
+2022-11-20 01:54:52,616 Test Accuracy: 56.067
+2022-11-20 01:55:00,512 Epoch: 481 train_loss= 0.44138
+2022-11-20 01:55:00,880 Train Accuracy: 97.151
+2022-11-20 01:55:00,883 Valid Accuracy: 56.168
+2022-11-20 01:55:00,883 Test Accuracy: 56.067
+2022-11-20 01:55:09,071 Epoch: 491 train_loss= 0.42886
+2022-11-20 01:55:09,488 Train Accuracy: 97.307
+2022-11-20 01:55:09,494 Valid Accuracy: 56.230
+2022-11-20 01:55:09,494 Test Accuracy: 56.067
+2022-11-20 01:55:17,249 Epoch: 501 train_loss= 0.41675
+2022-11-20 01:55:17,629 Train Accuracy: 97.433
+2022-11-20 01:55:17,632 Valid Accuracy: 56.418
+2022-11-20 01:55:17,653 Test Accuracy: 56.286
+2022-11-20 01:55:26,347 Epoch: 511 train_loss= 0.40491
+2022-11-20 01:55:26,715 Train Accuracy: 97.621
+2022-11-20 01:55:26,718 Valid Accuracy: 56.575
+2022-11-20 01:55:26,737 Test Accuracy: 56.341
+2022-11-20 01:55:34,508 Epoch: 521 train_loss= 0.39361
+2022-11-20 01:55:35,019 Train Accuracy: 97.714
+2022-11-20 01:55:35,023 Valid Accuracy: 56.450
+2022-11-20 01:55:35,024 Test Accuracy: 56.341
+2022-11-20 01:55:43,657 Epoch: 531 train_loss= 0.38276
+2022-11-20 01:55:44,081 Train Accuracy: 97.746
+2022-11-20 01:55:44,085 Valid Accuracy: 56.512
+2022-11-20 01:55:44,086 Test Accuracy: 56.341
+2022-11-20 01:55:51,780 Epoch: 541 train_loss= 0.37223
+2022-11-20 01:55:52,136 Train Accuracy: 97.871
+2022-11-20 01:55:52,139 Valid Accuracy: 56.637
+2022-11-20 01:55:52,163 Test Accuracy: 56.521
+2022-11-20 01:55:59,658 Epoch: 551 train_loss= 0.36209
+2022-11-20 01:56:00,014 Train Accuracy: 98.090
+2022-11-20 01:56:00,023 Valid Accuracy: 56.700
+2022-11-20 01:56:00,051 Test Accuracy: 56.568
+2022-11-20 01:56:07,533 Epoch: 561 train_loss= 0.35230
+2022-11-20 01:56:07,892 Train Accuracy: 98.153
+2022-11-20 01:56:07,895 Valid Accuracy: 56.731
+2022-11-20 01:56:07,914 Test Accuracy: 56.607
+2022-11-20 01:56:15,340 Epoch: 571 train_loss= 0.34284
+2022-11-20 01:56:15,723 Train Accuracy: 98.247
+2022-11-20 01:56:15,726 Valid Accuracy: 56.794
+2022-11-20 01:56:15,745 Test Accuracy: 56.670
+2022-11-20 01:56:23,094 Epoch: 581 train_loss= 0.33369
+2022-11-20 01:56:23,447 Train Accuracy: 98.278
+2022-11-20 01:56:23,450 Valid Accuracy: 56.763
+2022-11-20 01:56:23,450 Test Accuracy: 56.670
+2022-11-20 01:56:30,926 Epoch: 591 train_loss= 0.32483
+2022-11-20 01:56:31,285 Train Accuracy: 98.403
+2022-11-20 01:56:31,288 Valid Accuracy: 56.951
+2022-11-20 01:56:31,307 Test Accuracy: 56.823
+2022-11-20 01:56:38,796 Epoch: 601 train_loss= 0.31627
+2022-11-20 01:56:39,144 Train Accuracy: 98.466
+2022-11-20 01:56:39,147 Valid Accuracy: 56.857
+2022-11-20 01:56:39,147 Test Accuracy: 56.823
+2022-11-20 01:56:46,567 Epoch: 611 train_loss= 0.30796
+2022-11-20 01:56:46,922 Train Accuracy: 98.560
+2022-11-20 01:56:46,925 Valid Accuracy: 57.013
+2022-11-20 01:56:46,944 Test Accuracy: 56.932
+2022-11-20 01:56:54,928 Epoch: 621 train_loss= 0.29993
+2022-11-20 01:56:55,286 Train Accuracy: 98.716
+2022-11-20 01:56:55,289 Valid Accuracy: 56.951
+2022-11-20 01:56:55,290 Test Accuracy: 56.932
+2022-11-20 01:57:02,752 Epoch: 631 train_loss= 0.29213
+2022-11-20 01:57:03,128 Train Accuracy: 98.748
+2022-11-20 01:57:03,131 Valid Accuracy: 57.013
+2022-11-20 01:57:03,131 Test Accuracy: 56.932
+2022-11-20 01:57:10,579 Epoch: 641 train_loss= 0.28431
+2022-11-20 01:57:10,930 Train Accuracy: 98.748
+2022-11-20 01:57:10,933 Valid Accuracy: 57.264
+2022-11-20 01:57:10,953 Test Accuracy: 57.042
+2022-11-20 01:57:18,427 Epoch: 651 train_loss= 0.27698
+2022-11-20 01:57:18,792 Train Accuracy: 98.810
+2022-11-20 01:57:18,795 Valid Accuracy: 57.358
+2022-11-20 01:57:18,816 Test Accuracy: 57.065
+2022-11-20 01:57:26,280 Epoch: 661 train_loss= 0.26990
+2022-11-20 01:57:26,647 Train Accuracy: 98.810
+2022-11-20 01:57:26,650 Valid Accuracy: 57.295
+2022-11-20 01:57:26,650 Test Accuracy: 57.065
+2022-11-20 01:57:34,177 Epoch: 671 train_loss= 0.26308
+2022-11-20 01:57:34,554 Train Accuracy: 98.873
+2022-11-20 01:57:34,557 Valid Accuracy: 57.295
+2022-11-20 01:57:34,557 Test Accuracy: 57.065
+2022-11-20 01:57:41,991 Epoch: 681 train_loss= 0.25646
+2022-11-20 01:57:42,354 Train Accuracy: 98.936
+2022-11-20 01:57:42,357 Valid Accuracy: 57.295
+2022-11-20 01:57:42,357 Test Accuracy: 57.065
+2022-11-20 01:57:49,868 Epoch: 691 train_loss= 0.25008
+2022-11-20 01:57:50,239 Train Accuracy: 99.061
+2022-11-20 01:57:50,243 Valid Accuracy: 57.295
+2022-11-20 01:57:50,243 Test Accuracy: 57.065
+2022-11-20 01:57:57,786 Epoch: 701 train_loss= 0.24388
+2022-11-20 01:57:58,141 Train Accuracy: 99.155
+2022-11-20 01:57:58,144 Valid Accuracy: 57.389
+2022-11-20 01:57:58,166 Test Accuracy: 57.233
+2022-11-20 01:58:05,677 Epoch: 711 train_loss= 0.23787
+2022-11-20 01:58:06,022 Train Accuracy: 99.280
+2022-11-20 01:58:06,025 Valid Accuracy: 57.514
+2022-11-20 01:58:06,045 Test Accuracy: 57.233
+2022-11-20 01:58:13,518 Epoch: 721 train_loss= 0.23203
+2022-11-20 01:58:13,878 Train Accuracy: 99.405
+2022-11-20 01:58:13,881 Valid Accuracy: 57.702
+2022-11-20 01:58:13,900 Test Accuracy: 57.261
+2022-11-20 01:58:21,329 Epoch: 731 train_loss= 0.22638
+2022-11-20 01:58:21,690 Train Accuracy: 99.499
+2022-11-20 01:58:21,695 Valid Accuracy: 57.671
+2022-11-20 01:58:21,695 Test Accuracy: 57.261
+2022-11-20 01:58:29,111 Epoch: 741 train_loss= 0.22091
+2022-11-20 01:58:29,463 Train Accuracy: 99.530
+2022-11-20 01:58:29,466 Valid Accuracy: 57.733
+2022-11-20 01:58:29,493 Test Accuracy: 57.323
+2022-11-20 01:58:36,949 Epoch: 751 train_loss= 0.21557
+2022-11-20 01:58:37,302 Train Accuracy: 99.562
+2022-11-20 01:58:37,305 Valid Accuracy: 57.702
+2022-11-20 01:58:37,305 Test Accuracy: 57.323
+2022-11-20 01:58:44,776 Epoch: 761 train_loss= 0.21033
+2022-11-20 01:58:45,122 Train Accuracy: 99.656
+2022-11-20 01:58:45,125 Valid Accuracy: 57.577
+2022-11-20 01:58:45,126 Test Accuracy: 57.323
+2022-11-20 01:58:52,551 Epoch: 771 train_loss= 0.20525
+2022-11-20 01:58:52,920 Train Accuracy: 99.687
+2022-11-20 01:58:52,923 Valid Accuracy: 57.671
+2022-11-20 01:58:52,923 Test Accuracy: 57.323
+2022-11-20 01:59:00,394 Epoch: 781 train_loss= 0.20042
+2022-11-20 01:59:00,776 Train Accuracy: 99.718
+2022-11-20 01:59:00,779 Valid Accuracy: 57.671
+2022-11-20 01:59:00,780 Test Accuracy: 57.323
+2022-11-20 01:59:08,267 Epoch: 791 train_loss= 0.19573
+2022-11-20 01:59:08,636 Train Accuracy: 99.750
+2022-11-20 01:59:08,639 Valid Accuracy: 57.702
+2022-11-20 01:59:08,639 Test Accuracy: 57.323
+2022-11-20 01:59:16,076 Epoch: 801 train_loss= 0.19117
+2022-11-20 01:59:16,430 Train Accuracy: 99.781
+2022-11-20 01:59:16,434 Valid Accuracy: 57.733
+2022-11-20 01:59:16,435 Test Accuracy: 57.323
+2022-11-20 01:59:23,785 Epoch: 811 train_loss= 0.18675
+2022-11-20 01:59:24,158 Train Accuracy: 99.843
+2022-11-20 01:59:24,161 Valid Accuracy: 57.765
+2022-11-20 01:59:24,181 Test Accuracy: 57.335
+2022-11-20 01:59:31,638 Epoch: 821 train_loss= 0.18250
+2022-11-20 01:59:32,002 Train Accuracy: 99.843
+2022-11-20 01:59:32,005 Valid Accuracy: 57.702
+2022-11-20 01:59:32,006 Test Accuracy: 57.335
+2022-11-20 01:59:39,874 Epoch: 831 train_loss= 0.17838
+2022-11-20 01:59:40,226 Train Accuracy: 99.875
+2022-11-20 01:59:40,229 Valid Accuracy: 57.765
+2022-11-20 01:59:40,229 Test Accuracy: 57.335
+2022-11-20 01:59:47,801 Epoch: 841 train_loss= 0.17439
+2022-11-20 01:59:48,156 Train Accuracy: 99.875
+2022-11-20 01:59:48,159 Valid Accuracy: 57.796
+2022-11-20 01:59:48,178 Test Accuracy: 57.335
+2022-11-20 01:59:55,700 Epoch: 851 train_loss= 0.17051
+2022-11-20 01:59:56,068 Train Accuracy: 99.875
+2022-11-20 01:59:56,071 Valid Accuracy: 57.827
+2022-11-20 01:59:56,091 Test Accuracy: 57.363
+2022-11-20 02:00:03,647 Epoch: 861 train_loss= 0.16676
+2022-11-20 02:00:03,999 Train Accuracy: 99.875
+2022-11-20 02:00:04,002 Valid Accuracy: 57.796
+2022-11-20 02:00:04,002 Test Accuracy: 57.363
+2022-11-20 02:00:11,663 Epoch: 871 train_loss= 0.16312
+2022-11-20 02:00:12,042 Train Accuracy: 99.875
+2022-11-20 02:00:12,045 Valid Accuracy: 57.921
+2022-11-20 02:00:12,064 Test Accuracy: 57.378
+2022-11-20 02:00:19,588 Epoch: 881 train_loss= 0.15959
+2022-11-20 02:00:19,960 Train Accuracy: 99.875
+2022-11-20 02:00:19,963 Valid Accuracy: 57.858
+2022-11-20 02:00:19,963 Test Accuracy: 57.378
+2022-11-20 02:00:27,450 Epoch: 891 train_loss= 0.15616
+2022-11-20 02:00:27,823 Train Accuracy: 99.875
+2022-11-20 02:00:27,826 Valid Accuracy: 57.952
+2022-11-20 02:00:27,847 Test Accuracy: 57.441
+2022-11-20 02:00:35,354 Epoch: 901 train_loss= 0.15283
+2022-11-20 02:00:35,726 Train Accuracy: 99.875
+2022-11-20 02:00:35,729 Valid Accuracy: 58.046
+2022-11-20 02:00:35,748 Test Accuracy: 57.456
+2022-11-20 02:00:43,764 Epoch: 911 train_loss= 0.14959
+2022-11-20 02:00:44,121 Train Accuracy: 99.906
+2022-11-20 02:00:44,124 Valid Accuracy: 58.046
+2022-11-20 02:00:44,124 Test Accuracy: 57.456
+2022-11-20 02:00:51,655 Epoch: 921 train_loss= 0.14645
+2022-11-20 02:00:52,048 Train Accuracy: 99.906
+2022-11-20 02:00:52,051 Valid Accuracy: 58.015
+2022-11-20 02:00:52,052 Test Accuracy: 57.456
+2022-11-20 02:00:59,521 Epoch: 931 train_loss= 0.14339
+2022-11-20 02:00:59,885 Train Accuracy: 99.937
+2022-11-20 02:00:59,888 Valid Accuracy: 58.078
+2022-11-20 02:00:59,912 Test Accuracy: 57.472
+2022-11-20 02:01:07,481 Epoch: 941 train_loss= 0.14043
+2022-11-20 02:01:07,840 Train Accuracy: 99.937
+2022-11-20 02:01:07,843 Valid Accuracy: 58.203
+2022-11-20 02:01:07,862 Test Accuracy: 57.468
+2022-11-20 02:01:15,527 Epoch: 951 train_loss= 0.13754
+2022-11-20 02:01:15,905 Train Accuracy: 99.969
+2022-11-20 02:01:15,908 Valid Accuracy: 58.265
+2022-11-20 02:01:15,927 Test Accuracy: 57.492
+2022-11-20 02:01:23,373 Epoch: 961 train_loss= 0.13472
+2022-11-20 02:01:23,743 Train Accuracy: 99.969
+2022-11-20 02:01:23,746 Valid Accuracy: 58.203
+2022-11-20 02:01:23,746 Test Accuracy: 57.492
+2022-11-20 02:01:31,176 Epoch: 971 train_loss= 0.13193
+2022-11-20 02:01:31,552 Train Accuracy: 99.969
+2022-11-20 02:01:31,555 Valid Accuracy: 58.297
+2022-11-20 02:01:31,574 Test Accuracy: 57.531
+2022-11-20 02:01:39,161 Epoch: 981 train_loss= 0.12926
+2022-11-20 02:01:39,555 Train Accuracy: 99.969
+2022-11-20 02:01:39,561 Valid Accuracy: 58.234
+2022-11-20 02:01:39,562 Test Accuracy: 57.531
+2022-11-20 02:01:47,212 Epoch: 991 train_loss= 0.12669
+2022-11-20 02:01:47,583 Train Accuracy: 99.969
+2022-11-20 02:01:47,586 Valid Accuracy: 58.265
+2022-11-20 02:01:47,586 Test Accuracy: 57.531
+2022-11-20 02:01:54,338 Optimization Finished! Best Valid Acc: 58.27 Test: 57.53
