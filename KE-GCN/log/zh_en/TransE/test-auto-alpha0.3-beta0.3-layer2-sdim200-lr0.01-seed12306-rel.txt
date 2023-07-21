@@ -1,0 +1,182 @@
+2022-11-19 14:15:17,451 From train_align.py:84: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-11-19 14:15:17,458 From train_align.py:85: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+2022-11-19 14:15:17,466 From C:\Users\nikor\conda_test\KE-GCN\models.py:121: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2022-11-19 14:15:17,467 From C:\Users\nikor\conda_test\KE-GCN\models.py:146: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-11-19 14:15:17,468 From C:\Users\nikor\conda_test\KE-GCN\inits.py:34: The name tf.truncated_normal is deprecated. Please use tf.random.truncated_normal instead.
+
+2022-11-19 14:15:17,508 From C:\Users\nikor\conda_test\KE-GCN\layers.py:152: The name tf.summary.histogram is deprecated. Please use tf.compat.v1.summary.histogram instead.
+
+2022-11-19 14:15:17,564 From C:\Users\nikor\Anaconda3\envs\kegcn\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1375: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2022-11-19 14:15:18,011 From C:\Users\nikor\conda_test\KE-GCN\models.py:170: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+2022-11-19 14:15:18,011 From C:\Users\nikor\conda_test\KE-GCN\models.py:170: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+2022-11-19 14:15:18,022 From C:\Users\nikor\conda_test\KE-GCN\metrics.py:9: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+2022-11-19 14:15:19,383 From train_align.py:112: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2022-11-19 14:15:19,810 From train_align.py:113: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-11-19 14:15:25,987 Epoch: 1 train_loss= 2.45359
+2022-11-19 14:16:09,422 Epoch: 11 train_loss= 0.16554
+2022-11-19 14:16:52,639 Epoch: 21 train_loss= 0.06286
+2022-11-19 14:17:35,797 Epoch: 31 train_loss= 0.03937
+2022-11-19 14:18:19,028 Epoch: 41 train_loss= 0.02969
+2022-11-19 14:19:02,239 Epoch: 51 train_loss= 0.02225
+2022-11-19 14:19:46,207 Epoch: 61 train_loss= 0.02163
+2022-11-19 14:20:32,177 Epoch: 71 train_loss= 0.01976
+2022-11-19 14:21:17,062 Epoch: 81 train_loss= 0.01745
+2022-11-19 14:22:01,479 Epoch: 91 train_loss= 0.01650
+2022-11-19 14:22:44,940 Epoch: 101 train_loss= 0.01512
+2022-11-19 14:23:33,615 Epoch: 111 train_loss= 0.01306
+2022-11-19 14:24:17,142 Epoch: 121 train_loss= 0.01256
+2022-11-19 14:25:00,497 Epoch: 131 train_loss= 0.01124
+2022-11-19 14:25:43,737 Epoch: 141 train_loss= 0.00975
+2022-11-19 14:26:26,968 Epoch: 151 train_loss= 0.01059
+2022-11-19 14:27:10,291 Epoch: 161 train_loss= 0.00923
+2022-11-19 14:27:53,453 Epoch: 171 train_loss= 0.00899
+2022-11-19 14:28:36,768 Epoch: 181 train_loss= 0.00863
+2022-11-19 14:29:20,148 Epoch: 191 train_loss= 0.00810
+2022-11-19 14:30:03,596 Epoch: 201 train_loss= 0.00878
+2022-11-19 14:30:47,485 Epoch: 211 train_loss= 0.00807
+2022-11-19 14:31:30,617 Epoch: 221 train_loss= 0.00746
+2022-11-19 14:32:14,191 Epoch: 231 train_loss= 0.00667
+2022-11-19 14:32:57,454 Epoch: 241 train_loss= 0.00772
+2022-11-19 14:33:40,786 Epoch: 251 train_loss= 0.00682
+2022-11-19 14:34:24,060 Epoch: 261 train_loss= 0.00673
+2022-11-19 14:35:07,146 Epoch: 271 train_loss= 0.00668
+2022-11-19 14:35:50,406 Epoch: 281 train_loss= 0.00593
+2022-11-19 14:36:33,534 Epoch: 291 train_loss= 0.00608
+2022-11-19 14:37:16,808 Epoch: 301 train_loss= 0.00581
+2022-11-19 14:38:00,136 Epoch: 311 train_loss= 0.00534
+2022-11-19 14:38:43,569 Epoch: 321 train_loss= 0.00540
+2022-11-19 14:39:26,884 Epoch: 331 train_loss= 0.00626
+2022-11-19 14:40:10,454 Epoch: 341 train_loss= 0.00502
+2022-11-19 14:40:53,710 Epoch: 351 train_loss= 0.00509
+2022-11-19 14:41:37,021 Epoch: 361 train_loss= 0.00512
+2022-11-19 14:42:20,312 Epoch: 371 train_loss= 0.00473
+2022-11-19 14:43:03,397 Epoch: 381 train_loss= 0.00481
+2022-11-19 14:43:46,540 Epoch: 391 train_loss= 0.00478
+2022-11-19 14:44:30,058 Epoch: 401 train_loss= 0.00524
+2022-11-19 14:45:13,141 Epoch: 411 train_loss= 0.00458
+2022-11-19 14:45:56,281 Epoch: 421 train_loss= 0.00482
+2022-11-19 14:46:39,646 Epoch: 431 train_loss= 0.00474
+2022-11-19 14:47:22,808 Epoch: 441 train_loss= 0.00448
+2022-11-19 14:48:06,071 Epoch: 451 train_loss= 0.00518
+2022-11-19 14:48:49,163 Epoch: 461 train_loss= 0.00481
+2022-11-19 14:49:32,384 Epoch: 471 train_loss= 0.00467
+2022-11-19 14:50:15,717 Epoch: 481 train_loss= 0.00468
+2022-11-19 14:50:58,948 Epoch: 491 train_loss= 0.00467
+2022-11-19 14:51:42,479 Epoch: 501 train_loss= 0.00435
+2022-11-19 14:52:25,763 Epoch: 511 train_loss= 0.00455
+2022-11-19 14:53:09,040 Epoch: 521 train_loss= 0.00437
+2022-11-19 14:53:52,256 Epoch: 531 train_loss= 0.00447
+2022-11-19 14:54:35,535 Epoch: 541 train_loss= 0.00483
+2022-11-19 14:55:18,681 Epoch: 551 train_loss= 0.00405
+2022-11-19 14:56:02,015 Epoch: 561 train_loss= 0.00436
+2022-11-19 14:56:45,341 Epoch: 571 train_loss= 0.00449
+2022-11-19 14:57:28,387 Epoch: 581 train_loss= 0.00404
+2022-11-19 14:58:11,601 Epoch: 591 train_loss= 0.00342
+2022-11-19 14:58:54,725 Epoch: 601 train_loss= 0.00381
+2022-11-19 14:59:37,963 Epoch: 611 train_loss= 0.00412
+2022-11-19 15:00:21,217 Epoch: 621 train_loss= 0.00412
+2022-11-19 15:01:04,377 Epoch: 631 train_loss= 0.00379
+2022-11-19 15:01:47,739 Epoch: 641 train_loss= 0.00379
+2022-11-19 15:02:31,486 Epoch: 651 train_loss= 0.00419
+2022-11-19 15:03:14,942 Epoch: 661 train_loss= 0.00392
+2022-11-19 15:03:58,185 Epoch: 671 train_loss= 0.00436
+2022-11-19 15:04:41,391 Epoch: 681 train_loss= 0.00349
+2022-11-19 15:05:24,547 Epoch: 691 train_loss= 0.00362
+2022-11-19 15:06:07,749 Epoch: 701 train_loss= 0.00347
+2022-11-19 15:06:51,042 Epoch: 711 train_loss= 0.00376
+2022-11-19 15:07:34,183 Epoch: 721 train_loss= 0.00423
+2022-11-19 15:08:17,347 Epoch: 731 train_loss= 0.00346
+2022-11-19 15:09:00,608 Epoch: 741 train_loss= 0.00444
+2022-11-19 15:09:43,686 Epoch: 751 train_loss= 0.00339
+2022-11-19 15:10:27,181 Epoch: 761 train_loss= 0.00344
+2022-11-19 15:11:10,689 Epoch: 771 train_loss= 0.00375
+2022-11-19 15:11:54,060 Epoch: 781 train_loss= 0.00389
+2022-11-19 15:12:37,210 Epoch: 791 train_loss= 0.00368
+2022-11-19 15:13:20,454 Epoch: 801 train_loss= 0.00365
+2022-11-19 15:14:03,741 Epoch: 811 train_loss= 0.00373
+2022-11-19 15:14:46,729 Epoch: 821 train_loss= 0.00334
+2022-11-19 15:15:30,069 Epoch: 831 train_loss= 0.00293
+2022-11-19 15:16:13,238 Epoch: 841 train_loss= 0.00333
+2022-11-19 15:16:56,340 Epoch: 851 train_loss= 0.00359
+2022-11-19 15:17:39,665 Epoch: 861 train_loss= 0.00350
+2022-11-19 15:18:23,590 Epoch: 871 train_loss= 0.00353
+2022-11-19 15:19:07,007 Epoch: 881 train_loss= 0.00306
+2022-11-19 15:19:50,229 Epoch: 891 train_loss= 0.00302
+2022-11-19 15:20:33,382 Epoch: 901 train_loss= 0.00313
+2022-11-19 15:21:16,620 Epoch: 911 train_loss= 0.00347
+2022-11-19 15:21:59,871 Epoch: 921 train_loss= 0.00321
+2022-11-19 15:22:42,900 Epoch: 931 train_loss= 0.00313
+2022-11-19 15:23:26,169 Epoch: 941 train_loss= 0.00346
+2022-11-19 15:24:09,420 Epoch: 951 train_loss= 0.00356
+2022-11-19 15:24:52,468 Epoch: 961 train_loss= 0.00303
+2022-11-19 15:25:35,716 Epoch: 971 train_loss= 0.00293
+2022-11-19 15:26:19,071 Epoch: 981 train_loss= 0.00317
+2022-11-19 15:27:02,262 Epoch: 991 train_loss= 0.00259
+2022-11-19 15:27:45,386 Epoch: 1001 train_loss= 0.00318
+2022-11-19 15:28:28,556 Epoch: 1011 train_loss= 0.00346
+2022-11-19 15:29:11,696 Epoch: 1021 train_loss= 0.00349
+2022-11-19 15:29:54,878 Epoch: 1031 train_loss= 0.00296
+2022-11-19 15:30:38,206 Epoch: 1041 train_loss= 0.00324
+2022-11-19 15:31:21,331 Epoch: 1051 train_loss= 0.00276
+2022-11-19 15:32:05,090 Epoch: 1061 train_loss= 0.00340
+2022-11-19 15:32:48,296 Epoch: 1071 train_loss= 0.00308
+2022-11-19 15:33:31,368 Epoch: 1081 train_loss= 0.00283
+2022-11-19 15:34:14,430 Epoch: 1091 train_loss= 0.00280
+2022-11-19 15:34:57,598 Epoch: 1101 train_loss= 0.00276
+2022-11-19 15:35:40,733 Epoch: 1111 train_loss= 0.00288
+2022-11-19 15:36:23,899 Epoch: 1121 train_loss= 0.00308
+2022-11-19 15:37:07,209 Epoch: 1131 train_loss= 0.00282
+2022-11-19 15:37:50,328 Epoch: 1141 train_loss= 0.00377
+2022-11-19 15:38:33,893 Epoch: 1151 train_loss= 0.00329
+2022-11-19 15:39:17,047 Epoch: 1161 train_loss= 0.00319
+2022-11-19 15:40:00,047 Epoch: 1171 train_loss= 0.00325
+2022-11-19 15:40:43,283 Epoch: 1181 train_loss= 0.00315
+2022-11-19 15:41:26,407 Epoch: 1191 train_loss= 0.00291
+2022-11-19 15:42:09,676 Epoch: 1201 train_loss= 0.00421
+2022-11-19 15:42:53,211 Epoch: 1211 train_loss= 0.00357
+2022-11-19 15:43:36,346 Epoch: 1221 train_loss= 0.00332
+2022-11-19 15:44:19,893 Epoch: 1231 train_loss= 0.00309
+2022-11-19 15:45:03,323 Epoch: 1241 train_loss= 0.00297
+2022-11-19 15:45:46,505 Epoch: 1251 train_loss= 0.00213
+2022-11-19 15:46:29,684 Epoch: 1261 train_loss= 0.00233
+2022-11-19 15:47:12,982 Epoch: 1271 train_loss= 0.00318
+2022-11-19 15:47:56,035 Epoch: 1281 train_loss= 0.00304
+2022-11-19 15:48:39,277 Epoch: 1291 train_loss= 0.00284
+2022-11-19 15:49:22,374 Epoch: 1301 train_loss= 0.00315
+2022-11-19 15:50:05,391 Epoch: 1311 train_loss= 0.00230
+2022-11-19 15:50:48,479 Epoch: 1321 train_loss= 0.00278
+2022-11-19 15:51:31,718 Epoch: 1331 train_loss= 0.00299
+2022-11-19 15:52:15,205 Epoch: 1341 train_loss= 0.00285
+2022-11-19 15:52:58,614 Epoch: 1351 train_loss= 0.00246
+2022-11-19 15:53:41,859 Epoch: 1361 train_loss= 0.00252
+2022-11-19 15:54:25,205 Epoch: 1371 train_loss= 0.00341
+2022-11-19 15:55:08,470 Epoch: 1381 train_loss= 0.00288
+2022-11-19 15:55:51,625 Epoch: 1391 train_loss= 0.00244
+2022-11-19 15:56:34,750 Epoch: 1401 train_loss= 0.00258
+2022-11-19 15:57:18,193 Epoch: 1411 train_loss= 0.00257
+2022-11-19 15:58:01,380 Epoch: 1421 train_loss= 0.00272
+2022-11-19 15:58:44,542 Epoch: 1431 train_loss= 0.00245
+2022-11-19 15:59:28,865 Epoch: 1441 train_loss= 0.00245
+2022-11-19 16:00:12,351 Epoch: 1451 train_loss= 0.00268
+2022-11-19 16:00:55,650 Epoch: 1461 train_loss= 0.00281
+2022-11-19 16:01:39,195 Epoch: 1471 train_loss= 0.00310
+2022-11-19 16:02:22,719 Epoch: 1481 train_loss= 0.00284
+2022-11-19 16:03:05,975 Epoch: 1491 train_loss= 0.00288
+2022-11-19 16:04:58,175 Hits@1 Hits@5 Hits@10 Hits@50 Hits@100
+2022-11-19 16:04:58,176 l:	52.105	76.924	83.981	93.143	94.876
+2022-11-19 16:04:58,176 r:	48.21	73.305	81.067	91.714	93.905
+2022-11-19 16:04:58,176 a:	50.157	75.114	82.524	92.429	94.39
+2022-11-19 16:04:58,176 MRR-l: 0.632
+2022-11-19 16:04:58,176 MRR-r: 0.595
+2022-11-19 16:04:58,176 MRR-a: 0.614
